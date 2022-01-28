@@ -10,14 +10,14 @@ public class CameraHandler : MonoBehaviour
         get => horizontalClamping;
         set => horizontalClamping = value;
     }
-                        
+
 
     [Header("Follow Parameters")]
     [SerializeField] private Transform followTarget;
     [SerializeField] private float followSpeed = 10;
 
     [Header("Clamping Parameters")]
-    [SerializeField] private float deadZoneRange = 0.05f;
+    //[SerializeField] private float deadZoneRange = 0.05f;
     [SerializeField] private Vector2 horizontalClamping = new Vector2(-1, 1);
 
 
@@ -64,14 +64,18 @@ public class CameraHandler : MonoBehaviour
         if (followTarget == null)
             return;
 
-        if (IsTargetInDeadZone(followTarget))
-            return;
+        //if (IsTargetInDeadZone(followTarget))
+        //    return;
         FollowTarget(followTarget);
 
     }
 
     private void FollowTarget(Transform target)
     {
+        Vector3 finalMovePosition = transform.position;
+        float verticalPeek = GetVerticalPeekValue();
+        Debug.Log(verticalPeek);
+
         // If the camera is beyond the clamped zones
         if (IsBeyondClampZone(camera, out int dir))
         {
@@ -80,23 +84,33 @@ public class CameraHandler : MonoBehaviour
 
             // Set the clamped position as the target position
             Vector3 adjustTargetPosition = new Vector3(clampValue + (dir * (camera.orthographicSize + ORTHO_SIZE_ADJUST_VALUE)),
-                                                        target.position.y,
+                                                        target.position.y + verticalPeek,
                                                         -10);
-
-            transform.position = Vector3.MoveTowards(transform.position, adjustTargetPosition, Time.deltaTime * followSpeed);
+            finalMovePosition = adjustTargetPosition;
+            //transform.position = Vector3.MoveTowards(transform.position, adjustTargetPosition, Time.deltaTime * followSpeed);
         }
         else
         {
             // Get the moved position
-            Vector3 movedPosition = Vector3.MoveTowards(transform.position, target.position + (Vector3.forward * -10), Time.deltaTime * followSpeed);
+            Vector3 movedPosition = Vector3.MoveTowards(transform.position, 
+                                                        target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek), 
+                                                        Time.deltaTime * followSpeed);
 
             // Check if that moved position would result in the camera going beyond the clamped zones
             if (IsBeyondClampZone(movedPosition))
-                return;
+            {
+                movedPosition.x = transform.position.x;
+            }
 
-            // Move the camera
-            transform.position = movedPosition;
+            finalMovePosition = movedPosition;
         }
+
+        transform.position = finalMovePosition;
+    }
+
+    private float GetVerticalPeekValue()
+    {
+        return Input.GetAxis("Vertical");
     }
 
     // Returns true if the indicated position oversteps the clamped zone.
@@ -129,16 +143,16 @@ public class CameraHandler : MonoBehaviour
     }
 
     // Returns true if the target is within the designated dead zone
-    private bool IsTargetInDeadZone(Transform target)
-    {
-        Vector2 screenPosition = Camera.main.WorldToViewportPoint(target.position);
+    //private bool IsTargetInDeadZone(Transform target)
+    //{
+    //    Vector2 screenPosition = Camera.main.WorldToViewportPoint(target.position);
 
 
-        // Adjust the center of the screen position
-        screenPosition.x -= 0.5f;
-        screenPosition.y -= 0.5f;
+    //    // Adjust the center of the screen position
+    //    screenPosition.x -= 0.5f;
+    //    screenPosition.y -= 0.5f;
 
 
-        return (Vector2.Distance(Vector2.zero, screenPosition) < deadZoneRange);
-    }
+    //    return (Vector2.Distance(Vector2.zero, screenPosition) < deadZoneRange);
+    //}
 }
