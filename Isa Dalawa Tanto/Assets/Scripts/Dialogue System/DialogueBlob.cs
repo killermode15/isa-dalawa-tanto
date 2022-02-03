@@ -1,0 +1,36 @@
+﻿using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Dialogue/New Dialogue Blob")]
+public class DialogueBlob : ScriptableObject
+{
+    public int Id;
+    public List<Dialogue> DialogueList;
+}
+
+[System.Serializable]
+public class Dialogue
+{
+    public CharacterName Name;
+    public Sprite CharacterSprite;
+    public DialogueView.ViewSide Side;
+    public SpriteView.Position SpritePosition;
+    [TextArea]
+    public string Text;
+}
+
+public enum CharacterName
+{
+    Null,
+    Aspin,
+    Tara,
+    Cara,
+    Gale,
+    Lucky,
+    MotherAskal,
+    MotherGoose,
+    MrsCarabao,
+    MrsMonkey,
+    MrsTarsier,
+    MrsEagle,
+}

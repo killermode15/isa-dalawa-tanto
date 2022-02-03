@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraHandler : MonoBehaviour
 {
-    public float DeadZoneRange { get => deadZoneRange; }
+    //public float DeadZoneRange { get => deadZoneRange; }
     public Vector2 HorizontalClamp
     {
         get => horizontalClamping;
@@ -15,6 +15,7 @@ public class CameraHandler : MonoBehaviour
     [Header("Follow Parameters")]
     [SerializeField] private Transform followTarget;
     [SerializeField] private float followSpeed = 10;
+    [SerializeField] private float peekRange = 2;
 
     [Header("Clamping Parameters")]
     //[SerializeField] private float deadZoneRange = 0.05f;
@@ -110,7 +111,7 @@ public class CameraHandler : MonoBehaviour
 
     private float GetVerticalPeekValue()
     {
-        return Input.GetAxis("Vertical");
+        return Input.GetAxis("Vertical") * peekRange;
     }
 
     // Returns true if the indicated position oversteps the clamped zone.
@@ -145,7 +146,7 @@ public class CameraHandler : MonoBehaviour
     // Returns true if the target is within the designated dead zone
     //private bool IsTargetInDeadZone(Transform target)
     //{
-    //    Vector2 screenPosition = Camera.main.WorldToViewportPoint(target.position);
+    //    Vector2 screenPosition = Camera.main.WorldToViewportPoint(target.position + (Vector3.up * GetVerticalPeekValue()));
 
 
     //    // Adjust the center of the screen position
