@@ -49,6 +49,8 @@ namespace TarodevController {
             transform.position = pos;
         }
 
+        public void SetControllerActive(bool state) => _active = state;
+
         #region Gather Input
 
         private void GatherInput() {

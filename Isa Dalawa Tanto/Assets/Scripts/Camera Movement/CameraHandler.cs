@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class CameraHandler : MonoBehaviour
 {
-    //public float DeadZoneRange { get => deadZoneRange; }
-    public Vector2 HorizontalClamp
-    {
-        get => horizontalClamping;
-        set => horizontalClamping = value;
-    }
+    public static CameraHandler Instance => instance;
+    private static CameraHandler instance;
 
 
     [Header("Follow Parameters")]
@@ -21,6 +17,12 @@ public class CameraHandler : MonoBehaviour
     //[SerializeField] private float deadZoneRange = 0.05f;
     [SerializeField] private Vector2 horizontalClamping = new Vector2(-1, 1);
 
+    //public float DeadZoneRange { get => deadZoneRange; }
+    public Vector2 HorizontalClamp
+    {
+        get => horizontalClamping;
+        set => horizontalClamping = value;
+    }
 
     private Camera camera;
     private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f;
@@ -51,6 +53,11 @@ public class CameraHandler : MonoBehaviour
 
         //if (verticalDeadZone.x >= verticalDeadZone.y)
         //    verticalDeadZone.x = verticalDeadZone.y - 0.1f;
+    }
+
+    private void Awake()
+    {
+        instance = this;
     }
 
     // Start is called before the first frame update
