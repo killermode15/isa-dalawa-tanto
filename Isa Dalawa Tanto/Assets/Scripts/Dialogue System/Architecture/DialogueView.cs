@@ -7,14 +7,17 @@ using UnityEngine.UI;
 public class DialogueView : BaseView
 {
     public enum ViewSide { Left, Right}
-
+    
     [SerializeField] private SpriteView leftSpriteView;
     [SerializeField] private SpriteView rightSpriteView;
     [SerializeField] private TextMeshProUGUI dialogueBox;
 
+    [SerializeField] private GameObject UI;
+
     // Start is called before the first frame update
     void Start()
     {
+        UI.SetActive(false);
         SetupView<DialogueController>();
     }
 
@@ -53,6 +56,11 @@ public class DialogueView : BaseView
             leftSpriteView.Clear();
         }
         StartCoroutine(SetDialogueText(dialogue.Text));
+    }
+
+    public void ToggleUI(bool state)
+    {
+        UI.SetActive(state);
     }
 
     private IEnumerator SetDialogueText(string text)

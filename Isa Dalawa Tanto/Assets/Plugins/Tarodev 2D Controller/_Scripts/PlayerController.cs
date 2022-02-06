@@ -44,6 +44,10 @@ namespace TarodevController {
             MoveCharacter(); // Actually perform the axis movement
         }
 
+        public void TransportPlayer(Vector3 pos)
+        {
+            transform.position = pos;
+        }
 
         #region Gather Input
 

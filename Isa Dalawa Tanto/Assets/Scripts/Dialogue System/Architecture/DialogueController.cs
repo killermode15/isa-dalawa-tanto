@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class DialogueController : BaseController
 {
+    public static DialogueController Instance => instance;
+
+    private static DialogueController instance;
+
     private bool isDialogueOngoing = false;
     private bool shouldStartDialogue = false;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        instance = this;
         SetupController<DialogueView, DialogueModel>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.O))
             TriggerDialogue(0);
@@ -51,6 +54,7 @@ public class DialogueController : BaseController
 
         int index = 0;
         shouldStartDialogue = true;
+        dv.ToggleUI(true);
 
         while (index < dialogueBlob.DialogueList.Count)
         {
@@ -66,6 +70,7 @@ public class DialogueController : BaseController
         }
 
         isDialogueOngoing = false;
+        dv.ToggleUI(false);
         yield return null;
     }
 }
