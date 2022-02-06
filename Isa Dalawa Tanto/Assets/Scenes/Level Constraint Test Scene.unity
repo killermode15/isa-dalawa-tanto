@@ -283,8 +283,8 @@ MonoBehaviour:
   name: Door 1
   interactUI: {fileID: 1946028833}
   interactButtonTxt: {fileID: 1102284338}
-  level: {fileID: 1510784866}
-  linkedDoor: {fileID: 723125473}
+  level: {fileID: 0}
+  linkedDoor: {fileID: 1477099788}
 --- !u!61 &137903293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1360,7 +1360,7 @@ MonoBehaviour:
   name: Door 2
   interactUI: {fileID: 579569081}
   interactButtonTxt: {fileID: 1772125305}
-  level: {fileID: 1510784866}
+  level: {fileID: 0}
   linkedDoor: {fileID: 994007530}
 --- !u!61 &723125475
 BoxCollider2D:
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   name: Door 2
   interactUI: {fileID: 1509963152}
   interactButtonTxt: {fileID: 1309136288}
-  level: {fileID: 741647751}
+  level: {fileID: 0}
   linkedDoor: {fileID: 137903291}
 --- !u!61 &994007528
 BoxCollider2D:
@@ -2776,7 +2776,7 @@ MonoBehaviour:
   name: Door 1
   interactUI: {fileID: 1401366850}
   interactButtonTxt: {fileID: 2031865925}
-  level: {fileID: 741647751}
+  level: {fileID: 0}
   linkedDoor: {fileID: 723125473}
 --- !u!61 &1477099790
 BoxCollider2D:

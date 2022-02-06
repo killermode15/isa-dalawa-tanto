@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b7af3c9d8af6d4aa690599dc758dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constraint: {x: -42, y: 58}
+  constraint: {x: 35.862797, y: 60.705647}
 --- !u!1 &803478719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,7 +2887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b7af3c9d8af6d4aa690599dc758dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constraint: {x: -8, y: 8}
+  constraint: {x: -14.413408, y: 11.106495}
 --- !u!1 &1531626550
 GameObject:
   m_ObjectHideFlags: 0
