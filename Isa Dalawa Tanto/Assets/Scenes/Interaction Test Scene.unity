@@ -283,6 +283,7 @@ MonoBehaviour:
   name: Door 1
   interactUI: {fileID: 1946028833}
   interactButtonTxt: {fileID: 1102284338}
+  level: {fileID: 1510784866}
   linkedDoor: {fileID: 723125473}
 --- !u!61 &137903293
 BoxCollider2D:
@@ -542,7 +543,7 @@ Transform:
   m_GameObject: {fileID: 244484368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.7926954, y: -5.4372, z: 0}
-  m_LocalScale: {x: 12.741201, y: 1.5427244, z: 1}
+  m_LocalScale: {x: 25.165148, y: 1.5427244, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1510784865}
@@ -1359,6 +1360,7 @@ MonoBehaviour:
   name: Door 2
   interactUI: {fileID: 579569081}
   interactButtonTxt: {fileID: 1772125305}
+  level: {fileID: 1510784866}
   linkedDoor: {fileID: 994007530}
 --- !u!61 &723125475
 BoxCollider2D:
@@ -1447,6 +1449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741647750}
+  - component: {fileID: 741647751}
   m_Layer: 0
   m_Name: Platforms (1)
   m_TagString: Untagged
@@ -1462,7 +1465,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741647749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.11, y: 0, z: 0}
+  m_LocalPosition: {x: 50, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1476,6 +1479,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &741647751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741647749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b7af3c9d8af6d4aa690599dc758dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: {x: -42, y: 58}
 --- !u!1 &803478719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1669,7 @@ MonoBehaviour:
   name: Door 2
   interactUI: {fileID: 1509963152}
   interactButtonTxt: {fileID: 1309136288}
+  level: {fileID: 741647751}
   linkedDoor: {fileID: 137903291}
 --- !u!61 &994007528
 BoxCollider2D:
@@ -2057,7 +2074,7 @@ Transform:
   m_GameObject: {fileID: 1300475005}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.7926954, y: -5.4372, z: 0}
-  m_LocalScale: {x: 12.741201, y: 1.5427244, z: 1}
+  m_LocalScale: {x: 25.16515, y: 1.5427244, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 741647750}
@@ -2759,6 +2776,7 @@ MonoBehaviour:
   name: Door 1
   interactUI: {fileID: 1401366850}
   interactButtonTxt: {fileID: 2031865925}
+  level: {fileID: 741647751}
   linkedDoor: {fileID: 723125473}
 --- !u!61 &1477099790
 BoxCollider2D:
@@ -2827,6 +2845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1510784865}
+  - component: {fileID: 1510784866}
   m_Layer: 0
   m_Name: Platforms
   m_TagString: Untagged
@@ -2856,6 +2875,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1510784866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510784864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b7af3c9d8af6d4aa690599dc758dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constraint: {x: -8, y: 8}
 --- !u!1 &1531626550
 GameObject:
   m_ObjectHideFlags: 0

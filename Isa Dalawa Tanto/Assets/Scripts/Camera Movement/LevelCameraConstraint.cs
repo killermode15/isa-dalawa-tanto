@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class LevelCameraConstraint : MonoBehaviour
 {
-
     [SerializeField] private Vector2 constraint = new Vector2(-1, 1);
     public Vector2 Constraint
     {
