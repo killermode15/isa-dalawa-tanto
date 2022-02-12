@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &137903291
 Transform:
   m_ObjectHideFlags: 0
@@ -1670,7 +1670,7 @@ MonoBehaviour:
   interactUI: {fileID: 1509963152}
   interactButtonTxt: {fileID: 1309136288}
   level: {fileID: 741647751}
-  linkedDoor: {fileID: 137903291}
+  linkedDoor: {fileID: 723125473}
 --- !u!61 &994007528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3863,7 +3863,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892975547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.72, y: -3.66, z: 0}
+  m_LocalPosition: {x: 49.65, y: 2.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
