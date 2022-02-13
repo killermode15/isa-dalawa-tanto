@@ -64,6 +64,7 @@ public class CameraHandler : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
+        camera.transform.position = followTarget.position;
     }
 
     // Update is called once per frame
@@ -82,7 +83,7 @@ public class CameraHandler : MonoBehaviour
     {
         Vector3 finalMovePosition = transform.position;
         float verticalPeek = GetVerticalPeekValue();
-        Debug.Log(verticalPeek);
+        // Debug.Log(verticalPeek);
 
         // If the camera is beyond the clamped zones
         if (IsBeyondClampZone(camera, out int dir))
