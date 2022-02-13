@@ -277,7 +277,7 @@ namespace TarodevController {
                 transform.position += move;
                 return;
             }
-
+        
             // otherwise increment away from current pos; see what closest position we can move to
             var positionToMoveTo = transform.position;
             for (int i = 1; i < _freeColliderIterations; i++) {

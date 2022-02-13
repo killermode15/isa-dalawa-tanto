@@ -10,11 +10,26 @@ public class Interactable : MonoBehaviour
     [SerializeField] private GameObject interactUI;
     [SerializeField] private TextMeshPro interactButtonTxt;
 
+    [SerializeField] private Vector2 detectionRadius;
+
+    private bool registeredInteraciton;
+
     protected InteractionHandler handler;
+
+    private void OnValidate()
+    {
+        SetDetectionRadius(detectionRadius);
+    }
 
     private void Start()
     {
         ToggleUI(false);
+    }
+
+    protected virtual void SetDetectionRadius(Vector2 radius)
+    {
+        CapsuleCollider2D col = this.GetComponent<CapsuleCollider2D>();
+        col.size = radius;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -25,7 +40,12 @@ public class Interactable : MonoBehaviour
             handler = col.gameObject.GetComponent<InteractionHandler>();
 
             interactButtonTxt.text = handler.interactButton.ToString();
-            handler.OnInteractObj += Interact;
+
+            if (!registeredInteraciton)
+            {
+                handler.OnInteractObj += Interact;
+                registeredInteraciton = true;
+            }
 
             Debug.Log("Interact registered");
         }
@@ -36,6 +56,14 @@ public class Interactable : MonoBehaviour
         if (handler)
         {
             interactUI.SetActive(true);
+
+            //To Do: Tell sean to tie the boolean upon closing dialogue
+            if(!registeredInteraciton)
+            {
+                handler.OnInteractObj += Interact;
+                registeredInteraciton = true;
+                Debug.Log("Interact registered");
+            }
         }
     }
 
@@ -48,8 +76,9 @@ public class Interactable : MonoBehaviour
 
             ToggleUI(false);
             handler.OnInteractObj -= Interact;
-
+            registeredInteraciton = false;
             handler.enabled = true;
+            
             Debug.Log("Interact unregistered");
         }
     }
