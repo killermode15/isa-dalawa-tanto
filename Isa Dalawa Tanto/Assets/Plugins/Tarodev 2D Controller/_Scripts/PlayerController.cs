@@ -68,6 +68,7 @@ namespace TarodevController {
 
         #region Collisions
 
+        public Bounds CharacterBounds {get{return _characterBounds;} set{_characterBounds =  value;}}
         [Header("COLLISION")] [SerializeField] private Bounds _characterBounds;
         [SerializeField] private LayerMask _groundLayer;
         [SerializeField] private int _detectorCount = 3;
