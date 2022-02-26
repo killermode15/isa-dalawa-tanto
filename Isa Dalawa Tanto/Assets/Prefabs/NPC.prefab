@@ -315,7 +315,7 @@ MonoBehaviour:
   name: Bert
   interactUI: {fileID: 8875083864059219087}
   interactButtonTxt: {fileID: 8875083865161895604}
-  detectionRadius: {x: 0, y: 0}
+  detectionRadius: {x: 5, y: 2}
   dialogueId: 0
 --- !u!70 &8875083865220027377
 CapsuleCollider2D:
@@ -331,8 +331,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.0001, y: 0.0001}
-  m_Direction: 0
+  m_Size: {x: 5, y: 2}
+  m_Direction: 1
 --- !u!1 &8875083865606757985
 GameObject:
   m_ObjectHideFlags: 0
