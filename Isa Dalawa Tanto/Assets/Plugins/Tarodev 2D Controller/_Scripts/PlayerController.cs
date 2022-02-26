@@ -108,7 +108,7 @@ namespace TarodevController {
 
         private void CalculateRayRanged() {
             // This is crying out for some kind of refactor. 
-            var b = new Bounds(transform.position, _characterBounds.size);
+            var b = new Bounds(transform.position + _characterBounds.center, _characterBounds.size);
 
             _raysDown = new RayRange(b.min.x + _rayBuffer, b.min.y, b.max.x - _rayBuffer, b.min.y, Vector2.down);
             _raysUp = new RayRange(b.min.x + _rayBuffer, b.max.y, b.max.x - _rayBuffer, b.max.y, Vector2.up);
@@ -267,7 +267,7 @@ namespace TarodevController {
 
         // We cast our bounds before moving to avoid future collisions
         private void MoveCharacter() {
-            var pos = transform.position;
+            var pos = transform.position + _characterBounds.center;
             RawMovement = new Vector3(_currentHorizontalSpeed, _currentVerticalSpeed); // Used externally
             var move = RawMovement * Time.deltaTime;
             var furthestPoint = pos + move;
@@ -280,7 +280,7 @@ namespace TarodevController {
             }
         
             // otherwise increment away from current pos; see what closest position we can move to
-            var positionToMoveTo = transform.position;
+            var positionToMoveTo = transform.position + _characterBounds.center;
             for (int i = 1; i < _freeColliderIterations; i++) {
                 // increment to check all but furthestPoint - we did that already
                 var t = (float)i / _freeColliderIterations;
