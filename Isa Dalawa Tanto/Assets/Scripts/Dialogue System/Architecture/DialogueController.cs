@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DialogueController : BaseController
 {
+    
+
     public static DialogueController Instance => instance;
 
     private static DialogueController instance;

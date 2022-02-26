@@ -80,6 +80,8 @@ namespace TarodevController {
 
         private float _timeLeftGrounded;
 
+        public bool CollisionUp => _colUp;
+
         // We use these raycast checks for pre-collision information
         private void RunCollisionChecks() {
             // Generate ray ranges. 
