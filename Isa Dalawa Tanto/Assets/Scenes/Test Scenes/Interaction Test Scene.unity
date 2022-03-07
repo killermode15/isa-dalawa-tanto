@@ -3849,6 +3849,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input: {fileID: 1854398313}
+  moveSpeed: 5
+  acceleration: 90
+  deceleration: 60
+  movementClamp: 13
   jumpVelocity: 8
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
@@ -3873,7 +3877,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &1869637551
 GameObject:
   m_ObjectHideFlags: 0
