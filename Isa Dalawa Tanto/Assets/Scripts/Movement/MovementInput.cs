@@ -11,7 +11,7 @@ public class MovementInput : MonoBehaviour
 
     public float Horizontal => horizontal;
     public float Vertical => vertical;
-    public bool IsCrouching => isCrouching;
+    public bool IsHoldingCrouch => isCrouching;
     public bool HasJumped => hasJumped;
     public bool IsHoldingJump => isHoldingJump;
 
@@ -30,7 +30,7 @@ public class MovementInput : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        isCrouching = Input.GetKeyDown(crouchKey);
+        isCrouching = Input.GetKey(crouchKey);
 
         hasJumped = Input.GetKeyDown(jumpKey);
         isHoldingJump = Input.GetKey(jumpKey);
