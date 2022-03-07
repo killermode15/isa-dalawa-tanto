@@ -26,10 +26,9 @@ public class Interactable : MonoBehaviour
         ToggleUI(false);
     }
 
-    protected virtual void SetDetectionRadius(Vector2 radius)
+    protected virtual void SetDetectionRadius(Vector2 size)
     {
-        CapsuleCollider2D col = this.GetComponent<CapsuleCollider2D>();
-        col.size = radius;
+        
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -78,7 +77,7 @@ public class Interactable : MonoBehaviour
             handler.OnInteractObj -= Interact;
             registeredInteraciton = false;
             handler.enabled = true;
-            
+
             Debug.Log("Interact unregistered");
         }
     }

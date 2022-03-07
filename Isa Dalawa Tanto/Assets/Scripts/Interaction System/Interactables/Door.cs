@@ -8,6 +8,12 @@ public class Door : Interactable
     [SerializeField] private LevelCameraConstraint level;
     [SerializeField] private Transform linkedDoor;
 
+    protected override void SetDetectionRadius(Vector2 size)
+    {
+        BoxCollider2D col = this.GetComponent<BoxCollider2D>();
+        col.size = size;
+    }
+
     protected override void Interact()
     {
         base.Interact();

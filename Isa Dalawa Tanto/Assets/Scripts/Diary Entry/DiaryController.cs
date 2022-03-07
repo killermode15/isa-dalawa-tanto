@@ -15,7 +15,7 @@ public class DiaryController : BaseController
 
     private void Update()
     {
-
+        
     }
 
     public IEnumerator SetupEntry()
