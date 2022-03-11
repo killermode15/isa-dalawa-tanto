@@ -15,6 +15,11 @@
             name = name.Remove(0, 3);
             finalName = "Mrs. " + name;
         }
+        else if(name.Contains("Ms"))
+        {
+            name = name.Remove(0, 2);
+            finalName = "Ms. " + name;
+        }
         else if(name == "Null")
         {
             finalName = string.Empty;
