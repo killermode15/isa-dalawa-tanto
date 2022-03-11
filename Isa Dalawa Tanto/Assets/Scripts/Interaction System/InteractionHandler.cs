@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,24 @@ public class InteractionHandler : MonoBehaviour
 {
     public delegate void Interact();
     public event Interact OnInteractObj;
-    public KeyCode interactButton;
+
+    private BaseInteraction Interaction;
+    private BaseInteractable Interactable;
 
     private void Update()
     {
-        if(Input.GetKeyDown(interactButton))
+        if (!Interaction)
+            return;
+        if(Interaction.Interact())
         {
-            OnInteractObj?.Invoke();
+            Interactable.OnInteract();
+            //OnInteractObj?.Invoke();
         }
+    }
+
+    public void SetInteraction(BaseInteraction interaction, BaseInteractable interactable)
+    {
+        Interaction = interaction;
+        Interactable = interactable;
     }
 }

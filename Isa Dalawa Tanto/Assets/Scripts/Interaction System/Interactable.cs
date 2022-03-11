@@ -29,6 +29,8 @@ public class Interactable : MonoBehaviour
     protected virtual void SetDetectionRadius(Vector2 radius)
     {
         CapsuleCollider2D col = this.GetComponent<CapsuleCollider2D>();
+        if (!col)
+            return;
         col.size = radius;
     }
 
@@ -39,7 +41,7 @@ public class Interactable : MonoBehaviour
         {
             handler = col.gameObject.GetComponent<InteractionHandler>();
 
-            interactButtonTxt.text = handler.interactButton.ToString();
+            //interactButtonTxt.text = handler.interactButton.ToString();
 
             if (!registeredInteraciton)
             {
