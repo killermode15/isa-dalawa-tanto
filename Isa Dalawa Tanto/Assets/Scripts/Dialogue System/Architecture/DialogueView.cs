@@ -10,9 +10,12 @@ public class DialogueView : BaseView
     
     [SerializeField] private SpriteView leftSpriteView;
     [SerializeField] private SpriteView rightSpriteView;
+    [SerializeField] private Image DialogueBoxUI;
     [SerializeField] private TextMeshProUGUI dialogueBox;
     [SerializeField] private Image background;
 
+    [SerializeField] private Sprite leftDialogueSprite;
+    [SerializeField] private Sprite rightDialogueSprite;
     [SerializeField] private GameObject UI;
 
     // Start is called before the first frame update
@@ -34,11 +37,13 @@ public class DialogueView : BaseView
         {
             leftSpriteView.SetName(name);
             leftSpriteView.SetSprite(sprite, position);
+            DialogueBoxUI.sprite = leftDialogueSprite;
         }
         else
         {
             rightSpriteView.SetName(name);
             rightSpriteView.SetSprite(sprite, position);
+            DialogueBoxUI.sprite = rightDialogueSprite;
         }
     }
 
@@ -62,13 +67,17 @@ public class DialogueView : BaseView
             leftSpriteView.SetName(dialogue.Name.AsString());
             leftSpriteView.SetSprite(dialogue.CharacterSprite, dialogue.SpritePosition);
             rightSpriteView.Clear();
+            DialogueBoxUI.sprite = leftDialogueSprite;
         }
         else
         {
             rightSpriteView.SetName(dialogue.Name.AsString());
             rightSpriteView.SetSprite(dialogue.CharacterSprite, dialogue.SpritePosition);
             leftSpriteView.Clear();
+            DialogueBoxUI.sprite = rightDialogueSprite;
         }
+
+        StopAllCoroutines();
         StartCoroutine(SetDialogueText(dialogue.Text));
     }
 
