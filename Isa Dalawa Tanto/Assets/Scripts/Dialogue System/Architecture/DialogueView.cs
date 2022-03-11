@@ -11,6 +11,7 @@ public class DialogueView : BaseView
     [SerializeField] private SpriteView leftSpriteView;
     [SerializeField] private SpriteView rightSpriteView;
     [SerializeField] private TextMeshProUGUI dialogueBox;
+    [SerializeField] private Image background;
 
     [SerializeField] private GameObject UI;
 
@@ -38,6 +39,19 @@ public class DialogueView : BaseView
         {
             rightSpriteView.SetName(name);
             rightSpriteView.SetSprite(sprite, position);
+        }
+    }
+
+    public void SetDialogueBackground(Sprite backgroundSprite = null)
+    {
+        if(!backgroundSprite)
+        {
+            background.color = Color.clear;
+        }
+        else
+        {
+            background.color = Color.white;
+            background.sprite = backgroundSprite;
         }
     }
 

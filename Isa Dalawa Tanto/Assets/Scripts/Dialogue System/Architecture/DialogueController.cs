@@ -43,7 +43,7 @@ public class DialogueController : BaseController
     {
         if (isDialogueOngoing && !shouldStartDialogue)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 shouldStartDialogue = true;
             }
@@ -58,6 +58,9 @@ public class DialogueController : BaseController
         shouldStartDialogue = true;
         dv.ToggleUI(true);
 
+        dv.SetDialogueBackground(dialogueBlob.Background);
+
+
         while (index < dialogueBlob.DialogueList.Count)
         {
             if (shouldStartDialogue)
@@ -71,6 +74,8 @@ public class DialogueController : BaseController
             yield return new WaitForEndOfFrame();
         }
 
+        yield return new WaitUntil(() => shouldStartDialogue == true);
+        shouldStartDialogue = false;
         isDialogueOngoing = false;
         dv.ToggleUI(false);
         yield return null;

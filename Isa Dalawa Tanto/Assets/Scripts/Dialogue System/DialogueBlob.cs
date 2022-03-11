@@ -5,6 +5,7 @@ using UnityEngine;
 public class DialogueBlob : ScriptableObject
 {
     public int Id;
+    public Sprite Background;
     public List<Dialogue> DialogueList;
 }
 
@@ -27,7 +28,7 @@ public enum CharacterName
     Cara,
     Gale,
     Lucky,
-    MotherAskal,
+    MsAskal,
     MotherGoose,
     MrsCarabao,
     MrsMonkey,
