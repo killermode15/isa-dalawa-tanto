@@ -31,4 +31,30 @@
 
         return finalName;
     }
+
+    public static string RemoveRichTextTag(this string text)
+    {
+        string strippedText = string.Empty;
+
+        bool shouldSkip = false;
+
+        foreach (char letter in text)
+        {
+            if (letter == '<')
+            {
+                shouldSkip = true;
+            }
+            else if (letter == '>')
+            {
+                shouldSkip = false;
+                continue;
+            }
+
+            if (shouldSkip)
+                continue;
+
+            strippedText += letter;
+        }
+        return strippedText;
+    }
 }

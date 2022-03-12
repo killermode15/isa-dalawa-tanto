@@ -25,7 +25,7 @@ public class CameraHandler : MonoBehaviour
     }
 
     private Camera camera;
-    private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f;
+    private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 12.5f;
 
     private void OnValidate()
     {
@@ -64,7 +64,7 @@ public class CameraHandler : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
-        camera.transform.position = followTarget.position;
+        //camera.transform.position = followTarget.position;
     }
 
     // Update is called once per frame
@@ -101,9 +101,21 @@ public class CameraHandler : MonoBehaviour
         else
         {
             // Get the moved position
-            Vector3 movedPosition = Vector3.MoveTowards(transform.position, 
-                                                        target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek), 
-                                                        Time.deltaTime * followSpeed);
+            //Vector3 movedPosition = Vector3.MoveTowards(transform.position,
+            //                                            target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek),
+            //                                            Time.deltaTime * followSpeed);
+
+            //Vector3 movedPosition = Vector3.Lerp(transform.position,
+            //                                        target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek),
+            //                                        Time.deltaTime * followSpeed);
+
+            //Vector3 direction = new Vector3(target.position.x, target.position.y + verticalPeek, transform.position.z) - transform.position;
+            //direction.Normalize();
+
+            //Vector3 movedPosition = transform.position + ((direction * followSpeed) * Time.deltaTime);
+
+            Vector3 movedPosition = target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek);
+
 
             // Check if that moved position would result in the camera going beyond the clamped zones
             if (IsBeyondClampZone(movedPosition))

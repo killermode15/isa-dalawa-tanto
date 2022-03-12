@@ -15,11 +15,14 @@ MonoBehaviour:
   Id: 0
   Background: {fileID: 21300000, guid: 849fb2463da3511409b2ca5a32ca49c0, type: 3}
   DialogueList:
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: c850a35a4dc2ad045943ff006afdc81b, type: 3}
+  - Name: 0
+    CharacterSprite: {fileID: 0}
     Side: 0
     SpritePosition: 1
-    Text: Aspin normal mood
+    Text: 'This is a <color=red>test</color> dialogue
+
+      This is a <color=#ffffff>test</color>
+      dialogue'
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 5b56e7bce1080e7459722c6714e1e515, type: 3}
     Side: 1

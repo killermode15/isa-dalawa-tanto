@@ -48,7 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Crouch()
     {
-        if(input.IsHoldingCrouch && !IsCrouching)
+        if (input.IsHoldingCrouch && !IsCrouching)
         {
             originalScale = transform.localScale.y;
             transform.localScale = new Vector3(1, crouchScale, 1);
@@ -57,10 +57,10 @@ public class PlayerMovement : MonoBehaviour
             IsCrouching = true;
         }
 
-        if(!input.IsHoldingCrouch && IsCrouching)
+        if (!input.IsHoldingCrouch && IsCrouching)
         {
             transform.localScale = new Vector3(1, originalScale, 1);
-            transform.position += new Vector3(0, originalScale/2 - crouchScale/2, 0);
+            transform.position += new Vector3(0, originalScale / 2 - crouchScale / 2, 0);
 
             IsCrouching = false;
         }
@@ -77,6 +77,14 @@ public class PlayerMovement : MonoBehaviour
         {
             move += ((input.Horizontal * midAirSpeedBonus) / 2) * Time.deltaTime;
         }
+
+        // Check if player can move to position
+        //Vector2 direction = (transform.position + new Vector3(move, 0)) - transform.position;
+        //Vector2 pos = new Vector2(transform.position.x, transform.position.y);
+        //if(Physics2D.Raycast(pos + (direction.normalized * 0.05f), direction, move))
+        //{
+        //    move = 0;
+        //}
 
         transform.position += new Vector3(move, 0);
     }
@@ -96,6 +104,15 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity += Vector2.up * gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
         }
+        else 
+        { 
+            rb.velocity += Vector2.up * gravity * Time.deltaTime; 
+        }
+    }
+
+    private void PositionCheck()
+    {
+
     }
 
     private bool IsGrounded()

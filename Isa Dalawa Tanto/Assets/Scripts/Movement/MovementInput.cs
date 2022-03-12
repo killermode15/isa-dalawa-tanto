@@ -24,8 +24,6 @@ public class MovementInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isEnabled)
-            return;
 
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");

@@ -90,10 +90,14 @@ public class DialogueView : BaseView
     {
         dialogueBox.text = string.Empty;
 
-        foreach(char letter in text)
+        string tempText = text.RemoveRichTextTag();
+
+        foreach(char letter in tempText)
         {
             dialogueBox.text += letter;
             yield return new WaitForEndOfFrame();
         }
+
+        dialogueBox.text = text;
     }
 }

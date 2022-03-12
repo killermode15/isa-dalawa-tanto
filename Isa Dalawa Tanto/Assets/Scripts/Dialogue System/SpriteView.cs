@@ -28,9 +28,16 @@ public class SpriteView
         switch (position)
         {
             case Position.Left:
-                left.sprite = sprite;
-                left.color = Color.white;
-                if(selectedPositionOnly)
+                if (sprite == null)
+                {
+                    left.color = Color.clear;
+                }
+                else
+                {
+                    left.sprite = sprite;
+                    left.color = Color.white;
+                }
+                if (selectedPositionOnly)
                 {
                     center.sprite = null;
                     right.sprite = null;
@@ -39,8 +46,15 @@ public class SpriteView
                 }
                 break;
             case Position.Center:
-                center.sprite = sprite;
-                center.color = Color.white;
+                if (sprite == null)
+                {
+                    center.color = Color.clear;
+                }
+                else
+                {
+                    center.sprite = sprite;
+                    center.color = Color.white;
+                }
                 if (selectedPositionOnly)
                 {
                     left.sprite = null;
@@ -50,8 +64,15 @@ public class SpriteView
                 }
                 break;
             case Position.Right:
-                right.sprite = sprite;
-                right.color = Color.white;
+                if (sprite == null)
+                {
+                    right.color = Color.clear;
+                }
+                else
+                {
+                    right.sprite = sprite;
+                    right.color = Color.white;
+                }
                 if (selectedPositionOnly)
                 {
                     center.sprite = null;
