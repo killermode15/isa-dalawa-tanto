@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 02_Level01_Dialogue
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 21300000, guid: c0e16d5a592b677419ca6d24d48f7eda, type: 3}
+  DialogueList:
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Aren\u2019t you guys hungry? Maybe we should eat first! My mom told me
+      to invite you guys over for lunch. "
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: We should ask Ms. Askal first.
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 1
+    Text: '[ the kids shouted ] '
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 1
+    Text: Ms. Askal can Aspin go eat lunch with us at Tara's house?
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 1
+    Text: '[ Ms. Askal at the window ]'
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: 'Did your mom invite you guys to have lunch at your house Tara? '
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Yes Ms. Askal!
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Well then of course! Aspin can go if he wants to.
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Let\u2019s go Aspin!"

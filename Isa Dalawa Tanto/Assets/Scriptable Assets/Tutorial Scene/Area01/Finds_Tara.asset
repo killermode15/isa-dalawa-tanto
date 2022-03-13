@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: Finds_Tara
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 0}
+  DialogueList:
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: TARA!
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Oh?! You found me?! But this was a cool spot! Oh well, good for you!
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: 'Listen carefully Aspin! '
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "<color=#d85906>Tagu-taguan can be played anywhere as long as you can hide.
+      It is more fun if you\r\nhave 3 or more players. Just don\u2019t let the Taya
+      see you! </color>"
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: <color=#d85906> Taya is the one who will find the other players. </color>
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Now go find the others!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Mother Goose told me that Carabaos can\u2019t climb. Maybe she's somewhere
+      down below where I was at the beginning, I haven\u2019t checked the [Hiding.Spot]
+      yet."
