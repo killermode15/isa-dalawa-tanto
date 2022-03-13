@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 01_Interact_Level01
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 0}
+  DialogueList:
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: Listen carefully Aspin!
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: <color=#d85906>Sinigang is a Filipino soup, popularly known for its sour
+      and savory taste.</color>
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: "<color=#d85906>It came from the verb \u201Csigang\u201D which means \u201Cto
+      stew\u201D \u2013 therefore, sinigang means \u201Cstewed\u201D.</color>"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 0
+    SpritePosition: 0
+    Text: Thank you Mrs. Tarsier, I understand now!

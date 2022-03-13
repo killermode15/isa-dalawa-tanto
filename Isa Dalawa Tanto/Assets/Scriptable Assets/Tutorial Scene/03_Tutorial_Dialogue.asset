@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 03_Tutorial_Dialogue
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 21300000, guid: 1c16447e793acf749a66a521ba024dc7, type: 3}
+  DialogueList:
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Hello Aspin! Sorry for the boxes, there\u2019s not enough room in the
+      trunk. we\u2019re moving to a new house."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "(in a whispering tone) Ahh okay\u2026"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Buckle your seatbelt, we're going now.
+  - Name: 7
+    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
+    Side: 0
+    SpritePosition: 0
+    Text: '*Mother Goose waves goodbye to Aspin*'
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: '*Aspin waves goodbye to back*'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 1
+    Text: '[ As Ms. Askal is driving, she can tell that Aspin is shy, she talks to
+      Aspin to lighten the mood ] '
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: .....
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: .....
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "So\u2026 Aspin!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "\u2026 Yes Ms. Askal?"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Umm\u2026 did you have breakfast already? We can order something on the
+      way.\r\n"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Ah\u2026 I already ate\u2026 Ms. Askal.\n"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Oh okay\u2026\n"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: '*Looks at rear view mirror*'
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "What do you have there Aspin? \nIs that a book from the orphanage?"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "It\u2019s a diary Mother Goose gave me a while ago\u2026 Ms. Askal."
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "(laughs) Hahaha Aspin, you don\u2019t have to keep calling me Ms. Askal"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Ok\u2026 Ms. Askal\u2026"
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 1
+    Text: '[ SILENCE ]'
