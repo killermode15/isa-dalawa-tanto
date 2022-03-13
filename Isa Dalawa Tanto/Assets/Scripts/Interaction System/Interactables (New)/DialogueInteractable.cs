@@ -2,17 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCInteractable : BaseInteractable
+public class DialogueInteractable : BaseInteractable
 {
-    [Space]
-    [Header("NPC Parameters")]
-    public int dialogueId;
-
+    [SerializeField] private int dialogueId = 0;
+            
     public override void OnInteract()
     {
         base.OnInteract();
         DialogueController.Instance.TriggerDialogue(dialogueId);
-        Debug.Log("Loading dialogue");
-        //NOTE: Disable character movement here
     }
 }

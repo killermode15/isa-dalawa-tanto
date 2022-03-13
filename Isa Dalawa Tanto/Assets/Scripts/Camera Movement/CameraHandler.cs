@@ -25,6 +25,7 @@ public class CameraHandler : MonoBehaviour
     }
 
     private Camera camera;
+    private bool isInitialized = false;
     private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 12.5f;
 
     private void OnValidate()
@@ -55,6 +56,11 @@ public class CameraHandler : MonoBehaviour
         //    verticalDeadZone.x = verticalDeadZone.y - 0.1f;
     }
 
+    private void Delay()
+    {
+        isInitialized = true;
+    }
+
     private void Awake()
     {
         instance = this;
@@ -64,7 +70,8 @@ public class CameraHandler : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
-        //camera.transform.position = followTarget.position;
+        transform.position = followTarget.position;
+
     }
 
     // Update is called once per frame
@@ -92,7 +99,7 @@ public class CameraHandler : MonoBehaviour
             float clampValue = dir == 1 ? horizontalClamping.x : horizontalClamping.y;
 
             // Set the clamped position as the target position
-            Vector3 adjustTargetPosition = new Vector3(clampValue + (dir * (camera.orthographicSize + ORTHO_SIZE_ADJUST_VALUE)),
+            Vector3 adjustTargetPosition = new Vector3(clampValue + (dir * (camera.orthographicSize + (dir * ORTHO_SIZE_ADJUST_VALUE))),
                                                         target.position.y + verticalPeek,
                                                         -10);
             finalMovePosition = adjustTargetPosition;
@@ -100,27 +107,17 @@ public class CameraHandler : MonoBehaviour
         }
         else
         {
-            // Get the moved position
-            //Vector3 movedPosition = Vector3.MoveTowards(transform.position,
-            //                                            target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek),
-            //                                            Time.deltaTime * followSpeed);
-
-            //Vector3 movedPosition = Vector3.Lerp(transform.position,
-            //                                        target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek),
-            //                                        Time.deltaTime * followSpeed);
-
-            //Vector3 direction = new Vector3(target.position.x, target.position.y + verticalPeek, transform.position.z) - transform.position;
-            //direction.Normalize();
-
-            //Vector3 movedPosition = transform.position + ((direction * followSpeed) * Time.deltaTime);
 
             Vector3 movedPosition = target.position + (Vector3.forward * -10) + (Vector3.up * verticalPeek);
 
 
             // Check if that moved position would result in the camera going beyond the clamped zones
-            if (IsBeyondClampZone(movedPosition))
+            //if (isInitialized)
             {
-                movedPosition.x = transform.position.x;
+                if (IsBeyondClampZone(movedPosition))
+                {
+                    movedPosition.x = transform.position.x;
+                }
             }
 
             finalMovePosition = movedPosition;
@@ -150,8 +147,8 @@ public class CameraHandler : MonoBehaviour
     private bool IsBeyondClampZone(Camera camera, out int direction)
     {
 
-        float currLeftPosition = camera.transform.position.x - camera.orthographicSize - ORTHO_SIZE_ADJUST_VALUE;
-        float currRightPosition = camera.transform.position.x + camera.orthographicSize + ORTHO_SIZE_ADJUST_VALUE;
+        float currLeftPosition = camera.transform.position.x - (camera.orthographicSize + ORTHO_SIZE_ADJUST_VALUE);
+        float currRightPosition = camera.transform.position.x + (camera.orthographicSize + ORTHO_SIZE_ADJUST_VALUE);
 
         if (currLeftPosition < horizontalClamping.x)
             direction = -1;
@@ -159,6 +156,8 @@ public class CameraHandler : MonoBehaviour
             direction = 1;
         else
             direction = 0;
+        Debug.Log(currLeftPosition);
+        Debug.Log(direction);
 
         return currLeftPosition < horizontalClamping.x || currRightPosition > horizontalClamping.y;
     }
