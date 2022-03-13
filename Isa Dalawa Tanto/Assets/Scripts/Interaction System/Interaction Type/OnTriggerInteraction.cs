@@ -2,18 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(CircleCollider2D))]
+
 public class OnTriggerInteraction : BaseInteraction
 {
     [SerializeField] private bool isTriggered = false;
     [SerializeField] private bool isOneShot = true;
 
     private bool hasBeenTriggeredOnce = false;
-    private CircleCollider2D collider;
+    private Collider2D collider;
 
     private void Awake()
     {
-        collider = GetComponent<CircleCollider2D>();
+        //collider = GetComponent<CircleCollider2D>();
+        collider = GetComponent<Collider2D>();
+        if (!collider)
+            Debug.LogError("This Trigger Interaction does not contain a trigger collider", this);
+
+        if (collider)
+            collider.isTrigger = true;
     }
 
     public override bool Interact()
@@ -44,6 +50,6 @@ public class OnTriggerInteraction : BaseInteraction
             return;
 
         isTriggered = false;
-        hasBeenTriggeredOnce = false;
+        //hasBeenTriggeredOnce = false;
     }
 }

@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public abstract class BaseInteractable : MonoBehaviour
 {
     [SerializeField] protected string name;
     [SerializeField] protected BaseInteraction interaction;
+    [SerializeField] protected UnityEvent onInteract;
 
     [Header("Detection Parameters")]
     [SerializeField] protected float detectionRange = 1;
@@ -53,7 +55,10 @@ public abstract class BaseInteractable : MonoBehaviour
     }
 
 
-    public abstract void OnInteract();
+    public virtual void OnInteract()
+    {
+        onInteract?.Invoke();
+    }
 
     protected void OnValidate()
     {

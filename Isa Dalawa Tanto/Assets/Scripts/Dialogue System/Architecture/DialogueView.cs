@@ -98,6 +98,6 @@ public class DialogueView : BaseView
             yield return new WaitForEndOfFrame();
         }
 
-        dialogueBox.text = text;
+        dialogueBox.text = text;    
     }
 }

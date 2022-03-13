@@ -62,10 +62,14 @@ public class CharacterController : MonoBehaviour
 		}
 	}
 
+	public void StopMovement()
+    {
+		m_Rigidbody2D.velocity = Vector2.zero;
+    }
 
 	public void Move(float move, bool crouch, bool jump)
 	{
-		Debug.Log(jump);
+		//Debug.Log(jump);
 
 		// If crouching, check to see if the character can stand up
 		if (!crouch && m_wasCrouching)
