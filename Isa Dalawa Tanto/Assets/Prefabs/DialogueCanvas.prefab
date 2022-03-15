@@ -814,7 +814,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1408,10 +1408,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57df2eb70b4fac54eaf7a997228d8a08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnDialogueStart:
+  onDialogueStart:
     m_PersistentCalls:
       m_Calls: []
-  OnDialogueEnd:
+  onDialogueEnd:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &690322081091949375
