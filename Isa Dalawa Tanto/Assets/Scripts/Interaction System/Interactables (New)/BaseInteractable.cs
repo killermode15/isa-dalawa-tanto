@@ -1,12 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
 
 [RequireComponent(typeof(CircleCollider2D))]
 public abstract class BaseInteractable : MonoBehaviour
 {
     [SerializeField] protected string name;
+    [SerializeField] protected GameObject interactKeyUI;
+    [SerializeField] protected Sprite spriteToChange;
+    [SerializeField] protected Sprite interactableSprite;
     [SerializeField] protected BaseInteraction interaction;
     [SerializeField] protected UnityEvent onInteract;
     [SerializeField] protected UnityEvent onInteractEnd;
@@ -17,11 +19,24 @@ public abstract class BaseInteractable : MonoBehaviour
     protected GameObject detectedPlayer;
     protected CircleCollider2D detectionCollider;
 
+    protected Sprite defaultSprite;
+
     protected void Awake()
     {
         detectionCollider = GetComponent<CircleCollider2D>();
         detectionCollider.isTrigger = true;
         detectionCollider.radius = detectionRange;
+
+        //if interaction subtype is KeypressInteractable 
+        if(spriteToChange)
+            defaultSprite = spriteToChange;
+
+        if (interaction.GetType() == typeof(KeyPressInteraction) && interactKeyUI != null)
+        {            
+            KeyPressInteraction keyPressInteraction = interaction as KeyPressInteraction;
+            interactKeyUI.GetComponent<TMP_Text>().text = keyPressInteraction.GetInteractKey;
+            interactKeyUI.SetActive(false);
+        }
     }
 
     protected void OnTriggerEnter2D(Collider2D collision)
@@ -34,6 +49,14 @@ public abstract class BaseInteractable : MonoBehaviour
 
         if (!handler)
             return;
+
+        if (interactKeyUI)
+        {
+            if (spriteToChange)
+                spriteToChange = interactableSprite;
+
+            interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
+        }
 
         handler.SetInteraction(interaction, this);
         detectedPlayer = player;
@@ -50,11 +73,16 @@ public abstract class BaseInteractable : MonoBehaviour
         if (!handler)
             return;
 
+        if (interactKeyUI)
+        {
+            if (spriteToChange)
+                spriteToChange = defaultSprite;
+
+            interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
+        }
         handler.SetInteraction(null, null);
         detectedPlayer = null;
-
     }
-
 
     public virtual void OnInteract()
     {
