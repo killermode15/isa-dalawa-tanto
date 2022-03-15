@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 01_Level01_Dialogue
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 21300000, guid: 5c533aec877ba2b46b061f4eaeb8418e, type: 3}
+  DialogueList:
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: '[ knocks ] '
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Aspin are you awake?
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: ' Can I come in?'
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Yes Ms. Askal! You can come in! I\u2019m just fixing up."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 1
+    Text: '[ Ms. Askal enters Aspin''s room ] '
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Aspin, you don\u2019t have to fix the room. I can do it for you. \n"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "The kids that you met yesterday are downstairs waiting. They\u2019re asking
+      if you wanna play again. \r"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "[ Aspin was hesitant at this point because he haven\u2019t fully adjusted
+      yet ]"
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Why? What\u2019s with the face sweetie?"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: ahhh nothing Ms. Askal...
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: 'I think you should at least try again and go. They look so nice and they
+      really wanna play with you. '
+  - Name: 6
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Anyways, I still have to fix the kitchen today. You go have fun!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Ok Ms. Askal, I\u2019ll go down now and play with them."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 1
+    Text: '[ Aspin placed his diary on top if his desk and went downstairs ]'

@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 05_Tutorial_Dialogue
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 21300000, guid: 1f381590f0dee624fbf4ea8942299344, type: 3}
+  DialogueList:
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 0
+    Text: '[ Stares at the kids playing from a distance when one of the kids noticed
+      him ] '
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 0
+    Text: '[ One of the kids approached Aspin ]'
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: Hey kid! do you wanna join? come here come here!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Uhm hello\u2026"
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "I haven\u2019t seen you in this neighborhood before, did you just move
+      in?"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Um yes, we live just down the street\u2026"
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Oh that\u2019s great! There\u2019s going to be more players now!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Players?
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "What\u2019s your name kid?"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: My name is Aspin.
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Cool! I\u2019m Lucky the monkey! "
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Let's go over there and meet the others!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: " Uhh\u2026hello everyone? "
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 1
+    SpritePosition: 1
+    Text: '[ The group of friends gathered around Aspin and introduced themselves
+      ]'
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Hello Aspin! It\u2019s nice to see you! I'm Tara, the Tarsier!~"
+  - Name: 3
+    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "And I\u2019m Cara! The Carabao! "
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "I\u2019m Gale, the oldest of them all! Hahahah! Oh, I\u2019m the Eagle."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "(nervously) It\u2019s nice to meet you\u2026 guys..."
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Perfect timing Aspin! We were just playing \u201CTagu-taguan\u201D, and
+      it will be more fun if you would join us!"
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Yeah! It will be fun Aspin!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "I\u2019m sorry but I don\u2019t know what that is."
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Oh! We can teach you! Do you want to join us?
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: (This is my chance to make new friends) Sure!
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Cool Cool Cool! Okay Listen up!
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: There are different rules in Tagu-taguan but it all depends on the players
+      involved.  The rule we use is we spin a bottle to determine who the seeker
+      is,
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "but because you\u2019re new in the neighborhood, you will be the seeker
+      for this game! The seeker must find all of the players.  If you find all of
+      us, You win!"
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: So you just have to find all of us!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Oh so that\u2019s how you play it!"
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Ok now that you know how to play it, can you find Tara, Cara, Gale and
+      me?
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Oh! Aspin is IT! Hahaha! Quick! Everyone HIDEEE!!!!!

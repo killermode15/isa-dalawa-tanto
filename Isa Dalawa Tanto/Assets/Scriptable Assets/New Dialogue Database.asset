@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: New Dialogue Database
   m_EditorClassIdentifier: 
   dialogueBlobs:
-  - {fileID: 11400000, guid: 90152504d8b17844b9538fb4da7dd361, type: 2}
+  - {fileID: 11400000, guid: bdecd9435dc43664399efcafd782862a, type: 2}

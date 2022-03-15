@@ -1,14 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DialogueController : BaseController
 {
-    
-
     public static DialogueController Instance => instance;
 
     private static DialogueController instance;
+
+
+    [SerializeField] private UnityEvent OnDialogueStart;
+    [SerializeField] private UnityEvent OnDialogueEnd;
 
     private bool isDialogueOngoing = false;
     private bool shouldStartDialogue = false;
@@ -37,13 +40,15 @@ public class DialogueController : BaseController
         DialogueBlob dialogueBlob = dm.GetDialogue(id);
         isDialogueOngoing = true;
         StartCoroutine(StartDialogue(dialogueBlob));
+
+        OnDialogueStart?.Invoke();
     }
 
-    private void NextDialogue()
+    public void NextDialogue()
     {
         if (isDialogueOngoing && !shouldStartDialogue)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
                 shouldStartDialogue = true;
             }
@@ -58,6 +63,9 @@ public class DialogueController : BaseController
         shouldStartDialogue = true;
         dv.ToggleUI(true);
 
+        dv.SetDialogueBackground(dialogueBlob.Background);
+
+
         while (index < dialogueBlob.DialogueList.Count)
         {
             if (shouldStartDialogue)
@@ -71,8 +79,12 @@ public class DialogueController : BaseController
             yield return new WaitForEndOfFrame();
         }
 
+        yield return new WaitUntil(() => shouldStartDialogue == true);
+
+        shouldStartDialogue = false;
         isDialogueOngoing = false;
         dv.ToggleUI(false);
+        OnDialogueEnd?.Invoke();
         yield return null;
     }
 }

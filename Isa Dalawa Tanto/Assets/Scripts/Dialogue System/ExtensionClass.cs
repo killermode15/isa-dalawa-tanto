@@ -15,6 +15,11 @@
             name = name.Remove(0, 3);
             finalName = "Mrs. " + name;
         }
+        else if(name.Contains("Ms"))
+        {
+            name = name.Remove(0, 2);
+            finalName = "Ms. " + name;
+        }
         else if(name == "Null")
         {
             finalName = string.Empty;
@@ -25,5 +30,31 @@
         }
 
         return finalName;
+    }
+
+    public static string RemoveRichTextTag(this string text)
+    {
+        string strippedText = string.Empty;
+
+        bool shouldSkip = false;
+
+        foreach (char letter in text)
+        {
+            if (letter == '<')
+            {
+                shouldSkip = true;
+            }
+            else if (letter == '>')
+            {
+                shouldSkip = false;
+                continue;
+            }
+
+            if (shouldSkip)
+                continue;
+
+            strippedText += letter;
+        }
+        return strippedText;
     }
 }

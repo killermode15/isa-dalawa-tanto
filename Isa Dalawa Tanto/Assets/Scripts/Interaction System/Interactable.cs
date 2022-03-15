@@ -26,9 +26,12 @@ public class Interactable : MonoBehaviour
         ToggleUI(false);
     }
 
-    protected virtual void SetDetectionRadius(Vector2 size)
+    protected virtual void SetDetectionRadius(Vector2 radius)
     {
-        
+        CapsuleCollider2D col = this.GetComponent<CapsuleCollider2D>();
+        if (!col)
+            return;
+        col.size = radius;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -38,7 +41,7 @@ public class Interactable : MonoBehaviour
         {
             handler = col.gameObject.GetComponent<InteractionHandler>();
 
-            interactButtonTxt.text = handler.interactButton.ToString();
+            //interactButtonTxt.text = handler.interactButton.ToString();
 
             if (!registeredInteraciton)
             {
@@ -77,7 +80,7 @@ public class Interactable : MonoBehaviour
             handler.OnInteractObj -= Interact;
             registeredInteraciton = false;
             handler.enabled = true;
-
+            
             Debug.Log("Interact unregistered");
         }
     }

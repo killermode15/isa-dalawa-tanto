@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 01_Tut_Area01
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 0}
+  DialogueList:
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Isa dalawa tanto!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: 'I heard in the orphanage that Tarsiers relax on tree trunks. Maybe Tara
+      is hanging on one? '
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Let\u2019s see if you can find me Aspin!"
+  - Name: 3
+    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Come and find me too Aspin!
