@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2175139331380181864}
   - component: {fileID: 2175139331380181856}
   - component: {fileID: 2175139331380181863}
-  - component: {fileID: 2175139331380181866}
   - component: {fileID: 2175139331380181862}
-  - component: {fileID: 529500251}
+  - component: {fileID: -6152358428758296535}
+  - component: {fileID: 6009527665073574577}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -49,15 +49,15 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!61 &2175139331380181863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -84,40 +84,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.5}
   m_EdgeRadius: 0
---- !u!114 &2175139331380181866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2175139331380181867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfb23717f7dee14688bccda60b77b9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _characterBounds:
-    m_Center: {x: 0, y: 0.75, z: 0}
-    m_Extent: {x: 0.45, y: 0.75, z: 0}
-  _groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  _detectorCount: 3
-  _detectionRayLength: 0.1
-  _rayBuffer: 0.1
-  _acceleration: 90
-  _moveClamp: 13
-  _deAcceleration: 60
-  _apexBonus: 2
-  _fallClamp: -40
-  _minFallSpeed: 80
-  _maxFallSpeed: 120
-  _jumpHeight: 32
-  _jumpApexThreshold: 10
-  _coyoteTimeThreshold: 0.1
-  _jumpBuffer: 0.1
-  _jumpEndEarlyGravityModifier: 3
-  _freeColliderIterations: 10
 --- !u!114 &2175139331380181862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -131,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactButton: 102
---- !u!114 &529500251
+--- !u!114 &-6152358428758296535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,15 +106,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 2175139331380181867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 20f03dfdbe4b1524f9b71d82ad8f2f65, type: 3}
+  m_Script: {fileID: 11500000, guid: b5174c5002314a0479697cd8bb90ba25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSprite: {fileID: 5146098306328272038}
-  crouchBounds:
-    m_Center: {x: 0, y: 0.375, z: 0}
-    m_Extent: {x: 0.45, y: 0.375, z: 0}
-  crouchButton: 306
-  crouchScale: 2
+  isEnabled: 1
+  crouchKey: 306
+  jumpKey: 32
+--- !u!114 &6009527665073574577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175139331380181867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc06a495074cf3343ae55a7d63b65b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: -6152358428758296535}
+  crouchScale: 0.5
+  IsCrouching: 0
+  moveSpeed: 5
+  midAirSpeedBonus: 2
+  ground:
+    serializedVersion: 2
+    m_Bits: 0
+  jumpVelocity: 8
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
+  gravity: -9.8
 --- !u!1 &5146098306328272036
 GameObject:
   m_ObjectHideFlags: 0

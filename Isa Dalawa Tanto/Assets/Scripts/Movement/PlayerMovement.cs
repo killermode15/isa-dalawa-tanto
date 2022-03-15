@@ -46,9 +46,14 @@ public class PlayerMovement : MonoBehaviour
         UpdateJumpVelocity();
     }
 
+    public void TransportPlayer(Vector3 pos)
+    {
+        transform.position = pos;
+    }
+
     private void Crouch()
     {
-        if(input.IsHoldingCrouch && !IsCrouching)
+        if (input.IsHoldingCrouch && !IsCrouching)
         {
             originalScale = transform.localScale.y;
             transform.localScale = new Vector3(1, crouchScale, 1);
@@ -57,10 +62,10 @@ public class PlayerMovement : MonoBehaviour
             IsCrouching = true;
         }
 
-        if(!input.IsHoldingCrouch && IsCrouching)
+        if (!input.IsHoldingCrouch && IsCrouching)
         {
             transform.localScale = new Vector3(1, originalScale, 1);
-            transform.position += new Vector3(0, originalScale/2 - crouchScale/2, 0);
+            transform.position += new Vector3(0, originalScale / 2 - crouchScale / 2, 0);
 
             IsCrouching = false;
         }

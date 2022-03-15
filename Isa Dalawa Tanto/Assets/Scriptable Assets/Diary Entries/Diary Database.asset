@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7d1589fd67ce64d9d8e422bf3d0768, type: 3}
   m_Name: Diary Database
   m_EditorClassIdentifier: 
-  diaryEntries: []
+  diaryEntries:
+  - {fileID: 11400000, guid: ce98868111b308c4c99720fdbfcf866f, type: 2}

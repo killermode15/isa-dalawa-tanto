@@ -22,16 +22,16 @@ public class Door : Interactable
 
     private IEnumerator Transport()
     {
-        PlayerController controller = handler.GetComponent<PlayerController>();
+        PlayerMovement controller = handler.GetComponent<PlayerMovement>();
 
         StartCoroutine(FadeUI.Instance.FadeToBlack());
         yield return new WaitForSeconds(FadeUI.Instance.Duration);
         level.SetConstraint();
         controller.TransportPlayer(linkedDoor.position);
-        controller.SetControllerActive(false);
-        yield return new WaitForSeconds(FadeUI.Instance.Duration*2);
+        controller.enabled = false;
+        yield return new WaitForSeconds(FadeUI.Instance.Duration * 2);
         StartCoroutine(FadeUI.Instance.FadeToBlack(false));
         yield return new WaitForSeconds(FadeUI.Instance.Duration);
-        controller.SetControllerActive(true);
+        controller.enabled = true;
     }
 }
