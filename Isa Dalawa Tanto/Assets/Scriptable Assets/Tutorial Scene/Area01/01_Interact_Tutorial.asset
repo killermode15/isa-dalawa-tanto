@@ -19,14 +19,14 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Okay okay, this is my imagination where I can be what I want\r to be and
-      make things fun along the way! "
+    Text: Okay okay, this is my imagination where I can be what I want to be and
+      make things fun along the way!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Huh? There\u2019s a sign here that says\r\n\u201Cpress <color=red>A</color>
-      to move left, and press <color=red>D</color> to move right\u201D\r\n"
+    Text: "Huh? There\u2019s a sign here that says \u201Cpress <color=red>A</color>
+      to move left, and press <color=red>D</color> to move right\u201D"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0

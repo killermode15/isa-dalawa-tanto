@@ -34,14 +34,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "<color=#d85906>Tagu-taguan can be played anywhere as long as you can hide.
-      It is more fun if you\r\nhave 3 or more players. Just don\u2019t let the Taya
-      see you! </color>"
+    Text: '<color=#d85906>Tagu-taguan can be played anywhere as long as you can hide. '
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: <color=#d85906> Taya is the one who will find the other players. </color>
+    Text: <color=#d85906>It is more fun if you have 3 or more players! Just don't
+      let the Taya see you!</color>
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "\r<color=#d85906> Taya is the one who will find the other players. </color>\r\n"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
@@ -52,5 +56,5 @@ MonoBehaviour:
     Side: 0
     SpritePosition: 1
     Text: "Mother Goose told me that Carabaos can\u2019t climb. Maybe she's somewhere
-      down below where I was at the beginning, I haven\u2019t checked the [Hiding.Spot]
-      yet."
+      down below where I was at the beginning, I haven\u2019t checked the crates
+      yet on the bottom left."
