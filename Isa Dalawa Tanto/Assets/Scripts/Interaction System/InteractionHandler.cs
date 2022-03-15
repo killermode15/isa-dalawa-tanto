@@ -18,7 +18,6 @@ public class InteractionHandler : MonoBehaviour
         if(Interaction.Interact())
         {
             Interactable.OnInteract();
-            //OnInteractObj?.Invoke();
         }
     }
 
