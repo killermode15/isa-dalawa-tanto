@@ -46,7 +46,9 @@ public class DialogueController : BaseController
 
     public void NextDialogue()
     {
-        if (isDialogueOngoing && !shouldStartDialogue)
+        DialogueView dv = view as DialogueView;
+
+        if (isDialogueOngoing && !shouldStartDialogue && !dv.IsWritingDialogue)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {
