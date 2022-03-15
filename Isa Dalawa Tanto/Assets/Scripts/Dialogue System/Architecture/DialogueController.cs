@@ -9,9 +9,11 @@ public class DialogueController : BaseController
 
     private static DialogueController instance;
 
+    public UnityEvent OnDialogueStart => onDialogueStart;
+    public UnityEvent OnDialogueEnd => onDialogueEnd;
 
-    [SerializeField] private UnityEvent OnDialogueStart;
-    [SerializeField] private UnityEvent OnDialogueEnd;
+    [SerializeField] private UnityEvent onDialogueStart;
+    [SerializeField] private UnityEvent onDialogueEnd;
 
     private bool isDialogueOngoing = false;
     private bool shouldStartDialogue = false;
@@ -41,7 +43,7 @@ public class DialogueController : BaseController
         isDialogueOngoing = true;
         StartCoroutine(StartDialogue(dialogueBlob));
 
-        OnDialogueStart?.Invoke();
+        onDialogueStart?.Invoke();
     }
 
     public void NextDialogue()
@@ -86,7 +88,7 @@ public class DialogueController : BaseController
         shouldStartDialogue = false;
         isDialogueOngoing = false;
         dv.ToggleUI(false);
-        OnDialogueEnd?.Invoke();
+        onDialogueEnd?.Invoke();
         yield return null;
     }
 }

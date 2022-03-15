@@ -16,9 +16,10 @@ GameObject:
   - component: {fileID: 3271405408752339076}
   - component: {fileID: 3271405408752339077}
   - component: {fileID: 1198477667786386929}
+  - component: {fileID: 5146098304703002096}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +76,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05, y: -0.34324455}
+  m_Offset: {x: -0.0011100769, y: 0.1364479}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -86,7 +87,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.54319286, y: 1.1769257}
+  m_Size: {x: 0.5441017, y: 1.2224197}
   m_EdgeRadius: 0
 --- !u!58 &3271405408752339082
 CircleCollider2D:
@@ -101,7 +102,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.05, y: -0.92}
+  m_Offset: {x: 0, y: -0.48}
   serializedVersion: 2
   m_Radius: 0.28
 --- !u!114 &3271405408752339079
@@ -116,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0c5985cddade6240bca959a3c3d3a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 700
+  m_JumpForce: 800
   m_CrouchSpeed: 0.65
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -146,7 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   input: {fileID: 3271405408752339077}
   controller: {fileID: 3271405408752339079}
-  moveSpeed: 40
+  moveSpeed: 80
 --- !u!114 &3271405408752339077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +175,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db415c8119bdde542b9ea894aa49ed8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5146098304703002096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175139331380181867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e921a54d89d663e42a3fda37128ffff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 5146098306328272038}
+  animator: {fileID: 5146098304703002094}
+  movementInput: {fileID: 3271405408752339077}
+  characterController: {fileID: 3271405408752339079}
+  originalPosition: {x: 0, y: 0, z: 0}
+  crouchPosition: {x: 0, y: 0, z: 0}
+  originalScale: {x: 0, y: 0, z: 0}
+  crouchScale: {x: 0, y: 0, z: 0}
 --- !u!1 &3271405408261943981
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5146098306328272038}
   - component: {fileID: 5146098306328272037}
+  - component: {fileID: 5146098304703002094}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -261,8 +283,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5146098306328272036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.042, y: -0.432, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.32, y: 0.32, z: 0.32}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2175139331380181864}
@@ -308,8 +330,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c850a35a4dc2ad045943ff006afdc81b, type: 3}
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 679241501, guid: 56a208053135afb498f28f8ebbc38fa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -320,3 +342,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &5146098304703002094
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5146098306328272036}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8975ca0cb15d85e4da7c4d1e5078fb2d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

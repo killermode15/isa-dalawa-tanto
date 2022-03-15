@@ -6,7 +6,6 @@ public class MovementHandler : MonoBehaviour
 {
     [SerializeField] private MovementInput input;
     [SerializeField] private CharacterController controller;
-
     [SerializeField] private float moveSpeed;
 
     private float horizontalMove = 0f;

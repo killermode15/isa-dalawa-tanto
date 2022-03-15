@@ -21,9 +21,11 @@ public class CharacterController : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	public bool Grounded => m_Grounded;
+
 	[Header("Events")]
 	[Space]
-
+	
 	public UnityEvent OnLandEvent;
 
 	[System.Serializable]
