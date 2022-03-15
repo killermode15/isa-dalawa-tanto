@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
   m_Name: 01_Interact_Tutorial
   m_EditorClassIdentifier: 
-  Id: 0
+  Id: 1
   Background: {fileID: 0}
   DialogueList:
   - Name: 1
