@@ -7,7 +7,9 @@ using UnityEngine.UI;
 public class DialogueView : BaseView
 {
     public enum ViewSide { Left, Right}
-    
+
+    public bool IsWritingDialogue => isWritingDialogue;
+
     [SerializeField] private SpriteView leftSpriteView;
     [SerializeField] private SpriteView rightSpriteView;
     [SerializeField] private Image DialogueBoxUI;
@@ -17,6 +19,8 @@ public class DialogueView : BaseView
     [SerializeField] private Sprite leftDialogueSprite;
     [SerializeField] private Sprite rightDialogueSprite;
     [SerializeField] private GameObject UI;
+
+    private bool isWritingDialogue = false;
 
     // Start is called before the first frame update
     void Start()
@@ -91,13 +95,15 @@ public class DialogueView : BaseView
         dialogueBox.text = string.Empty;
 
         string tempText = text.RemoveRichTextTag();
+        isWritingDialogue = true;
 
         foreach(char letter in tempText)
         {
             dialogueBox.text += letter;
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForSeconds(0.0275f);
         }
 
-        dialogueBox.text = text;    
+        dialogueBox.text = text;
+        isWritingDialogue = false;
     }
 }
