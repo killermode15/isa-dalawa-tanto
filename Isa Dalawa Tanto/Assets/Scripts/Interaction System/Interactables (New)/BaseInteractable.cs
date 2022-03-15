@@ -9,6 +9,7 @@ public abstract class BaseInteractable : MonoBehaviour
     [SerializeField] protected string name;
     [SerializeField] protected BaseInteraction interaction;
     [SerializeField] protected UnityEvent onInteract;
+    [SerializeField] protected UnityEvent onInteractEnd;
 
     [Header("Detection Parameters")]
     [SerializeField] protected float detectionRange = 1;
@@ -58,6 +59,11 @@ public abstract class BaseInteractable : MonoBehaviour
     public virtual void OnInteract()
     {
         onInteract?.Invoke();
+    }
+
+    public virtual void OnInteractEnd()
+    {
+        onInteractEnd?.Invoke();
     }
 
     protected void OnValidate()

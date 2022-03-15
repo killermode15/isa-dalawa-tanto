@@ -10,5 +10,12 @@ public class DialogueInteractable : BaseInteractable
     {
         base.OnInteract();
         DialogueController.Instance.TriggerDialogue(dialogueId);
+        DialogueController.Instance.OnDialogueEnd.AddListener(OnInteractEnd);
+    }
+
+    public override void OnInteractEnd()
+    {
+        base.OnInteractEnd();
+        DialogueController.Instance.OnDialogueEnd.RemoveListener(OnInteractEnd);
     }
 }

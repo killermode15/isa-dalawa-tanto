@@ -39,15 +39,15 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "<color=#d85906> They also play tagutaguan in the province! At the start
-      of the game, they must set a home base , this is where the \u201CTaya\u201D
-      will close their eyes and count to 10 or even a 100. </color>"
+    Text: "<color=#d85906>They also play Tagu-taguan in the province! At the start
+      of the game, they must set a home base, this is where the \u201CTaya\u201D
+      will close their eyes and count to 10 or even a 100.</color>"
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
     Text: "<color=#d85906> The \u201CTaya\u201D wins by finding them all, while everyone
-      else runs to the home base. The one who gets to it last loses. </color>"
+      else runs to the home base. The one who gets to it last loses.</color>"
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1

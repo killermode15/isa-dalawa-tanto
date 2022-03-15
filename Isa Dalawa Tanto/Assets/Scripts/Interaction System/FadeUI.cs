@@ -15,15 +15,24 @@ public class FadeUI : MonoBehaviour
 
     [SerializeField] private float duration;
 
+    private void Awake()
+    {
+        instance = this; 
+    }
+
     private void Start()
     {
-        instance = this;
-        imageToFade.color = Color.clear;
+        //imageToFade.color = Color.clear;
+    }
+
+    public void Fade(bool fade = true)
+    {
+        StartCoroutine(FadeToBlack(fade));
     }
 
     public IEnumerator FadeToBlack(bool fade = true)
     {
-        Color startingColor = imageToFade.color;
+        Color startingColor = fade ? imageToFade.color : Color.black; 
         Color targetColor = fade ? Color.black : Color.clear;
 
         float currDuration = duration;
