@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 56a208053135afb498f28f8ebbc38fa3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1547
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2037b9a9d80684180fc0c80be53610
+      internalID: 679241501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1547
+        width: 232
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7b5fa2f9af4894ab803c9db9befec8
+      internalID: -513310418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1547
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce181a3e032d3d4280432eee0d65d2d
+      internalID: -1590838239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1547
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e82296015524149b46bc851ded9c33
+      internalID: 665753514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1041
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ffdfa011bd7c1459410a1cf30afe75
+      internalID: 543223868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1041
+        width: 232
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef3dd666498360438172f7624959d51
+      internalID: 2017888092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1041
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ca851d41a977468d8b12c626110e0
+      internalID: 888695210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1041
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74ccf47f000ccb438536404885d122a
+      internalID: -753233743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 529
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f692504d1064eab42ab59f6dcab0504e
+      internalID: -1834458476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 529
+        width: 232
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a096b92beced7a4eb3dace0cc62b117
+      internalID: 47624790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 529
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f1fcd62d9f4448b5884cf39248be0
+      internalID: -1887874341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 529
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347bb60c01cf0a949a8d9b6f585636ba
+      internalID: 1095213503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 21
+        width: 231
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad51f22b12038f428bd479d72ccd0eb
+      internalID: -1490609424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASPIN_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 21
+        width: 232
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1676928b9c4b22540bc88d62ced26ba2
+      internalID: -857311880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ASPIN_IDLE_SPREADSHEET_7: -753233743
+      ASPIN_IDLE_SPREADSHEET_9: 47624790
+      ASPIN_IDLE_SPREADSHEET_5: 2017888092
+      ASPIN_IDLE_SPREADSHEET_11: 1095213503
+      ASPIN_IDLE_SPREADSHEET_4: 543223868
+      ASPIN_IDLE_SPREADSHEET_0: 679241501
+      ASPIN_IDLE_SPREADSHEET_10: -1887874341
+      ASPIN_IDLE_SPREADSHEET_12: -1490609424
+      ASPIN_IDLE_SPREADSHEET_1: -513310418
+      ASPIN_IDLE_SPREADSHEET_8: -1834458476
+      ASPIN_IDLE_SPREADSHEET_13: -857311880
+      ASPIN_IDLE_SPREADSHEET_2: -1590838239
+      ASPIN_IDLE_SPREADSHEET_3: 665753514
+      ASPIN_IDLE_SPREADSHEET_6: 888695210
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

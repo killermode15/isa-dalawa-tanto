@@ -19,7 +19,7 @@ public class MovementInput : MonoBehaviour
     private float vertical;
     private bool isCrouching;
     private bool hasJumped;
-    private bool isHoldingJump;
+    private bool isHoldingJump;    
 
     // Update is called once per frame
     void Update()
@@ -31,6 +31,7 @@ public class MovementInput : MonoBehaviour
             hasJumped = false;
             return; 
         }
+
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
@@ -38,7 +39,6 @@ public class MovementInput : MonoBehaviour
 
         hasJumped = Input.GetKeyDown(jumpKey);
         isHoldingJump = Input.GetKey(jumpKey);
-
     }
 
     public void Enabled(bool state)
