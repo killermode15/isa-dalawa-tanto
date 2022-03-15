@@ -11,6 +11,7 @@ public class DoorInteractable : BaseInteractable
 
     public override void OnInteract()
     {
+        base.OnInteract();
         StartCoroutine(Transport());
     }
 

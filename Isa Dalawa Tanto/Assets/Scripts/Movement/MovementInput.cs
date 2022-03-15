@@ -24,7 +24,13 @@ public class MovementInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (!isEnabled)
+        {
+            horizontal = vertical = 0;
+            isCrouching = false;
+            hasJumped = false;
+            return; 
+        }
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
@@ -33,5 +39,10 @@ public class MovementInput : MonoBehaviour
         hasJumped = Input.GetKeyDown(jumpKey);
         isHoldingJump = Input.GetKey(jumpKey);
 
+    }
+
+    public void Enabled(bool state)
+    {
+        isEnabled = state;
     }
 }
