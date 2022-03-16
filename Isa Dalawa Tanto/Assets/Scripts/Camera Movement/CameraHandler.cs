@@ -17,6 +17,8 @@ public class CameraHandler : MonoBehaviour
     //[SerializeField] private float deadZoneRange = 0.05f;
     [SerializeField] private Vector2 horizontalClamping = new Vector2(-1, 1);
 
+    private bool isEnabled = true;
+
     //public float DeadZoneRange { get => deadZoneRange; }
     public Vector2 HorizontalClamp
     {
@@ -128,7 +130,7 @@ public class CameraHandler : MonoBehaviour
 
     private float GetVerticalPeekValue()
     {
-        return Input.GetAxis("Vertical") * peekRange;
+        return isEnabled ? Input.GetAxis("Vertical") * peekRange : 0;
     }
 
     // Returns true if the indicated position oversteps the clamped zone.
@@ -156,10 +158,13 @@ public class CameraHandler : MonoBehaviour
             direction = 1;
         else
             direction = 0;
-        Debug.Log(currLeftPosition);
-        Debug.Log(direction);
 
         return currLeftPosition < horizontalClamping.x || currRightPosition > horizontalClamping.y;
+    }
+
+    public void Enabled(bool state)
+    {
+        isEnabled = state;
     }
 
     // Returns true if the target is within the designated dead zone

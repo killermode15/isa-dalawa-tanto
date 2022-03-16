@@ -46,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         UpdateJumpVelocity();
     }
 
+    public void TransportPlayer(Vector3 pos)
+    {
+        transform.position = pos;
+    }
+
     private void Crouch()
     {
         if (input.IsHoldingCrouch && !IsCrouching)
