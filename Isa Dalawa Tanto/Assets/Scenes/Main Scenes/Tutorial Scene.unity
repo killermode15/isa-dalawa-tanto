@@ -5885,6 +5885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 286082053}
   onInteract:
     m_PersistentCalls:
@@ -6707,6 +6708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 335544197}
   onInteract:
     m_PersistentCalls:
@@ -6821,6 +6823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 339060191}
   onInteract:
     m_PersistentCalls:
@@ -10227,6 +10230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 491901752}
   onInteract:
     m_PersistentCalls:
@@ -12070,6 +12074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 570791938}
   onInteract:
     m_PersistentCalls:
@@ -15947,6 +15952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 762525249}
   onInteract:
     m_PersistentCalls:
@@ -27796,6 +27802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 1328908052}
   onInteract:
     m_PersistentCalls:
@@ -32000,6 +32007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 1583019700}
   onInteract:
     m_PersistentCalls:
@@ -33684,6 +33692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
   interaction: {fileID: 1679613004}
   onInteract:
     m_PersistentCalls:
@@ -40419,7 +40428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3271405408752339079, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_JumpForce
-      value: 1000
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 5146098306328272038, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalScale.z
