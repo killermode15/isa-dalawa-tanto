@@ -6,9 +6,7 @@ using UnityEngine;
 public class OnTriggerInteraction : BaseInteraction
 {
     [SerializeField] private bool isTriggered = false;
-    [SerializeField] private bool isOneShot = true;
 
-    private bool hasBeenTriggeredOnce = false;
     private Collider2D collider;
 
     private void Awake()
@@ -50,6 +48,5 @@ public class OnTriggerInteraction : BaseInteraction
             return;
 
         isTriggered = false;
-        //hasBeenTriggeredOnce = false;
     }
 }
