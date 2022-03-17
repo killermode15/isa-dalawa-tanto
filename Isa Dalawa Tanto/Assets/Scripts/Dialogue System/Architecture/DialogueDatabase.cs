@@ -8,9 +8,6 @@ public class DialogueDatabase : ScriptableObject
 
     public DialogueBlob GetDialogueBlob(int id)
     {
-        if (id > dialogueBlobs.Count)
-            return null;
-
         if (dialogueBlobs == null)
             return null;
 
