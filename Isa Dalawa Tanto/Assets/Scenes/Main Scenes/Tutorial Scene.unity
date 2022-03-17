@@ -842,7 +842,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -3
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.18039216, g: 0.06666667, b: 0.019607844, a: 1}
   m_FlipX: 0
@@ -1283,7 +1283,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -6
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: cb2ca72cc8afa7e459b994d7469eb671, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1303,8 +1303,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86388654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.990002, y: 28.99, z: 0}
-  m_LocalScale: {x: 0.32735938, y: 0.32735938, z: 0.32735938}
+  m_LocalPosition: {x: 13.018, y: 29.7, z: 0}
+  m_LocalScale: {x: 0.28306922, y: 0.28306922, z: 0.28306922}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005409442}
@@ -2227,7 +2227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125741507}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 66.42, y: 11, z: 0}
+  m_LocalPosition: {x: 66.9, y: 11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5886,6 +5886,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 286082053}
   onInteract:
     m_PersistentCalls:
@@ -6709,6 +6711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 335544197}
   onInteract:
     m_PersistentCalls:
@@ -6824,6 +6828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 339060191}
   onInteract:
     m_PersistentCalls:
@@ -8569,7 +8575,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -6
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: cb2ca72cc8afa7e459b994d7469eb671, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8589,8 +8595,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409245035}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.3999977, y: 29.03, z: 0}
-  m_LocalScale: {x: 0.32735938, y: 0.32735938, z: 0.32735938}
+  m_LocalPosition: {x: -2.6565, y: 29.733997, z: 0}
+  m_LocalScale: {x: 0.28306922, y: 0.28306922, z: 0.28306922}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005409442}
@@ -10231,6 +10237,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 491901752}
   onInteract:
     m_PersistentCalls:
@@ -10447,6 +10455,9 @@ GameObject:
   m_Component:
   - component: {fileID: 516586744}
   - component: {fileID: 516586745}
+  - component: {fileID: 516586748}
+  - component: {fileID: 516586747}
+  - component: {fileID: 516586746}
   m_Layer: 0
   m_Name: NPC_Lucky
   m_TagString: Untagged
@@ -10496,6 +10507,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5908699, y: 1.7044983}
   m_EdgeRadius: 0
+--- !u!114 &516586746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516586743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538d6254cffca3843b3b4acfc9c8ff97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyCode: 102
+--- !u!114 &516586747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516586743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ffcc3f3e1cc06b48ad57ec10afa05fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
+  interaction: {fileID: 516586746}
+  onInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  onInteractEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  detectionRange: 1
+  dialogueId: 11
+--- !u!58 &516586748
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516586743}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -10596,7 +10661,7 @@ MonoBehaviour:
   followTarget: {fileID: 1625319754}
   followSpeed: 50
   peekRange: 6
-  horizontalClamping: {x: -67.79631, y: 48.197098}
+  horizontalClamping: {x: 168.97656, y: 307.67993}
 --- !u!1 &521572860
 GameObject:
   m_ObjectHideFlags: 0
@@ -12075,6 +12140,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 570791938}
   onInteract:
     m_PersistentCalls:
@@ -13436,6 +13503,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 631697151}
   onInteract:
     m_PersistentCalls:
@@ -13444,7 +13514,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   detectionRange: 1
-  dialogueId: 0
+  dialogueId: 6
 --- !u!58 &631697153
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15953,6 +16023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 762525249}
   onInteract:
     m_PersistentCalls:
@@ -20272,7 +20344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961882658}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 21.620007, y: 23.07, z: 0}
+  m_LocalPosition: {x: 20.8, y: 23.07, z: 0}
   m_LocalScale: {x: 0.09843601, y: 0.09843601, z: 0.098436}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24939,7 +25011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132338637}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.147358, y: 17.07422, z: 0}
+  m_LocalPosition: {x: -20.46, y: 17.07422, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27580,7 +27652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1317864871}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.079998, y: 23.1, z: 0}
+  m_LocalPosition: {x: 4.7, y: 23.1, z: 0}
   m_LocalScale: {x: 0.09843601, y: 0.09843601, z: 0.098436}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27803,6 +27875,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 1328908052}
   onInteract:
     m_PersistentCalls:
@@ -28155,6 +28229,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 1341274599}
   onInteract:
     m_PersistentCalls:
@@ -28258,7 +28335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346529883}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.299999, y: 39.239998, z: 0}
+  m_LocalPosition: {x: 15.299999, y: 39.12, z: 0}
   m_LocalScale: {x: 0.6173907, y: 0.6173907, z: 0.6173907}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32008,6 +32085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 1583019700}
   onInteract:
     m_PersistentCalls:
@@ -33693,6 +33772,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 1679613004}
   onInteract:
     m_PersistentCalls:
@@ -33930,6 +34011,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: 
+  interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
   interaction: {fileID: 1696960454}
   onInteract:
     m_PersistentCalls:
@@ -40380,11 +40464,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.98
+      value: 177.1
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -157.58
+      value: -150.4
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.z
