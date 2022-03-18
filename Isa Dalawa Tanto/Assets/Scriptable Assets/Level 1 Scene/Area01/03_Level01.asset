@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
   m_Name: 03_Level01
   m_EditorClassIdentifier: 
-  Id: 0
+  Id: 10
   Background: {fileID: 0}
   DialogueList:
   - Name: 1
@@ -21,7 +21,7 @@ MonoBehaviour:
     SpritePosition: 0
     Text: Here it is!
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 0
     Text: "More smell are coming from the next area! I\u2019m so hungry!"
