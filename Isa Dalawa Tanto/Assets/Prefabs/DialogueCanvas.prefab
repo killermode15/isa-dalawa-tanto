@@ -891,7 +891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ccf28000d27d74599a13cf08e9f516, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueDatabase: {fileID: 11400000, guid: 6a5a3db89ff85ca49aae7fad6c343725, type: 2}
+  dialogueDatabase: {fileID: 11400000, guid: 6089381d901dc9d499d12c6042df4f46, type: 2}
 --- !u!1 &690322080220339358
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,10 +1408,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onDialogueStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: CharacterController, Assembly-CSharp
+        m_MethodName: StopMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MovementInput, Assembly-CSharp
+        m_MethodName: Enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDialogueEnd:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MovementInput, Assembly-CSharp
+        m_MethodName: Enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &690322081091949375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,3 +2003,4 @@ MonoBehaviour:
   leftDialogueSprite: {fileID: 21300000, guid: d4449bab5b4362646ae705e5a66d3546, type: 3}
   rightDialogueSprite: {fileID: 21300000, guid: 5bd3814a28a104c439b2b745e7471c0c, type: 3}
   UI: {fileID: 6874493152952958554}
+  blipSound: {fileID: 8300000, guid: 648fba2db506d6542a69249175083d49, type: 3}
