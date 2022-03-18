@@ -33,7 +33,7 @@ public abstract class BaseInteractable : MonoBehaviour
         if (interaction.GetType() == typeof(KeyPressInteraction) && interactKeyUI != null)
         {            
             KeyPressInteraction keyPressInteraction = interaction as KeyPressInteraction;
-            interactKeyUI.GetComponent<TMP_Text>().text = keyPressInteraction.GetInteractKey;
+            interactKeyUI.GetComponentInChildren<TMP_Text>().text = keyPressInteraction.GetInteractKey;
             interactKeyUI.SetActive(false);
         }
     }
@@ -57,7 +57,7 @@ public abstract class BaseInteractable : MonoBehaviour
                 spriteToChange.sprite = interactableSprite;
             
             interactKeyUI.GetComponentInChildren<TMP_Text>().text = interactionType.GetInteractKey;
-            interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
+            interactKeyUI.SetActive(true);
         }
 
         handler.SetInteraction(interaction, this);
@@ -80,7 +80,7 @@ public abstract class BaseInteractable : MonoBehaviour
             if (spriteToChange)
                 spriteToChange.sprite = defaultSprite;
 
-            interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
+            interactKeyUI.SetActive(false);
         }
         handler.SetInteraction(null, null);
         detectedPlayer = null;
