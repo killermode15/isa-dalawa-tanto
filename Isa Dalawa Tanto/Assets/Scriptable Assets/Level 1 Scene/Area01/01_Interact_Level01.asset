@@ -30,7 +30,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: "<color=#d85906>It came from the verb \u201Csigang\u201D which means \u201Cto
+    Text: "<color=#d85906>It came from the word \u201Csigang\u201D which means \u201Cto
       stew\u201D \u2013 therefore, sinigang means \u201Cstewed\u201D.</color>"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
