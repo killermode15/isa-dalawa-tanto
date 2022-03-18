@@ -2365,7 +2365,7 @@ PrefabInstance:
     - target: {fileID: 2417321687432665640, guid: abcd859b1fd89364ab10da1b43194977, type: 3}
       propertyPath: blipSound
       value: 
-      objectReference: {fileID: 8300000, guid: 648fba2db506d6542a69249175083d49, type: 3}
+      objectReference: {fileID: 8300000, guid: f1da9f568dc13de489921c1589ac82d0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abcd859b1fd89364ab10da1b43194977, type: 3}
 --- !u!1 &120043764
@@ -8479,7 +8479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &696563996
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17856,7 +17856,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1432123384
 Transform:
   m_ObjectHideFlags: 0
