@@ -9,6 +9,17 @@ public class KeyPressInteraction : BaseInteraction
     public string GetInteractKey => keyCode.ToString();
     public override bool Interact()
     {
+        if (isOneShot)
+        {
+            if (!hasBeenTriggeredOnce)
+            {
+                hasBeenTriggeredOnce = Input.GetKeyDown(keyCode);
+                return hasBeenTriggeredOnce;
+            }
+            else
+                return false;
+        }
+
         return Input.GetKeyDown(keyCode);
     }
 }

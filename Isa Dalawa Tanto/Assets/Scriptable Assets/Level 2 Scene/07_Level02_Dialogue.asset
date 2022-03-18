@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
+  m_Name: 07_Level02_Dialogue
+  m_EditorClassIdentifier: 
+  Id: 0
+  Background: {fileID: 21300000, guid: abd9040985f65b64da35a9715c848bbe, type: 3}
+  DialogueList:
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: 'Ms. Askal, Aspin, and their neighbors gathered together in the Dining
+      Room as they started the housewarming party. Everyone with smiles, happy and
+      having a conversation. '
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: 'Filipino foods like Halo halo, Puto, Spaghetti, Pansit and Skrambol brought
+      by the neighbors are the highlights of the dining table.
+
+'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: 'Filipino foods like Halo halo, Puto, Spaghetti, Pansit and Skrambol brought
+      by the neighbors are the highlights of the dining table.
+
+'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: "Aspin courageously gathered everyone\u2019s attention and announced that
+      he was very happy that after a few days, he had made friends and had a fun
+      time..."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 0
+    SpritePosition: 0
+    Text: He thanked his friends about all the lessons he learned along the way and
+      is excited to meet other children like him in other neighborhoods. And lastly,
+      he thanks Ms. Askal for doing her best to welcome him, and is now comfortable
+      to call her mom.
