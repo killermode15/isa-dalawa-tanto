@@ -5,9 +5,8 @@ using TMPro;
 [RequireComponent(typeof(CircleCollider2D))]
 public abstract class BaseInteractable : MonoBehaviour
 {
-    [SerializeField] protected string name;
     [SerializeField] protected GameObject interactKeyUI;
-    [SerializeField] protected Sprite spriteToChange;
+    [SerializeField] protected SpriteRenderer spriteToChange;
     [SerializeField] protected Sprite interactableSprite;
     [SerializeField] protected BaseInteraction interaction;
     [SerializeField] protected UnityEvent onInteract;
@@ -29,7 +28,7 @@ public abstract class BaseInteractable : MonoBehaviour
 
         //if interaction subtype is KeypressInteractable 
         if(spriteToChange)
-            defaultSprite = spriteToChange;
+            defaultSprite = spriteToChange.sprite;
 
         if (interaction.GetType() == typeof(KeyPressInteraction) && interactKeyUI != null)
         {            
@@ -52,9 +51,12 @@ public abstract class BaseInteractable : MonoBehaviour
 
         if (interactKeyUI)
         {
-            if (spriteToChange)
-                spriteToChange = interactableSprite;
+            KeyPressInteraction interactionType = interaction as KeyPressInteraction; 
 
+            if (spriteToChange)
+                spriteToChange.sprite = interactableSprite;
+            
+            interactKeyUI.GetComponentInChildren<TMP_Text>().text = interactionType.GetInteractKey;
             interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
         }
 
@@ -76,7 +78,7 @@ public abstract class BaseInteractable : MonoBehaviour
         if (interactKeyUI)
         {
             if (spriteToChange)
-                spriteToChange = defaultSprite;
+                spriteToChange.sprite = defaultSprite;
 
             interactKeyUI.SetActive(interaction.GetType() == typeof(KeyPressInteraction));
         }
