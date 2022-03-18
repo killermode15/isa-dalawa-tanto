@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
   m_Name: 02_Tutorial_Dialogue
   m_EditorClassIdentifier: 
-  Id: 1
+  Id: 14
   Background: {fileID: 21300000, guid: 621017283b5e37c4e80b107a0bd7b603, type: 3}
   DialogueList:
   - Name: 6

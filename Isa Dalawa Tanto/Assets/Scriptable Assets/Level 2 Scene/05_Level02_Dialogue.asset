@@ -10,29 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 75bcf735136b6fa47801145e9ece6d4d, type: 3}
-  m_Name: 03_Level02_Dialogue
+  m_Name: 05_Level02_Dialogue
   m_EditorClassIdentifier: 
   Id: 0
-  Background: {fileID: 21300000, guid: 9d7e8db641a484e48b060675eead584f, type: 3}
+  Background: {fileID: 21300000, guid: dbde2f5b4426ac149b509bfdc044a1ad, type: 3}
   DialogueList:
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "\u2026And we have arrived!"
+    Text: Did you get it, Aspin?
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Wow! You live in a house like that?
+    Text: Yep! Let's gooooo!
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Yep! We Philippine Monkeys do love to play around. So it makes sense that
-      our whole house is a playground! '
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
+    Text: "Alright! Your turn! Let\u2019s go!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
+    Side: 0
     SpritePosition: 1
-    Text: Come on, let's head to the backyard and start the game.
+    Text: HAHAHAHAH! THIS IS FUN!

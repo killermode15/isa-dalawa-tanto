@@ -53,4 +53,29 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "It's getting late, Let\u2019s go meet up with the others at the home base."
+    Text: Did you get that Aspin?
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Yup! Thank you for explaining it to me. I understand it now!
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Ok, Aspin it's getting late now...
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Let's go back to the home base to meet the others!
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Let's head back?
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Okay, let's head back Lucky.
