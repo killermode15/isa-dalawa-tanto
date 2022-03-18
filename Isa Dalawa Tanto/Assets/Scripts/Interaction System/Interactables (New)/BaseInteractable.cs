@@ -30,6 +30,9 @@ public abstract class BaseInteractable : MonoBehaviour
         if(spriteToChange)
             defaultSprite = spriteToChange.sprite;
 
+        if (!interaction)
+            return; 
+
         if (interaction.GetType() == typeof(KeyPressInteraction) && interactKeyUI != null)
         {            
             KeyPressInteraction keyPressInteraction = interaction as KeyPressInteraction;
