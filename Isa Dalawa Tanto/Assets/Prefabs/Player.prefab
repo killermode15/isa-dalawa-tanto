@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3271405408752339077}
   - component: {fileID: 1198477667786386929}
   - component: {fileID: 5146098304703002096}
+  - component: {fileID: 1088607422}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -195,6 +196,22 @@ MonoBehaviour:
   crouchPosition: {x: 0, y: 0, z: 0}
   originalScale: {x: 0, y: 0, z: 0}
   crouchScale: {x: 0, y: 0, z: 0}
+--- !u!114 &1088607422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175139331380181867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86073fe1b2346e940838b703f25f9e22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 3271405408752339077}
+  controller: {fileID: 3271405408752339079}
+  audioManager: {fileID: 11400000, guid: 6ead5278162e3654fbc18a3dc51817eb, type: 2}
+  jumpVolume: 0.45
 --- !u!1 &3271405408261943981
 GameObject:
   m_ObjectHideFlags: 0
