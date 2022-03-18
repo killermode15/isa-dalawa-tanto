@@ -31,7 +31,7 @@ public class PlayerAnimation : MonoBehaviour
             animator.SetBool("jumping", false);
             animator.SetBool("walking", true);
         }
-        
+
         if (movementInput.HasJumped && !characterController.Grounded)
         {
             animator.SetBool("idle", false);
@@ -39,14 +39,14 @@ public class PlayerAnimation : MonoBehaviour
             animator.SetBool("walking", false);
         }
 
-        if(movementInput.IsHoldingJump && !characterController.Grounded)
+        if (movementInput.IsHoldingJump && !characterController.Grounded)
         {
             animator.SetBool("idle", false);
             animator.SetBool("jumping", true);
             animator.SetBool("walking", false);
         }
 
-        if(movementInput.Horizontal == 0 && !movementInput.HasJumped && characterController.Grounded)
+        if (movementInput.Horizontal == 0 && !movementInput.HasJumped && characterController.Grounded)
         {
             animator.SetBool("idle", true);
             animator.SetBool("jumping", false);
@@ -56,13 +56,13 @@ public class PlayerAnimation : MonoBehaviour
         if (movementInput.IsHoldingCrouch && sprite.localScale != crouchScale)
         {
             sprite.localScale = crouchScale;
-            sprite.transform.localPosition = crouchPosition;
+            sprite.transform.localPosition = new Vector3(0, crouchPosition.y, 0);
         }
 
         if (!movementInput.IsHoldingCrouch && sprite.localScale != originalScale)
         {
             sprite.localScale = originalScale;
-            sprite.transform.localPosition = originalPosition;
+            sprite.transform.localPosition = new Vector3(0, originalPosition.y, 0);
         }
     }
 }
