@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class FadeUI : MonoBehaviour
@@ -8,12 +9,16 @@ public class FadeUI : MonoBehaviour
     public static FadeUI Instance => instance;
 
     private static FadeUI instance;
+    public float Duration => duration;
+    public UnityEvent OnFadeStart => onFadeStart;
+    public UnityEvent OnFadeEnd => onFadeEnd;
 
     [SerializeField] private Image imageToFade;
-
-    public float Duration => duration;
-
     [SerializeField] private float duration;
+
+    [SerializeField] private UnityEvent onFadeStart;
+    [SerializeField] private UnityEvent onFadeEnd;
+
 
     private void Awake()
     {
@@ -37,7 +42,7 @@ public class FadeUI : MonoBehaviour
 
         float currDuration = duration;
         float perc = 1 - currDuration / duration;
-
+        onFadeStart?.Invoke();
         while (perc < 1)
         {
             currDuration -= Time.deltaTime;
@@ -47,5 +52,6 @@ public class FadeUI : MonoBehaviour
 
             yield return new WaitForEndOfFrame();
         }
+        onFadeEnd?.Invoke();
     }
 }

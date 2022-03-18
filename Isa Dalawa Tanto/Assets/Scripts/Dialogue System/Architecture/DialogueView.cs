@@ -20,6 +20,8 @@ public class DialogueView : BaseView
     [SerializeField] private Sprite rightDialogueSprite;
     [SerializeField] private GameObject UI;
 
+    [SerializeField] private AudioClip blipSound;
+
     private bool isWritingDialogue = false;
 
     // Start is called before the first frame update
@@ -100,10 +102,34 @@ public class DialogueView : BaseView
         foreach(char letter in tempText)
         {
             dialogueBox.text += letter;
+            AudioHelper.PlayClip(blipSound);
             yield return new WaitForSeconds(0.0275f);
         }
 
         dialogueBox.text = text;
         isWritingDialogue = false;
+    }
+}
+
+public static class AudioHelper
+{
+    public static AudioSource PlayClip(AudioClip clip, bool destroyAfter = true)
+    {
+        if(!clip)
+        {
+            Debug.LogWarning("No clip found");
+            return null;
+        }
+
+        GameObject sourceObj = new GameObject($"[Clip] {clip.name}");
+        AudioSource source = sourceObj.AddComponent<AudioSource>();
+
+        source.clip = clip;
+        source.Play();
+
+        if (destroyAfter)
+            GameObject.Destroy(sourceObj, clip.length);
+
+        return source;
     }
 }
