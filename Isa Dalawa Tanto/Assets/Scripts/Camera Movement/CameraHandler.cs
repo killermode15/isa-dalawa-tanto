@@ -28,7 +28,7 @@ public class CameraHandler : MonoBehaviour
 
     private Camera camera;
     private bool isInitialized = false;
-    private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 12.5f;
+    private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 25f;
 
     private void OnValidate()
     {
