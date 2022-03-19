@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2755ae85d70772a4fbb67789369929b1, type: 3}
   m_Name: Level 1 Entry
   m_EditorClassIdentifier: 
-  Id: 0
+  Id: 1
   lives: 3
   pages:
   - currentPargraph: {fileID: 21300000, guid: 6e3aa8669a97dd740bd34f696cdd2e39, type: 3}
