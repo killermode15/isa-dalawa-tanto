@@ -13,20 +13,12 @@ public class DiaryView : BaseView
     [SerializeField] private GameObject previousPageBtn;
     [SerializeField] private TMP_Text incorrectAnswersTxt;
     [SerializeField] private GameObject finishBtn;
-    [SerializeField] private List<GameObject> createdAnswerFields;
-
+    [SerializeField] private List<AnswerFieldHandler> createdAnswerFields;
     private List<GameObject> lives = new List<GameObject>();
 
     public List<AnswerFieldHandler> GetAnswerFieldHandlers()
     {
-        List<AnswerFieldHandler> _answerFields = new List<AnswerFieldHandler>();
-
-        for (int i = 0; i < createdAnswerFields.Count; i++)
-        {
-            _answerFields.Add(createdAnswerFields[i].GetComponent<AnswerFieldHandler>());
-        }
-
-        return _answerFields;
+        return createdAnswerFields;
     }
     private void Start()
     {
@@ -62,24 +54,26 @@ public class DiaryView : BaseView
         ToggleActiveUI(_entry, _pageNumber);
     }
 
-    public bool ValidateEntries(List<AnswerFieldHandler> _answers, List<string> _correctAnswers)
+    public bool ValidateEntries(List<string> _answers, List<string> _correctAnswers)
     {
         List<int> wrongNumbers = new List<int>();
 
-        incorrectAnswersTxt.text = "The following answers are incorrect: /n";
+        incorrectAnswersTxt.text = "The following answers are incorrect: \n";
 
         for (int i = 0; i < _answers.Count; i++)
         {
-            if (!_answers[i].ValidateAnswer(_correctAnswers[i]))
-            {                
+            // ignore case sensitivity
+            // if (string.Compare(_answers[i],  _correctAnswers[i], true) == 0)
+            // {
+            //     return true;
+            // }
+
+            if (_answers[i] != _correctAnswers[i])
+            {
                 wrongNumbers.Add(i + 1);
+                // incorrectAnswersTxt.text += $"{ wrongNumbers[i] }";
                 return false;
             }
-        }        
-
-        for(int i = 0; i<_answers.Count; i++)
-        {
-            incorrectAnswersTxt.text += $"{i + 1} ";
         }
 
         return true;
@@ -114,10 +108,13 @@ public class DiaryView : BaseView
     {
         paragraphContainer.sprite = _paragraph;
     }
-    
-    public void SetExistingAnswers(Page _page)
+
+    public void SetExistingAnswers(List<string> _storedAnswers)
     {
-        
+        for (int i = 0; i < _storedAnswers.Count; i++)
+        {
+            createdAnswerFields[i].answerField.text = _storedAnswers[i];
+        }
     }
 
     public void ToggleActiveUI(DiaryContent _entry, int _pageNumber)
@@ -126,7 +123,8 @@ public class DiaryView : BaseView
         {
             previousPageBtn.SetActive(false);
             nextPageBtn.SetActive(true);
-            incorrectAnswersTxt.gameObject.SetActive(false);
+            // incorrectAnswersTxt.gameObject.SetActive(false);
+            finishBtn.SetActive(false);
             Debug.Log("First page");
         }
 
@@ -134,7 +132,7 @@ public class DiaryView : BaseView
         {
             previousPageBtn.SetActive(true);
             nextPageBtn.SetActive(false);
-            incorrectAnswersTxt.gameObject.SetActive(true);
+            // incorrectAnswersTxt.gameObject.SetActive(true);
             finishBtn.SetActive(true);
             Debug.Log("Last page");
         }
@@ -143,7 +141,8 @@ public class DiaryView : BaseView
         {
             previousPageBtn.SetActive(true);
             nextPageBtn.SetActive(true);
-            incorrectAnswersTxt.gameObject.SetActive(false);
+            // incorrectAnswersTxt.gameObject.SetActive(false);
+            finishBtn.SetActive(false);
             Debug.Log("Both");
         }
         Debug.Log(_pageNumber);
@@ -153,17 +152,23 @@ public class DiaryView : BaseView
     {
         GameObject answer = Instantiate(_entry.inputFieldPrefab, answersParent);
         answer.GetComponent<RectTransform>().anchoredPosition = new Vector3(_currentPage.inputFieldPositions[index].x, _currentPage.inputFieldPositions[index].y, 0);
-        answer.name = "Answer Field " + index + 1;
+        answer.name = "Answer Field" + (index + 1).ToString();
         answer.GetComponent<AnswerFieldHandler>().ID = index + 1;
 
-        createdAnswerFields.Add(answer);
+        createdAnswerFields.Add(answer.GetComponent<AnswerFieldHandler>());
     }
 
     public void ReduceHealth(int _amount)
     {
-        for(int i = 0; i < _amount; i++)
+        for (int i = 0; i < _amount; i++)
         {
-            lives.RemoveAt(lives.Count - 1);
+            Destroy(lives[i]);
+            lives.Remove(lives[i]);
         }
+    }
+
+    public int GetLives()
+    {
+        return lives.Count;
     }
 }

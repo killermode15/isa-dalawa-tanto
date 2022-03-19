@@ -19,6 +19,10 @@ public class SceneHandler : MonoBehaviour
         fadeUIscript.Fade(false);
     }
 
+    public int GetCurrentSceneIndex()
+    {
+        return SceneManager.GetActiveScene().buildIndex;
+    }
 
     public void SwitchScene(int scnIdx)
     {

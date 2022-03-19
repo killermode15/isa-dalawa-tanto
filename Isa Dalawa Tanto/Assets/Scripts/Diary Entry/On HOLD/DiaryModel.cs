@@ -25,6 +25,14 @@ public class DiaryModel : BaseModel
             pages = currentContent.pages;
             currentPage = pages[0];
         }
+
+        for (int i = 0; i < pages.Count; i++)
+        {
+            for (int j = 0; j < pages[i].correctAnswers.Count; j++)
+            {
+                correctAsnwers.Add(pages[i].correctAnswers[j]);
+            }
+        }
     }
 
     public DiaryContent GetDiaryEntry()

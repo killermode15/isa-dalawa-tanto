@@ -15,50 +15,22 @@ MonoBehaviour:
   Id: 0
   lives: 3
   pages:
-  - currentPargraph: {fileID: 21300000, guid: 54e00d41ca56cdd40b55a75fe3bb6a32, type: 3}
+  - currentPargraph: {fileID: 21300000, guid: b10c931e110643f4b8ac241f8003af35, type: 3}
     currentDoodle: {fileID: 21300000, guid: 1dd0d559e3a5713488306bc61f774082, type: 3}
-    inputFieldPositions:
-    - {x: -234, y: -245}
-    correctAnswers:
-    - Lucky
-  - currentPargraph: {fileID: 21300000, guid: dd548ff9aab13fb4e9e7aee82432791a, type: 3}
+    inputFieldPositions: []
+    correctAnswers: []
+  - currentPargraph: {fileID: 21300000, guid: 04361c3d24e47844b95e7b098428b471, type: 3}
     currentDoodle: {fileID: 21300000, guid: 98f7d0a630d209f4481b1bc57628a58b, type: 3}
     inputFieldPositions:
-    - {x: -8, y: 126}
+    - {x: -282, y: 200}
+    - {x: -282, y: -53}
+    - {x: -282, y: -357}
     correctAnswers:
-    - Tagutaguan
-  - currentPargraph: {fileID: 21300000, guid: 9f340e10428ac144eb8eaba23536b49e, type: 3}
+    - Diary
+    - Tagu-taguan
+    - Home base
+  - currentPargraph: {fileID: 21300000, guid: ff98fa1d58caffe418b37418e3537fad, type: 3}
     currentDoodle: {fileID: 21300000, guid: 08c4efffe9db046459804d5d2dc2683f, type: 3}
-    inputFieldPositions:
-    - {x: -234, y: -82}
-    - {x: 127, y: -82}
-    correctAnswers:
-    - Taya
-    - Taya
-  - currentPargraph: {fileID: 21300000, guid: 90d50c8bb89320041a53cc0ac41e8a6e, type: 3}
-    currentDoodle: {fileID: 21300000, guid: ffb16bcb79638b649932b77490a8c520, type: 3}
-    inputFieldPositions:
-    - {x: 238, y: 95}
-    - {x: -128, y: -137}
-    correctAnswers:
-    - home base
-    - home base
-  - currentPargraph: {fileID: 21300000, guid: bf67d998f76207e4883461ad1ee3923e, type: 3}
-    currentDoodle: {fileID: 21300000, guid: 54ed28be3f6ba274099b46d4e92afdda, type: 3}
-    inputFieldPositions:
-    - {x: 276, y: -29}
-    - {x: -237, y: -144}
-    correctAnswers:
-    - touch
-    - touch
-  - currentPargraph: {fileID: 21300000, guid: 6136ecc95e2dae44f80e7d0173f15b31, type: 3}
-    currentDoodle: {fileID: 21300000, guid: 2399c831014df9e46b1b69a6dd8c3d7e, type: 3}
-    inputFieldPositions:
-    - {x: 213, y: -144}
-    correctAnswers:
-    - Greece
-  - currentPargraph: {fileID: 21300000, guid: 51435066b25e5c442bd2e286f30ae4ee, type: 3}
-    currentDoodle: {fileID: 21300000, guid: 1dd0d559e3a5713488306bc61f774082, type: 3}
     inputFieldPositions: []
     correctAnswers: []
   lifePrefab: {fileID: 8339311420206607844, guid: d7c4834852c371241ae8e1cb604e9e21, type: 3}

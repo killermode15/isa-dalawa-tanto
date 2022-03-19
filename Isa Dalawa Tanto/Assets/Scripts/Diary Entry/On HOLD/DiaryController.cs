@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Text.RegularExpressions;
+using UnityEngine.Events;
 
 public class DiaryController : BaseController
 {
@@ -10,6 +12,9 @@ public class DiaryController : BaseController
 
     private DiaryView dv;
     private DiaryModel dm;
+
+    public UnityEvent onCompleteEntry;
+    public UnityEvent onFailEntry;
 
     private void Start()
     {
@@ -27,7 +32,7 @@ public class DiaryController : BaseController
 
     public void NextPage()
     {
-        SecureAnswer(dv.GetAnswerFieldHandlers());
+        SaveAnswer(dv.GetAnswerFieldHandlers());
 
         int _currentPage = dm.pages.IndexOf(dm.CurrentPage);
         _currentPage += 1;
@@ -35,12 +40,14 @@ public class DiaryController : BaseController
         Mathf.Clamp(_currentPage, 0, dm.pages.Count);
         dv.SetPage(dm.GetDiaryEntry(), dm.pages[_currentPage]);
         dm.CurrentPage = dm.pages[_currentPage];
-        //set answers again
+
+        if (dv.GetAnswerFieldHandlers().Count > 0)
+            dv.SetExistingAnswers(dm.createdAnswers);
     }
 
     public void PreviousPage()
     {
-        SecureAnswer(dv.GetAnswerFieldHandlers());
+        SaveAnswer(dv.GetAnswerFieldHandlers());
 
         int _currentPage = dm.pages.IndexOf(dm.CurrentPage);
         _currentPage -= 1;
@@ -48,32 +55,48 @@ public class DiaryController : BaseController
         Mathf.Clamp(_currentPage, 0, dm.pages.Count);
         dv.SetPage(dm.GetDiaryEntry(), dm.pages[_currentPage]);
         dm.CurrentPage = dm.pages[_currentPage];
-        //set answers again
+
+        if (dv.GetAnswerFieldHandlers().Count > 0)
+            dv.SetExistingAnswers(dm.createdAnswers);
     }
 
-    public void FinishEntry()
+    public void FinishEntry(int index)
     {
-        if (!dv.ValidateEntries(dv.GetAnswerFieldHandlers(), dm.correctAsnwers)) 
+        if (!dv.ValidateEntries(dm.createdAnswers, dm.correctAsnwers))
         {
             Debug.Log("There are incorrect answers");
             dv.ReduceHealth(1);
+
+            if(dv.GetLives() == 0)
+            {
+                Debug.Log("Player failed, reloading current stage");
+                onFailEntry?.Invoke();
+                SceneHandler.Instance.SwitchScene(SceneHandler.Instance.GetCurrentSceneIndex());
+            }
+
             return;
         }
+
+        Debug.Log(dv.ValidateEntries(dm.createdAnswers, dm.correctAsnwers));
 
         //affirm that the player has answered correctly
         Debug.Log("All answers are correct");
 
-        // SceneManager.SetActiveScene();
+        //To Do: Add load next scene/action here
+        // onCompleteEntry?.Invoke();
+        // SceneHandler.Instance.SwitchScene(index);
     }
 
-    private void SecureAnswer(List<AnswerFieldHandler> answerfields)
+    private void SaveAnswer(List<AnswerFieldHandler> answerfields)
     {
         for (int i = 0; i < answerfields.Count; i++)
         {
-            if (answerfields[i].answerField.text == null)
-                answerfields[i].answerField.text = "";
+            if (dm.createdAnswers.Count < answerfields.Count)
+            {
+                dm.createdAnswers.Add(answerfields[i].answerField.text);
+            }
 
-            dm.createdAnswers.Add(answerfields[i].answerField.text);
+            dm.createdAnswers[i] = answerfields[i].answerField.text;
         }
     }
 }

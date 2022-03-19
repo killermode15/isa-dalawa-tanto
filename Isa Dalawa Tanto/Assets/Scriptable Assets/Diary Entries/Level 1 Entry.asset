@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2755ae85d70772a4fbb67789369929b1, type: 3}
+  m_Name: Level 1 Entry
+  m_EditorClassIdentifier: 
+  Id: 0
+  lives: 3
+  pages:
+  - currentPargraph: {fileID: 21300000, guid: 6e3aa8669a97dd740bd34f696cdd2e39, type: 3}
+    currentDoodle: {fileID: 21300000, guid: 1f0009b5a8e68104b8a0c042fcf41cf3, type: 3}
+    inputFieldPositions: []
+    correctAnswers: []
+  - currentPargraph: {fileID: 21300000, guid: 5dbbe637116105141a1466bb29976bc7, type: 3}
+    currentDoodle: {fileID: 21300000, guid: 65b7fc6e9015eda4fa4a791ebb2f0f87, type: 3}
+    inputFieldPositions:
+    - {x: -282, y: 164}
+    - {x: -282, y: -156}
+    - {x: -282, y: -395}
+    correctAnswers:
+    - Kitchen
+    - Tara
+    - Sour and savory
+  - currentPargraph: {fileID: 21300000, guid: cb79eda346d356847b1c6390c40898e5, type: 3}
+    currentDoodle: {fileID: 21300000, guid: f5fd6d13608f8b7458c90dc67998dc49, type: 3}
+    inputFieldPositions:
+    - {x: -282, y: 97}
+    - {x: -282, y: -221}
+    correctAnswers:
+    - Sigang
+    - Welcome meal
+  - currentPargraph: {fileID: 21300000, guid: 454a891af9e62c8498bfb590a61903b1, type: 3}
+    currentDoodle: {fileID: 21300000, guid: 0badbafcfaaf34c4184b69362dc281fd, type: 3}
+    inputFieldPositions: []
+    correctAnswers: []
+  lifePrefab: {fileID: 8339311420206607844, guid: d7c4834852c371241ae8e1cb604e9e21, type: 3}
+  inputFieldPrefab: {fileID: 7777076406345459568, guid: bff4b5a6967e52d4996294d8fa9ff1ac, type: 3}
