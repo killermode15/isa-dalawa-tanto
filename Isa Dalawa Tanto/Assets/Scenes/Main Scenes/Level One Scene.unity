@@ -7010,8 +7010,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e192cd57e2839a41bdee5c69eff6888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBoundary: 0.75
-  bottomBoundary: -0.75
+  topBoundary: 1.25
+  bottomBoundary: -1.25
   direction: 1
   speed: 2
 --- !u!1 &571392084
@@ -15861,8 +15861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e192cd57e2839a41bdee5c69eff6888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBoundary: 0.75
-  bottomBoundary: -0.75
+  topBoundary: 1.25
+  bottomBoundary: -1.25
   direction: 1
   speed: 2
 --- !u!1 &1178295096
@@ -21955,8 +21955,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e192cd57e2839a41bdee5c69eff6888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBoundary: 0.75
-  bottomBoundary: -0.75
+  topBoundary: 1.25
+  bottomBoundary: -1.25
   direction: 1
   speed: 2
 --- !u!1 &1648232202
@@ -25832,8 +25832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e192cd57e2839a41bdee5c69eff6888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  topBoundary: 0.75
-  bottomBoundary: -0.75
+  topBoundary: 1.25
+  bottomBoundary: -1.25
   direction: 1
   speed: 2
 --- !u!1 &1906242175
