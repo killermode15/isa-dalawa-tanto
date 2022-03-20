@@ -23,11 +23,11 @@ public class DialogueController : BaseController
         instance = this;
         SetupController<DialogueView, DialogueModel>();
     }
-
+    
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.O))
-            TriggerDialogue(0);
+        // if (Input.GetKeyDown(KeyCode.O))
+        //     TriggerDialogue(0);
 
         NextDialogue();
     }
