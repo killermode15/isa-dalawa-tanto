@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class FloatingObject : MonoBehaviour
 {
-    [SerializeField] private float topBoundary;
-    [SerializeField] private float bottomBoundary;
+    [SerializeField] private float topBoundary = 0.75f;
+    [SerializeField] private float bottomBoundary = -0.75f;
     [SerializeField] private int direction = 1; //1 is up; -1 is down; 0 is stationary
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 2f;
 
     private Vector3 topBoundaryPosition;
     private Vector3 bottomBoundaryPosition;
 
     private void Start()
     {
-        topBoundary = 0.75f;
-        bottomBoundary = 0.75f;
-        speed = 2f;
-
         topBoundaryPosition = new Vector3(transform.localPosition.x, transform.localPosition.y + topBoundary, transform.localPosition.z);
         topBoundaryPosition = new Vector3(transform.localPosition.x, transform.localPosition.y + bottomBoundary, transform.localPosition.z);
     }
