@@ -60,7 +60,7 @@ public class DiaryController : BaseController
             dv.SetExistingAnswers(dm.createdAnswers);
     }
 
-    public void FinishEntry(int index)
+    public void FinishEntry(GameObject objectToActivate)
     {
         if (!dv.ValidateEntries(dm.createdAnswers, dm.correctAsnwers))
         {
@@ -76,15 +76,8 @@ public class DiaryController : BaseController
 
             return;
         }
-
-        Debug.Log(dv.ValidateEntries(dm.createdAnswers, dm.correctAsnwers));
-
-        //affirm that the player has answered correctly
-        Debug.Log("All answers are correct");
-
-        //To Do: Add load next scene/action here
-        // onCompleteEntry?.Invoke();
-        // SceneHandler.Instance.SwitchScene(index);
+    
+        objectToActivate.SetActive(true);
     }
 
     private void SaveAnswer(List<AnswerFieldHandler> answerfields)
