@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2175139331380181864}
   - component: {fileID: 2175139331380181856}
   - component: {fileID: 2175139331380181863}
-  - component: {fileID: 3271405408752339082}
+  - component: {fileID: 953832610726722100}
   - component: {fileID: 3271405408752339079}
   - component: {fileID: 3271405408752339076}
   - component: {fileID: 3271405408752339077}
@@ -90,8 +90,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5441017, y: 1.2224197}
   m_EdgeRadius: 0
---- !u!58 &3271405408752339082
-CircleCollider2D:
+--- !u!70 &953832610726722100
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,9 +103,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.48}
-  serializedVersion: 2
-  m_Radius: 0.28
+  m_Offset: {x: -0.0025, y: -0.27}
+  m_Size: {x: 0.56, y: 1}
+  m_Direction: 0
 --- !u!114 &3271405408752339079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   movementInput: {fileID: 3271405408752339077}
   characterController: {fileID: 3271405408752339079}
   originalPosition: {x: 0, y: 0, z: 0}
-  crouchPosition: {x: 0, y: 0, z: 0}
+  crouchPosition: {x: 0, y: -0.26, z: 0}
   originalScale: {x: 0, y: 0, z: 0}
   crouchScale: {x: 0, y: 0, z: 0}
 --- !u!114 &1088607422

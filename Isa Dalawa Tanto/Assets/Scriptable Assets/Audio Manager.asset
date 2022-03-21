@@ -21,3 +21,7 @@ MonoBehaviour:
     UseSnapshot: 0
     AudioClip: {fileID: 8300000, guid: 516d1dcf79758a04a95dec1716b69476, type: 3}
     MixerSnapshot: {fileID: 0}
+  - Identifier: interact_fx
+    UseSnapshot: 0
+    AudioClip: {fileID: 8300000, guid: a04fff50abce2f64a8e8b44830e530d2, type: 3}
+    MixerSnapshot: {fileID: 0}

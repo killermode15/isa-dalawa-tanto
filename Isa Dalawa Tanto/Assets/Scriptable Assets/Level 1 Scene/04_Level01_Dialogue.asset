@@ -23,7 +23,7 @@ MonoBehaviour:
       a bit shy ] "
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: Hi! You must be our new neighbor!
   - Name: 1
@@ -61,6 +61,6 @@ MonoBehaviour:
       it looks delicious!
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: '[ Mrs. Tarsier then proceeds to explain to Aspin what Sinigang is ]'

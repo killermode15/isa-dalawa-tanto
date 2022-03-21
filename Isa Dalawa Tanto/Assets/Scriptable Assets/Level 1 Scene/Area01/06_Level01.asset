@@ -22,7 +22,7 @@ MonoBehaviour:
     Text: By sunset, Aspin returns home again. He finds his Ms. Askal in the kitchen.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 2
     Text: '[ Aspin enters the kitchen and sees Ms. Askal cooking dinner  ]'
   - Name: 6
@@ -73,7 +73,7 @@ MonoBehaviour:
     Text: 'Ok, thank you for the food Ms. Askal! '
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: '[ Aspin and Ms. Askal then proceeds to eat their dinner ]'
   - Name: 1

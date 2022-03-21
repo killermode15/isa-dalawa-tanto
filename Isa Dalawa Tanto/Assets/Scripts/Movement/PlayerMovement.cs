@@ -9,7 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Crouch Parameters")]
     [SerializeField] private float crouchScale = 0.5f;
-    [SerializeField] private bool IsCrouching = false;
+    [SerializeField] private bool isCrouching = false;
+    [SerializeField] private bool canCrouch = true;
 
     [Header("Movement Parameters")]
     [SerializeField] private float moveSpeed = 5;
@@ -51,23 +52,34 @@ public class PlayerMovement : MonoBehaviour
         transform.position = pos;
     }
 
+    public void SetCrouchToggle(bool state)
+    {
+        canCrouch = state;
+    }
+
     private void Crouch()
     {
-        if (input.IsHoldingCrouch && !IsCrouching)
+        if(!canCrouch)
+        {
+            if (isCrouching)
+                isCrouching = false;
+            return;
+        }
+        if (input.IsHoldingCrouch && !isCrouching)
         {
             originalScale = transform.localScale.y;
             transform.localScale = new Vector3(1, crouchScale, 1);
             transform.position -= new Vector3(0, crouchScale / 2, 0);
 
-            IsCrouching = true;
+            isCrouching = true;
         }
 
-        if (!input.IsHoldingCrouch && IsCrouching)
+        if (!input.IsHoldingCrouch && isCrouching)
         {
             transform.localScale = new Vector3(1, originalScale, 1);
             transform.position += new Vector3(0, originalScale / 2 - crouchScale / 2, 0);
 
-            IsCrouching = false;
+            isCrouching = false;
         }
     }
 
