@@ -20,7 +20,7 @@ public class PlayerAnimation : MonoBehaviour
         originalScale = sprite.localScale;
         crouchScale = sprite.localScale * 0.66667f;
         originalPosition = sprite.localPosition;
-        crouchPosition -= crouchScale;
+        //crouchPosition -= crouchScale;
     }
 
     private void Update()
