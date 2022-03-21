@@ -28,17 +28,17 @@ MonoBehaviour:
     Text: We should ask Ms. Askal first.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: '[ the kids shouted ] '
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: Ms. Askal can Aspin go eat lunch with us at Tara's house?
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 0
+    Side: 2
     SpritePosition: 1
     Text: '[ Ms. Askal at the window ]'
   - Name: 6

@@ -17,7 +17,7 @@ MonoBehaviour:
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 0
+    Side: 2
     SpritePosition: 0
     Text: '[ knocks ] '
   - Name: 6
@@ -29,28 +29,28 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: ' Can I come in?'
+    Text: Can I come in?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Yes Ms. Askal! You can come in! I\u2019m just fixing up."
+    Text: Yes Ms. Askal! You can come in! I'm just fixing up.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
     Text: '[ Ms. Askal enters Aspin''s room ] '
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Aspin, you don\u2019t have to fix the room. I can do it for you. \n"
+    Text: Aspin, you don't have to fix the room. I can do it for you.
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "The kids that you met yesterday are downstairs waiting. They\u2019re asking
-      if you wanna play again. \r"
+    Text: The kids that you met yesterday are downstairs waiting. They're asking
+      if you wanna play again.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Why? What\u2019s with the face sweetie?"
+    Text: Why? What's with the face sweetie?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
@@ -71,20 +71,20 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: 'I think you should at least try again and go. They look so nice and they
-      really wanna play with you. '
+    Text: I think you should at least try again and go. They look so nice and they
+      really wanna play with you.
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Anyways, I still have to fix the kitchen today. You go have fun!
+    Text: Anyways, I still have to fix the kitchen. You go have fun!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Ok Ms. Askal, I\u2019ll go down now and play with them."
+    Text: Ok Ms. Askal. I'll go down now and play with them.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
-    Text: '[ Aspin placed his diary on top if his desk and went downstairs ]'
+    Text: '[ Aspin placed his diary on top of his desk and went downstairs ]'
