@@ -54,24 +54,30 @@ public class DiaryView : BaseView
         ToggleActiveUI(_entry, _pageNumber);
     }
 
-    public bool ValidateEntries(List<string> _answers, List<string> _correctAnswers)
+    public bool ValidateEntries(List<Answer> _answers, List<Answer> _correctAnswers)
     {
         List<int> wrongNumbers = new List<int>();
+
+        List<string> playerAnswers = new List<string>();
+        List<string> correctAnswers = new List<string>();
+
+        for (int i = 0; i < playerAnswers.Count; i++)
+        {
+            playerAnswers.Add(_answers[i].answer);
+        }
+
+        for(int i = 0; i<correctAnswers.Count; i++)
+        {
+            correctAnswers.Add(_correctAnswers[i].answer);
+        }
 
         incorrectAnswersTxt.text = "The following answers are incorrect: \n";
 
         for (int i = 0; i < _answers.Count; i++)
         {
-            // ignore case sensitivity
-            // if (string.Compare(_answers[i],  _correctAnswers[i], true) == 0)
-            // {
-            //     return true;
-            // }
-
-            if (_answers[i] != _correctAnswers[i])
+            if (playerAnswers[i] != correctAnswers[i])
             {
                 wrongNumbers.Add(i + 1);
-                // incorrectAnswersTxt.text += $"{ wrongNumbers[i] }";
                 return false;
             }
         }
@@ -109,11 +115,17 @@ public class DiaryView : BaseView
         paragraphContainer.sprite = _paragraph;
     }
 
-    public void SetExistingAnswers(List<string> _storedAnswers)
+    public void SetExistingAnswers(List<Answer> _storedAnswers)
     {
+        if (createdAnswerFields.Count == 0) return;
+
         for (int i = 0; i < _storedAnswers.Count; i++)
         {
-            createdAnswerFields[i].answerField.text = _storedAnswers[i];
+            for (int j = 0; j < createdAnswerFields.Count; j++)
+            {
+                if(createdAnswerFields[j].Page == _storedAnswers[i].page && createdAnswerFields[j].ID == _storedAnswers[i].id)
+                    createdAnswerFields[j].answerField.text = _storedAnswers[i].answer;
+            }
         }
     }
 
@@ -153,7 +165,8 @@ public class DiaryView : BaseView
         GameObject answer = Instantiate(_entry.inputFieldPrefab, answersParent);
         answer.GetComponent<RectTransform>().anchoredPosition = new Vector3(_currentPage.inputFieldPositions[index].x, _currentPage.inputFieldPositions[index].y, 0);
         answer.name = "Answer Field" + (index + 1).ToString();
-        answer.GetComponent<AnswerFieldHandler>().ID = index + 1;
+        answer.GetComponent<AnswerFieldHandler>().ID = index;
+        answer.GetComponent<AnswerFieldHandler>().Page = _currentPage;
 
         createdAnswerFields.Add(answer.GetComponent<AnswerFieldHandler>());
     }
