@@ -8,11 +8,31 @@ public class AnswerFieldHandler : MonoBehaviour
 {
     public TMP_InputField answerField;
 
-    public int ID { get { return id; } set { id = value; } }
+    public int ID { get => id; set => id = value; }
+    public Page Page { get => page; set => page = value; }
     [SerializeField] private Color correctAnswerColor;
     [SerializeField] private Color incorrectAnswerColor;
     [SerializeField] private float fadeDuration;
+
+    private Page page;
     private int id;
+
+    public Answer CreateAnswer()
+    {
+        if(page == null)
+        {
+            Debug.LogError("page is null");
+            return null;
+        }
+
+        if (answerField.text == string.Empty)
+        {
+            Debug.LogError("There is an empty answerfield");
+            return null;
+        }
+
+        return new Answer(id, page, answerField.text);
+    }
 
     public bool ValidateAnswer(string answer)
     {

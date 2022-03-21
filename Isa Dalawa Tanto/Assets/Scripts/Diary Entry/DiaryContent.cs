@@ -20,5 +20,20 @@ public class Page
     public Sprite currentPargraph;
     public Sprite currentDoodle; 
     public List<Vector2> inputFieldPositions;
-    public List<string> correctAnswers;
+    public List<Answer> correctAnswers;
+}
+
+[System.Serializable]
+public class Answer
+{
+    public int  id;
+    public Page page;
+    public string answer;
+
+    public Answer(int _id, Page _page, string _answer)
+    {
+        id = _id;
+        page = _page;
+        answer = _answer;
+    }
 }
