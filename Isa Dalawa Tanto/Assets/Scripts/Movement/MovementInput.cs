@@ -19,7 +19,12 @@ public class MovementInput : MonoBehaviour
     private float vertical;
     private bool isCrouching;
     private bool hasJumped;
-    private bool isHoldingJump;    
+    private bool isHoldingJump;
+
+    private bool crouchToggled = false;
+
+    private bool canCrouch = true;
+    private bool canJump = true;
 
     // Update is called once per frame
     void Update()
@@ -33,16 +38,29 @@ public class MovementInput : MonoBehaviour
         }
 
         horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
+        //vertical = Input.GetAxisRaw("Vertical");
 
-        isCrouching = Input.GetKey(crouchKey);
+        if (Input.GetKeyDown(crouchKey) && canCrouch)
+            crouchToggled = !crouchToggled;
 
-        hasJumped = Input.GetKeyDown(jumpKey);
-        isHoldingJump = Input.GetKey(jumpKey);
+        isCrouching = canCrouch ? crouchToggled : false;
+        //isCrouching = Input.GetKey(crouchKey);
+
+        hasJumped = Input.GetKeyDown(jumpKey) && canJump;
+        isHoldingJump = Input.GetKey(jumpKey) && canJump;
     }
 
     public void Enabled(bool state)
     {
         isEnabled = state;
+    }
+
+    public void SetCrouchToggle(bool state)
+    {
+        canCrouch = state;
+    }
+    public void SetJumpToggle(bool state)
+    {
+        canJump = state;
     }
 }

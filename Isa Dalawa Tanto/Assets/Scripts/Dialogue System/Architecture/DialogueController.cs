@@ -17,6 +17,7 @@ public class DialogueController : BaseController
 
     private bool isDialogueOngoing = false;
     private bool shouldStartDialogue = false;
+    private bool isDebugging = false;
 
     private void Start()
     {
@@ -28,6 +29,10 @@ public class DialogueController : BaseController
     {
         // if (Input.GetKeyDown(KeyCode.O))
         //     TriggerDialogue(0);
+
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.P))
+            isDebugging = !isDebugging;
+
 
         NextDialogue();
     }
@@ -49,6 +54,15 @@ public class DialogueController : BaseController
     public void NextDialogue()
     {
         DialogueView dv = view as DialogueView;
+
+        if(isDebugging)
+        {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                shouldStartDialogue = true;
+            }
+            return;
+        }
 
         if (isDialogueOngoing && !shouldStartDialogue && !dv.IsWritingDialogue)
         {

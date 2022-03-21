@@ -11,7 +11,13 @@ public class DoorInteractable : BaseInteractable
 
     public override void OnInteract()
     {
-        base.OnInteract();        
+        base.OnInteract();
+        Transport();
+    }
+
+    public override void OnInteractEnd()
+    {
+        base.OnInteractEnd();
     }
 
     public void Transport()
@@ -24,7 +30,6 @@ public class DoorInteractable : BaseInteractable
     {
         StartCoroutine(FadeUI.Instance.FadeToBlack());
         yield return new WaitForSeconds(FadeUI.Instance.Duration);
-        level.SetConstraint();
 
         //stop movement input and velocity of player
         detectedPlayer.GetComponent<CharacterController>().StopMovement();
@@ -32,6 +37,10 @@ public class DoorInteractable : BaseInteractable
         //transport player
         detectedPlayer.GetComponent<MovementInput>().Enabled(true);
         detectedPlayer.transform.position = linkedDoor.position;
+
+        OnInteractEnd();
+
+        level.SetConstraint();
 
         yield return new WaitForSeconds(FadeUI.Instance.Duration * 2);
         StartCoroutine(FadeUI.Instance.FadeToBlack(false));

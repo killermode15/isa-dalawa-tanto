@@ -6,20 +6,28 @@ using UnityEngine.UI;
 
 public class DialogueView : BaseView
 {
-    public enum ViewSide { Left, Right}
+    public enum ViewSide { Left, Right, Narration }
 
     public bool IsWritingDialogue => isWritingDialogue;
 
+    [Header("Sprite UI References")]
+    [SerializeField] private Image background;
     [SerializeField] private SpriteView leftSpriteView;
     [SerializeField] private SpriteView rightSpriteView;
+
+    [Header("Dialogue Box References")]
     [SerializeField] private Image DialogueBoxUI;
     [SerializeField] private TextMeshProUGUI dialogueBox;
-    [SerializeField] private Image background;
-
+    
+    [Space]
     [SerializeField] private Sprite leftDialogueSprite;
     [SerializeField] private Sprite rightDialogueSprite;
+    [SerializeField] private Sprite narrationDialogueSprite;
+
+    [Header("General References")]
     [SerializeField] private GameObject UI;
 
+    [Header("Audio Reference")]
     [SerializeField] private AudioClip blipSound;
 
     private bool isWritingDialogue = false;
@@ -43,13 +51,22 @@ public class DialogueView : BaseView
         {
             leftSpriteView.SetName(name);
             leftSpriteView.SetSprite(sprite, position);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Left;
             DialogueBoxUI.sprite = leftDialogueSprite;
         }
-        else
+        else if (side == ViewSide.Right)
         {
             rightSpriteView.SetName(name);
             rightSpriteView.SetSprite(sprite, position);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Right;
             DialogueBoxUI.sprite = rightDialogueSprite;
+        }
+        else
+        {
+            rightSpriteView.SetName("");
+            rightSpriteView.SetSprite(null, position);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Center;
+            DialogueBoxUI.sprite = narrationDialogueSprite;
         }
     }
 
@@ -72,15 +89,24 @@ public class DialogueView : BaseView
         {
             leftSpriteView.SetName(dialogue.Name.AsString());
             leftSpriteView.SetSprite(dialogue.CharacterSprite, dialogue.SpritePosition);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Left;
             rightSpriteView.Clear();
             DialogueBoxUI.sprite = leftDialogueSprite;
         }
-        else
+        else if (dialogue.Side == ViewSide.Right)
         {
             rightSpriteView.SetName(dialogue.Name.AsString());
             rightSpriteView.SetSprite(dialogue.CharacterSprite, dialogue.SpritePosition);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Left;
             leftSpriteView.Clear();
             DialogueBoxUI.sprite = rightDialogueSprite;
+        } else
+        {
+            rightSpriteView.SetName(string.Empty);
+            rightSpriteView.SetSprite(null, dialogue.SpritePosition);
+            dialogueBox.horizontalAlignment = HorizontalAlignmentOptions.Center;
+            leftSpriteView.Clear();
+            DialogueBoxUI.sprite = narrationDialogueSprite;
         }
 
         StopAllCoroutines();
