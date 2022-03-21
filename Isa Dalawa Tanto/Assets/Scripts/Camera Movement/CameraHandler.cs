@@ -7,6 +7,9 @@ public class CameraHandler : MonoBehaviour
     public static CameraHandler Instance => instance;
     private static CameraHandler instance;
 
+    [Header("Camera Parameters")]
+    [SerializeField] private bool isHubCamera = false;
+    [SerializeField] private float yOffset = 0f;
 
     [Header("Follow Parameters")]
     [SerializeField] private Transform followTarget;
@@ -28,7 +31,7 @@ public class CameraHandler : MonoBehaviour
 
     private Camera camera;
     private bool isInitialized = false;
-    private const float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 25f;
+    private float ORTHO_SIZE_ADJUST_VALUE = 0.308125f * 25f;
 
     private void OnValidate()
     {
@@ -82,6 +85,8 @@ public class CameraHandler : MonoBehaviour
         if (followTarget == null)
             return;
 
+        ORTHO_SIZE_ADJUST_VALUE = isHubCamera ? 0.308125f * 9.1589075f : 0.308125f * 25f;
+
         //if (IsTargetInDeadZone(followTarget))
         //    return;
         FollowTarget(followTarget);
@@ -90,6 +95,7 @@ public class CameraHandler : MonoBehaviour
 
     private void FollowTarget(Transform target)
     {
+
         Vector3 finalMovePosition = transform.position;
         float verticalPeek = GetVerticalPeekValue();
         // Debug.Log(verticalPeek);
@@ -126,11 +132,16 @@ public class CameraHandler : MonoBehaviour
         }
 
         transform.position = finalMovePosition;
+
+        if(isHubCamera)
+        {
+            transform.position += Vector3.up * yOffset;
+        }
     }
 
     private float GetVerticalPeekValue()
     {
-        return isEnabled ? Input.GetAxis("Vertical") * peekRange : 0;
+        return 0;// isEnabled ? Input.GetAxis("Vertical") * peekRange : 0;
     }
 
     // Returns true if the indicated position oversteps the clamped zone.
