@@ -21798,7 +21798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38b7af3c9d8af6d4aa690599dc758dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constraint: {x: 792.225, y: 804.91736}
+  constraint: {x: 781.17737, y: 815.33}
 --- !u!1 &1738928303
 GameObject:
   m_ObjectHideFlags: 0
