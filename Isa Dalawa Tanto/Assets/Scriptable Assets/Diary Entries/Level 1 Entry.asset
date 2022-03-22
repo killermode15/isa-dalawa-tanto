@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Level 1 Entry
   m_EditorClassIdentifier: 
   Id: 1
-  lives: 3
+  lives: 10
   pages:
   - currentPargraph: {fileID: 21300000, guid: 6e3aa8669a97dd740bd34f696cdd2e39, type: 3}
     currentDoodle: {fileID: 21300000, guid: 1f0009b5a8e68104b8a0c042fcf41cf3, type: 3}
@@ -26,17 +26,47 @@ MonoBehaviour:
     - {x: -282, y: -156}
     - {x: -282, y: -395}
     correctAnswers:
-    - Kitchen
-    - Tara
-    - Sour and savory
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: kitchen
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: Tara
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: sour and savory
   - currentPargraph: {fileID: 21300000, guid: cb79eda346d356847b1c6390c40898e5, type: 3}
     currentDoodle: {fileID: 21300000, guid: f5fd6d13608f8b7458c90dc67998dc49, type: 3}
     inputFieldPositions:
     - {x: -282, y: 97}
     - {x: -282, y: -221}
     correctAnswers:
-    - Sigang
-    - Welcome meal
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: sigang
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: welcome meal
   - currentPargraph: {fileID: 21300000, guid: 454a891af9e62c8498bfb590a61903b1, type: 3}
     currentDoodle: {fileID: 21300000, guid: 0badbafcfaaf34c4184b69362dc281fd, type: 3}
     inputFieldPositions: []

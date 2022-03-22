@@ -7,7 +7,7 @@ public class DiaryModel : BaseModel
     public int currentEntryID;
     public DiaryDatabase DiaryDatabase => diaryDatabase;
     public List<Page> pages;
-    public List<Answer> correctAsnwers;
+    public List<string> correctAsnwers;
     public List<Answer> createdAnswers;
     public Page CurrentPage { get { return currentPage; } set { currentPage = value; } }
     [SerializeField] private DiaryDatabase diaryDatabase;
@@ -30,7 +30,7 @@ public class DiaryModel : BaseModel
         {
             for (int j = 0; j < pages[i].correctAnswers.Count; j++)
             {
-                correctAsnwers.Add(pages[i].correctAnswers[j]);
+                correctAsnwers.Add(pages[i].correctAnswers[j].answer);
             }
         }
     }

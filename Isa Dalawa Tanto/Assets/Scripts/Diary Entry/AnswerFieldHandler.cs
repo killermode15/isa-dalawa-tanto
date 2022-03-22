@@ -21,14 +21,14 @@ public class AnswerFieldHandler : MonoBehaviour
     {
         if(page == null)
         {
-            Debug.LogError("page is null");
-            return null;
+            Debug.Log("page is null");
+            // return null;
         }
 
         if (answerField.text == string.Empty)
         {
-            Debug.LogError("There is an empty answerfield");
-            return null;
+            Debug.Log("There is an empty answerfield");
+            // return null;
         }
 
         return new Answer(id, page, answerField.text);

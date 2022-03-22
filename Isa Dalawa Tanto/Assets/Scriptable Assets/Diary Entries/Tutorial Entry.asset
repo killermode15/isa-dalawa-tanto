@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tutorial Entry
   m_EditorClassIdentifier: 
   Id: 0
-  lives: 3
+  lives: 10
   pages:
   - currentPargraph: {fileID: 21300000, guid: b10c931e110643f4b8ac241f8003af35, type: 3}
     currentDoodle: {fileID: 21300000, guid: 1dd0d559e3a5713488306bc61f774082, type: 3}
@@ -26,9 +26,27 @@ MonoBehaviour:
     - {x: -282, y: -53}
     - {x: -282, y: -357}
     correctAnswers:
-    - Diary
-    - Tagu-taguan
-    - Home base
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: Diary
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: Tagu-taguan
+    - id: 0
+      page:
+        currentPargraph: {fileID: 0}
+        currentDoodle: {fileID: 0}
+        inputFieldPositions: []
+        correctAnswers: []
+      answer: home base
   - currentPargraph: {fileID: 21300000, guid: ff98fa1d58caffe418b37418e3537fad, type: 3}
     currentDoodle: {fileID: 21300000, guid: 08c4efffe9db046459804d5d2dc2683f, type: 3}
     inputFieldPositions: []
