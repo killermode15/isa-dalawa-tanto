@@ -28,7 +28,7 @@ public class DoorInteractable : BaseInteractable
 
     private IEnumerator Transport_CR()
     {
-        StartCoroutine(FadeUI.Instance.FadeToBlack());
+        StartCoroutine(FadeUI.Instance.FadeToBlack(true));
         yield return new WaitForSeconds(FadeUI.Instance.Duration);
 
         //stop movement input and velocity of player
