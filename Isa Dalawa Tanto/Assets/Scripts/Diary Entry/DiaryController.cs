@@ -75,7 +75,8 @@ public class DiaryController : BaseController
 
             return;
         }
-        
+
+        Debug.Log($"shiiiiiit {onCompleteEntry}");
         onCompleteEntry?.Invoke();
     }
 

@@ -61,12 +61,12 @@ public class DiaryView : BaseView
         List<string> playerAnswers = new List<string>();
         List<string> correctAnswers = new List<string>();
 
-        for (int i = 0; i < playerAnswers.Count; i++)
+        for (int i = 0; i < _answers.Count; i++)
         {
             playerAnswers.Add(_answers[i].answer);
         }
 
-        for(int i = 0; i<correctAnswers.Count; i++)
+        for(int i = 0; i < _correctAnswers.Count; i++)
         {
             correctAnswers.Add(_correctAnswers[i]);
         }
@@ -75,7 +75,7 @@ public class DiaryView : BaseView
 
         for (int i = 0; i < _answers.Count; i++)
         {
-            if (playerAnswers[i] != correctAnswers[i])
+            if (playerAnswers[i].ToLower() != correctAnswers[i].ToLower())
             {
                 wrongNumbers.Add(i + 1);
                 return false;

@@ -44,8 +44,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6156828289055176002}
     - target: {fileID: 8313055853746429483, guid: a744ad50c7786b04b8723f883aa88b8f, type: 3}
+      propertyPath: m_Spacing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313055853746429483, guid: a744ad50c7786b04b8723f883aa88b8f, type: 3}
       propertyPath: m_ChildAlignment
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313055853746429483, guid: a744ad50c7786b04b8723f883aa88b8f, type: 3}
+      propertyPath: m_Padding.m_Left
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8313055853787216519, guid: a744ad50c7786b04b8723f883aa88b8f, type: 3}
       propertyPath: m_Name

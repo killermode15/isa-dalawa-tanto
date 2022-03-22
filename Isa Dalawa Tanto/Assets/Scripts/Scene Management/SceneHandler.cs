@@ -31,7 +31,7 @@ public class SceneHandler : MonoBehaviour
 
     private IEnumerator FadeBeforeSwitch(int scnIdx)
     {
-        fadeUIscript.Fade();
+        fadeUIscript.Fade(true);
         yield return new WaitForSeconds(fadeUIscript.Duration);
         SceneManager.LoadScene(scnIdx);
     }
