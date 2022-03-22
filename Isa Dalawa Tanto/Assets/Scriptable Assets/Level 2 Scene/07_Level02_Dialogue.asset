@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 07_Level02_Dialogue
   m_EditorClassIdentifier: 
   Id: 7
-  Background: {fileID: 21300000, guid: abd9040985f65b64da35a9715c848bbe, type: 3}
+  Background: {fileID: 21300000, guid: 56a9dc2e15ff68b4fae67785ef144f1a, type: 3}
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}

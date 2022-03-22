@@ -12156,6 +12156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ece5bf0d373e4c346962a1e589554735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isHubCamera: 0
+  yOffset: 0
   followTarget: {fileID: 1625319754}
   followSpeed: 50
   peekRange: 6
@@ -17483,7 +17485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &752689190
 Transform:
   m_ObjectHideFlags: 0
@@ -27124,7 +27126,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -9
-  m_Sprite: {fileID: 21300000, guid: 849fb2463da3511409b2ca5a32ca49c0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f498c402b3983d349b3c3c8b66b02e55, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -33130,6 +33132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ece5bf0d373e4c346962a1e589554735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isHubCamera: 0
+  yOffset: 0
   followTarget: {fileID: 1625319754}
   followSpeed: 50
   peekRange: 6
@@ -45402,11 +45406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 439.9
+      value: -37.26
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -119.2
+      value: -158.32
       objectReference: {fileID: 0}
     - target: {fileID: 2175139331380181864, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_LocalPosition.z
