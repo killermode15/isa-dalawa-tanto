@@ -7702,7 +7702,7 @@ Transform:
   m_Children:
   - {fileID: 1395643213}
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &333488710
 MonoBehaviour:
@@ -11936,10 +11936,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2106919290}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2097282632}
+        m_TargetAssemblyTypeName: FadeInteractable, Assembly-CSharp
+        m_MethodName: OnInteract
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15138,7 +15138,7 @@ Transform:
   m_Children:
   - {fileID: 1564551274}
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &655098104
 GameObject:
@@ -27693,7 +27693,7 @@ Transform:
   m_Children:
   - {fileID: 460892845}
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1129732895
 MonoBehaviour:
@@ -31026,7 +31026,7 @@ GameObject:
   - component: {fileID: 1260468395}
   - component: {fileID: 1260468394}
   m_Layer: 0
-  m_Name: Fade Transition 6
+  m_Name: Fade Transition 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31097,7 +31097,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1274262186
 GameObject:
@@ -34485,7 +34485,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1481784182
 GameObject:
@@ -40981,7 +40981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5916668915870648704, guid: bb54ab3acc7d13c42b1637209ce2f2f8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5916668915870648704, guid: bb54ab3acc7d13c42b1637209ce2f2f8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45068,6 +45068,91 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2097282630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2097282631}
+  - component: {fileID: 2097282633}
+  - component: {fileID: 2097282632}
+  m_Layer: 0
+  m_Name: Fade Transition 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2097282631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097282630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 549.77, y: 18.529999, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2118792957}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2097282632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097282630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3295b2a249aa7654e9784ea5bfceae0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactKeyUI: {fileID: 0}
+  spriteToChange: {fileID: 0}
+  interactableSprite: {fileID: 0}
+  interaction: {fileID: 0}
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2106919290}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onInteractEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  detectionRange: 1
+  shouldFadeToBlack: 0
+--- !u!58 &2097282633
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097282630}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
 --- !u!1 &2097943983
 GameObject:
   m_ObjectHideFlags: 0
@@ -45582,7 +45667,7 @@ Transform:
   m_Children:
   - {fileID: 299764440}
   m_Father: {fileID: 2118792957}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2106919292
 MonoBehaviour:
@@ -46225,6 +46310,7 @@ Transform:
   - {fileID: 631697149}
   - {fileID: 1409753183}
   - {fileID: 516586744}
+  - {fileID: 2097282631}
   - {fileID: 2106919291}
   - {fileID: 1260468396}
   - {fileID: 1129732894}
