@@ -17,9 +17,8 @@ public class DiaryModel : BaseModel
     public Page GetPage(int id) => pages[id];
     // public string GetAnswer(int id) => correctAsnwers[id];
 
-    private void Start()
+    private void Awake()
     {
-        SetupModel<DiaryController>();
         if (currentContent != null)
         {
             pages = currentContent.pages;
@@ -33,6 +32,12 @@ public class DiaryModel : BaseModel
                 correctAsnwers.Add(pages[i].correctAnswers[j].answer);
             }
         }
+    }
+
+    private void Start()
+    {
+        SetupModel<DiaryController>();
+       
     }
 
     public DiaryContent GetDiaryEntry()
