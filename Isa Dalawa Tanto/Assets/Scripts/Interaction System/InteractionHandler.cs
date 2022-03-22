@@ -14,11 +14,17 @@ public class InteractionHandler : MonoBehaviour
     private void Update()
     {
         if (!Interaction)
-            return;
-        if(Interaction.Interact())
         {
+            Debug.Log("No interaction script exists");
+            return;
+        }
+        if (Interaction.Interact())
+        {
+            Debug.Log("Interacting");
             Interactable.OnInteract();
         }
+        else
+            Debug.Log("Can't interact");
     }
 
     public void SetInteraction(BaseInteraction interaction, BaseInteractable interactable)

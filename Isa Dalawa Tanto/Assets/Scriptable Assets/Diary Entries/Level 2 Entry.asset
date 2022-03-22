@@ -90,13 +90,6 @@ MonoBehaviour:
   - currentPargraph: {fileID: 21300000, guid: ba26d35809cab264ca41ed3916d46dab, type: 3}
     currentDoodle: {fileID: 21300000, guid: 2587b063dde2c1b428d168a7ab76cebe, type: 3}
     inputFieldPositions: []
-    correctAnswers:
-    - id: 0
-      page:
-        currentPargraph: {fileID: 0}
-        currentDoodle: {fileID: 0}
-        inputFieldPositions: []
-        correctAnswers: []
-      answer: 
+    correctAnswers: []
   lifePrefab: {fileID: 8339311420206607844, guid: d7c4834852c371241ae8e1cb604e9e21, type: 3}
   inputFieldPrefab: {fileID: 7777076406345459568, guid: bff4b5a6967e52d4996294d8fa9ff1ac, type: 3}
