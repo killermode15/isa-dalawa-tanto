@@ -1,0 +1,1046 @@
+fileFormatVersion: 2
+guid: b8b26acf3938b9a4fb274ca85a4bb198
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1953
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb4c3e9a4102f245b55a83f29495697
+      internalID: 684495526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1557
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925448925135f1e4d9908744db3dc4b4
+      internalID: -47054012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1953
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65818b2d125a6cc4fa92028fe454797e
+      internalID: -605447454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1557
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5ec1a5dce4c1a4bae85911e623a565
+      internalID: 1938758896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1954
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e47beca9f102e4886f16a3232902a8
+      internalID: 760362074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1558
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0723006cdf25f408115eb484739c3e
+      internalID: 771140332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1953
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2177bba7a616aa34fa7a0282bfca8a43
+      internalID: -415106536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1557
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ce030c9cf0b3348a3ab09f12bb5ab8
+      internalID: -1893500453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1874
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c861727a03354392d962d2316b67e
+      internalID: -296847307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1874
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f178a7524afef498633f02deaa2c7d
+      internalID: 1909966787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1875
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d579f0b84d41c418de9b378aac8394
+      internalID: -170609537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1874
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6c21930755b09459b026d22128e3f0
+      internalID: -221026638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1431
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d316797c2147045839021ca0332319
+      internalID: 810031542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1035
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd8782351039df4c81904a656d4168f
+      internalID: -2135134719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_14
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1431
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1a17e76e90f5b41b1b63e9c5526cf5
+      internalID: 838417907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1035
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907b6aff0a190247944cd603e474f91
+      internalID: 1409949659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_16
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1432
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0105ae59725a374cb4ed3254b05e71c
+      internalID: -1443288115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1036
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ad61c1120e3a742b422fd6e5137bec
+      internalID: -1849111583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_18
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1431
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c836ddafacd6c428fda7b2fa28fa58
+      internalID: 905879529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_19
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1035
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d59cb944f08344bb1650ffbb75e17d
+      internalID: -1920652150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1352
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2a1af77fd2e244c92330758318e7d2
+      internalID: -872852938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_21
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1352
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200d410830e371d41ab14046fd3b36c2
+      internalID: -1080111925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_22
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1353
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e87c7e68c8e1a46b593c2a949f19f9
+      internalID: 485738429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_23
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 1352
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574906201b7c15349bb2e4a6ee5c1854
+      internalID: 1817266763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 913
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a91eeca3dbaff4baf244748ceaee88
+      internalID: -880151611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 517
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c714a179d1866b1479dffe161dace17f
+      internalID: 783440979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_26
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 913
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb6965ad72f6244c8dd713da1f33c8a
+      internalID: -1488083529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_27
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 517
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4937a2916dc2b74fa6771efbf6373e1
+      internalID: 611141290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_28
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 914
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602cfbf72ed019641a776428b433f5a7
+      internalID: 1677862066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_29
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 518
+        width: 288
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d789eebe9c1aab4bb3da527cceff017
+      internalID: 1563111397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_30
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 913
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830e1df28612b5e459b02ff47ffb2b8e
+      internalID: -1531333802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_31
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 517
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b809ce0863e20dc46a211b6cf20ae2e6
+      internalID: 1149064392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_32
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 834
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe279bb0ea90a840ae79538de1d233b
+      internalID: -1131447295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_33
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 834
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded7688d76719454098531f6f12feec1
+      internalID: 1047218641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_34
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 835
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a32f60bf57bb05448647ee83db129ec
+      internalID: -1275720087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_35
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 834
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894386304637b04b9958f9c4ed91eab
+      internalID: 248965783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 410
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5482a7a768c64724baefb4d899664413
+      internalID: 306749609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 14
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391026accb714694191e51338a2d2b47
+      internalID: -820306706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_38
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 411
+        width: 37
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28664fb2d7c7e0545b128677c1d3b7cd
+      internalID: 634297642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_39
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 15
+        width: 307
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a057715b3efd04591b88757cd52b05
+      internalID: -882141089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_40
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 331
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372d98ef06d75684ba81207c99bec745
+      internalID: -741095687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_IDLE_SPREADSHEET_41
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 332
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d06b16e1937356409576f1c0352824c
+      internalID: -2012056788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TARA_IDLE_SPREADSHEET_35: 248965783
+      TARA_IDLE_SPREADSHEET_2: -605447454
+      TARA_IDLE_SPREADSHEET_0: 684495526
+      TARA_IDLE_SPREADSHEET_24: -880151611
+      TARA_IDLE_SPREADSHEET_31: 1149064392
+      TARA_IDLE_SPREADSHEET_19: -1920652150
+      TARA_IDLE_SPREADSHEET_29: 1563111397
+      TARA_IDLE_SPREADSHEET_1: -47054012
+      TARA_IDLE_SPREADSHEET_37: -820306706
+      TARA_IDLE_SPREADSHEET_32: -1131447295
+      TARA_IDLE_SPREADSHEET_8: -296847307
+      TARA_IDLE_SPREADSHEET_34: -1275720087
+      TARA_IDLE_SPREADSHEET_15: 1409949659
+      TARA_IDLE_SPREADSHEET_12: 810031542
+      TARA_IDLE_SPREADSHEET_25: 783440979
+      TARA_IDLE_SPREADSHEET_9: 1909966787
+      TARA_IDLE_SPREADSHEET_18: 905879529
+      TARA_IDLE_SPREADSHEET_40: -741095687
+      TARA_IDLE_SPREADSHEET_23: 1817266763
+      TARA_IDLE_SPREADSHEET_26: -1488083529
+      TARA_IDLE_SPREADSHEET_10: -170609537
+      TARA_IDLE_SPREADSHEET_5: 771140332
+      TARA_IDLE_SPREADSHEET_13: -2135134719
+      TARA_IDLE_SPREADSHEET_21: -1080111925
+      TARA_IDLE_SPREADSHEET_30: -1531333802
+      TARA_IDLE_SPREADSHEET_11: -221026638
+      TARA_IDLE_SPREADSHEET_28: 1677862066
+      TARA_IDLE_SPREADSHEET_6: -415106536
+      TARA_IDLE_SPREADSHEET_36: 306749609
+      TARA_IDLE_SPREADSHEET_33: 1047218641
+      TARA_IDLE_SPREADSHEET_7: -1893500453
+      TARA_IDLE_SPREADSHEET_14: 838417907
+      TARA_IDLE_SPREADSHEET_22: 485738429
+      TARA_IDLE_SPREADSHEET_38: 634297642
+      TARA_IDLE_SPREADSHEET_27: 611141290
+      TARA_IDLE_SPREADSHEET_41: -2012056788
+      TARA_IDLE_SPREADSHEET_16: -1443288115
+      TARA_IDLE_SPREADSHEET_20: -872852938
+      TARA_IDLE_SPREADSHEET_39: -882141089
+      TARA_IDLE_SPREADSHEET_4: 760362074
+      TARA_IDLE_SPREADSHEET_17: -1849111583
+      TARA_IDLE_SPREADSHEET_3: 1938758896
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

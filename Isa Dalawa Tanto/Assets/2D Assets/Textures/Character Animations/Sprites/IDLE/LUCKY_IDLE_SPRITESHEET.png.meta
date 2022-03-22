@@ -1,0 +1,738 @@
+fileFormatVersion: 2
+guid: 60553a28a7e89ae4985ef91943f0417d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1560
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fc287b8bbfc954a95ab38d20a5b955
+      internalID: -973772024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1996
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad299ae1d3003d2498a37191a9584977
+      internalID: 627458040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1560
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57342e29a1306f047889cacd61b45f69
+      internalID: -1340700066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1996
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1aa15b963e7054b88005deff012d75
+      internalID: -1595098896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1560
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae69dded8ff317d4eb5b4391cb06a407
+      internalID: -397862080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1996
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad282a358a869549b6008cf1d37527b
+      internalID: -994967124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1560
+        width: 280
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d240a95fd53c44c9d00442fdb50566
+      internalID: 742956133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1996
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032b7c0851f0c5e459237c0c312e12a7
+      internalID: 1874470839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1041
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b877e636565c45b4683a950d5d8fbe35
+      internalID: 1733185985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1477
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7584e4300c40944b176161e6b1bc11
+      internalID: -1734725359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1041
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab96af9357d9e40419dd60c633441860
+      internalID: -2127728143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1477
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5042e82fd66c40544847ea23a7dd1d3a
+      internalID: -422560606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1041
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f962bc6b83e1d1478f9bc0dd3ee3002
+      internalID: 1832941695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1477
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639c34f8cbaa2c4bbdba677d67a9a8a
+      internalID: -1741833043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_14
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 1041
+        width: 280
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d637f491f0c7a2c4a823fe2657a1fcbd
+      internalID: 180940929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_15
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1477
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050c79ae63692e943b315ff5fd2d4347
+      internalID: 1955086822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 520
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa21c126cd8e9af409f5f4a0268817b2
+      internalID: -1789108196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 956
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484c16a284f3fcd42b68541e05dab631
+      internalID: 704060214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_18
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 520
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e73b625d50aad7489610e66546a7243
+      internalID: -397683256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_19
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 956
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad451367064c043bbf853b03ae3764
+      internalID: -204783381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_20
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 520
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97db7aac3aece04ca1f9c5dd4ff2b88
+      internalID: -1356886780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_21
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 956
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78870dc73df7074b81dc0be325ce197
+      internalID: -1615634115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_22
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 520
+        width: 280
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494777b5b6bbaa54d8522fb953ecb9e4
+      internalID: -977288605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_23
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 956
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d97f3d65d6bbb449a30aa6a0bc51999
+      internalID: 1228786000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 22
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2453803ae5c374694d22c53361d587
+      internalID: -929890411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 458
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1409e893e64fb534a81b8cfe66dd473c
+      internalID: -80610033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_26
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 22
+        width: 282
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321c8ccc68cfdde438ee0053c156bac6
+      internalID: -991294870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LUCKY_IDLE_SPREADSHEET_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 458
+        width: 12
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addd577e1e8f84643a62587d61cd5c63
+      internalID: -596093710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LUCKY_IDLE_SPREADSHEET_23: 1228786000
+      LUCKY_IDLE_SPREADSHEET_0: -973772024
+      LUCKY_IDLE_SPREADSHEET_12: 1832941695
+      LUCKY_IDLE_SPREADSHEET_16: -1789108196
+      LUCKY_IDLE_SPREADSHEET_22: -977288605
+      LUCKY_IDLE_SPREADSHEET_26: -991294870
+      LUCKY_IDLE_SPREADSHEET_21: -1615634115
+      LUCKY_IDLE_SPREADSHEET_8: 1733185985
+      LUCKY_IDLE_SPREADSHEET_11: -422560606
+      LUCKY_IDLE_SPREADSHEET_6: 742956133
+      LUCKY_IDLE_SPREADSHEET_7: 1874470839
+      LUCKY_IDLE_SPREADSHEET_9: -1734725359
+      LUCKY_IDLE_SPREADSHEET_25: -80610033
+      LUCKY_IDLE_SPREADSHEET_13: -1741833043
+      LUCKY_IDLE_SPREADSHEET_1: 627458040
+      LUCKY_IDLE_SPREADSHEET_10: -2127728143
+      LUCKY_IDLE_SPREADSHEET_2: -1340700066
+      LUCKY_IDLE_SPREADSHEET_27: -596093710
+      LUCKY_IDLE_SPREADSHEET_18: -397683256
+      LUCKY_IDLE_SPREADSHEET_14: 180940929
+      LUCKY_IDLE_SPREADSHEET_17: 704060214
+      LUCKY_IDLE_SPREADSHEET_5: -994967124
+      LUCKY_IDLE_SPREADSHEET_20: -1356886780
+      LUCKY_IDLE_SPREADSHEET_15: 1955086822
+      LUCKY_IDLE_SPREADSHEET_24: -929890411
+      LUCKY_IDLE_SPREADSHEET_4: -397862080
+      LUCKY_IDLE_SPREADSHEET_19: -204783381
+      LUCKY_IDLE_SPREADSHEET_3: -1595098896
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

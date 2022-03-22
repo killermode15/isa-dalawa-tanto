@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 4578fb333d43d2e43924183959606e36
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1581
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450a88daefbd91a47be707131dc176f0
+      internalID: -261673904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1581
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54518a455e6a8a540b05cb723977feba
+      internalID: -1434220217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1580
+        width: 248
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4ddfdc2464014c92f4a5ae61a90f2
+      internalID: 1194475446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1581
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501788379bff4a4080e2c1b9d66e1b6
+      internalID: 1333720965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1059
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362fe50717e6a854aa6f9aa250903a80
+      internalID: 1583010241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1059
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa5fd0a90569a47bdd5b000aae562d
+      internalID: -1263296809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1058
+        width: 248
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257f3006d1649fe4eab4c05e8a192bdb
+      internalID: -375487351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1059
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598ab661651bfe248be18c7fa051f651
+      internalID: 1460964301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 539
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9147488be6a4ce4eb3f945d747a7ef0
+      internalID: 463089193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 539
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3224084d9a72cf646965618c229e96ac
+      internalID: -282869342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 539
+        width: 248
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d45178e55c9b4440a2856249fef23af
+      internalID: 374048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 539
+        width: 247
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f24341492de004c93aa0507b49b07b
+      internalID: 509704278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 18
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d818e9f1c31ca6f488ddc1a7057cd8cb
+      internalID: -678850027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TARA_SMOM_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 18
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e33d0030a6a904e8a7f373fd81df35
+      internalID: -282769135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TARA_SMOM_IDLE_SPREADSHEET_7: 1460964301
+      TARA_SMOM_IDLE_SPREADSHEET_10: 374048
+      TARA_SMOM_IDLE_SPREADSHEET_12: -678850027
+      TARA_SMOM_IDLE_SPREADSHEET_9: -282869342
+      TARA_SMOM_IDLE_SPREADSHEET_5: -1263296809
+      TARA_SMOM_IDLE_SPREADSHEET_6: -375487351
+      TARA_SMOM_IDLE_SPREADSHEET_4: 1583010241
+      TARA_SMOM_IDLE_SPREADSHEET_11: 509704278
+      TARA_SMOM_IDLE_SPREADSHEET_13: -282769135
+      TARA_SMOM_IDLE_SPREADSHEET_0: -261673904
+      TARA_SMOM_IDLE_SPREADSHEET_3: 1333720965
+      TARA_SMOM_IDLE_SPREADSHEET_2: 1194475446
+      TARA_SMOM_IDLE_SPREADSHEET_8: 463089193
+      TARA_SMOM_IDLE_SPREADSHEET_1: -1434220217
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

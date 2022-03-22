@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 9059fceb12deb524b8d3bc1597219193
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1586
+        width: 248
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a8594d7cd26f94fbb763cd9e2f931c
+      internalID: 1834695088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1586
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4a48a17839885478c9ea7aad4ae3c5
+      internalID: 1158870586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1586
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a132c9e39f5bd0740a1c0d362637cb5b
+      internalID: -105079647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1586
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721db85d98ea63e40b0f01ecd4e204b9
+      internalID: -1418763265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1066
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eb2a048371dfb478cc6d0bf1c43ffc
+      internalID: -139493901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1066
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f26d30d9301fd4ba72dc29d8b97b40
+      internalID: 1586968882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 1066
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bece5614c342a149a1cfcede5e18a53
+      internalID: 487333336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1066
+        width: 247
+        height: 503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b0809fe4e295c47aff36c73ff8abee
+      internalID: 1964962019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 544
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351ba481c722a5d47a0d2f88f6bba0ab
+      internalID: -69934809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 544
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c80868758c9fc8479e196c76334f66b
+      internalID: -2136432635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 544
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9542f63fa8feb4d8d11d4b4451ca05
+      internalID: -338406376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 544
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3615c087afbaba42832d7f3e560f26c
+      internalID: 341227116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 26
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ccdc9b17accd4a866e32e51b823c6
+      internalID: -1067591925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MS.ASKAL_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 26
+        width: 247
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66332c6e4824cf47bb76983fa125640
+      internalID: 1383079677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MS.ASKAL_IDLE_SPREADSHEET_6: 487333336
+      MS.ASKAL_IDLE_SPREADSHEET_3: -1418763265
+      MS.ASKAL_IDLE_SPREADSHEET_12: -1067591925
+      MS.ASKAL_IDLE_SPREADSHEET_0: 1834695088
+      MS.ASKAL_IDLE_SPREADSHEET_5: 1586968882
+      MS.ASKAL_IDLE_SPREADSHEET_2: -105079647
+      MS.ASKAL_IDLE_SPREADSHEET_13: 1383079677
+      MS.ASKAL_IDLE_SPREADSHEET_4: -139493901
+      MS.ASKAL_IDLE_SPREADSHEET_7: 1964962019
+      MS.ASKAL_IDLE_SPREADSHEET_8: -69934809
+      MS.ASKAL_IDLE_SPREADSHEET_9: -2136432635
+      MS.ASKAL_IDLE_SPREADSHEET_11: 341227116
+      MS.ASKAL_IDLE_SPREADSHEET_1: 1158870586
+      MS.ASKAL_IDLE_SPREADSHEET_10: -338406376
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

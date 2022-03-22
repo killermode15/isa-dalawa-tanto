@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: ea21cca3fe59a6047a5479255b957109
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1555
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5f34ecffb35004a85a9a0f3ef7cfea
+      internalID: -1360520710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1555
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7d23a1f16d0fa489428a9c99bcab45
+      internalID: 216108193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1555
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99a22673533e8d48a196d4f1659fa95
+      internalID: 1573554373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_3
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1555
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7ce962a8bddce4c9b339fd91f664f1
+      internalID: 1512916095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_4
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1034
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eae3d09edaa6c54f93e3e658b4564e1
+      internalID: 368771652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1034
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0d6fe7736f17459e66e0313f44245
+      internalID: 1391176837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_6
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1034
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2f54a24136d784fb21a4b2e68327e2
+      internalID: 343130544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_7
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 1034
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207622c7b54b9a349b02ad2da42ab58a
+      internalID: -133209170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 514
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59620672ac80c41972b54a1ce6ab37
+      internalID: -1486370050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 514
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d72d0a3282b6e4aada06d9bc1ea4a3
+      internalID: 584393444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_10
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 514
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe2e0add8c3cc4c9cd5f65434c788c
+      internalID: -1499751598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_11
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 514
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b900bae94c26b4e88b32e43c05f122
+      internalID: 1210741857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 22
+        width: 210
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a58643f421486448a77f5fea23b9dcc
+      internalID: -364634807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CARA_IDLE_SPREADSHEET_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 22
+        width: 211
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23697b0d5d9d2db479e2879a9009477f
+      internalID: -1312565507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CARA_IDLE_SPREADSHEET_4: 368771652
+      CARA_IDLE_SPREADSHEET_8: -1486370050
+      CARA_IDLE_SPREADSHEET_13: -1312565507
+      CARA_IDLE_SPREADSHEET_0: -1360520710
+      CARA_IDLE_SPREADSHEET_3: 1512916095
+      CARA_IDLE_SPREADSHEET_9: 584393444
+      CARA_IDLE_SPREADSHEET_7: -133209170
+      CARA_IDLE_SPREADSHEET_11: 1210741857
+      CARA_IDLE_SPREADSHEET_10: -1499751598
+      CARA_IDLE_SPREADSHEET_2: 1573554373
+      CARA_IDLE_SPREADSHEET_12: -364634807
+      CARA_IDLE_SPREADSHEET_5: 1391176837
+      CARA_IDLE_SPREADSHEET_6: 343130544
+      CARA_IDLE_SPREADSHEET_1: 216108193
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
