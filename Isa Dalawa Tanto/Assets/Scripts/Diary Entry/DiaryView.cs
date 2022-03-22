@@ -54,7 +54,7 @@ public class DiaryView : BaseView
         ToggleActiveUI(_entry, _pageNumber);
     }
 
-    public bool ValidateEntries(List<Answer> _answers, List<Answer> _correctAnswers)
+    public bool ValidateEntries(List<Answer> _answers, List<string> _correctAnswers)
     {
         List<int> wrongNumbers = new List<int>();
 
@@ -68,7 +68,7 @@ public class DiaryView : BaseView
 
         for(int i = 0; i<correctAnswers.Count; i++)
         {
-            correctAnswers.Add(_correctAnswers[i].answer);
+            correctAnswers.Add(_correctAnswers[i]);
         }
 
         incorrectAnswersTxt.text = "The following answers are incorrect: \n";

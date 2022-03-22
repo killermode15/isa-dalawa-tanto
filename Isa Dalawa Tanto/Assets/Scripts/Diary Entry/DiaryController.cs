@@ -59,7 +59,7 @@ public class DiaryController : BaseController
             dv.SetExistingAnswers(dm.createdAnswers);
     }
 
-    public void FinishEntry(GameObject objectToActivate)
+    public void FinishEntry()
     {
         if (!dv.ValidateEntries(dm.createdAnswers, dm.correctAsnwers))
         {
@@ -75,8 +75,8 @@ public class DiaryController : BaseController
 
             return;
         }
-
-        objectToActivate.SetActive(true);
+        
+        onCompleteEntry?.Invoke();
     }
 
     private void SaveAnswer(List<AnswerFieldHandler> answerfields)
@@ -111,13 +111,6 @@ public class DiaryController : BaseController
                         shouldSkip = true;
                         break;
                     }
-
-                    // else
-                    // {
-                    //     dm.createdAnswers.Add(answerfields[i].CreateAnswer());
-                    //     shouldSkip = true;
-                    //     break;
-                    // }
                 }
 
                 if (!shouldSkip)

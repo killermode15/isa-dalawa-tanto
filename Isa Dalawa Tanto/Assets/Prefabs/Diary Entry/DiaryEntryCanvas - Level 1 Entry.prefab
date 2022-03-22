@@ -104,8 +104,36 @@ PrefabInstance:
       value: DiaryEntryCanvas - Level 1 Entry
       objectReference: {fileID: 0}
     - target: {fileID: 7429822588551620194, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_Spacing
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620194, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
       propertyPath: m_ChildAlignment
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620194, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_Padding.m_Left
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620194, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_ReverseArrangement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620195, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -150.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620195, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -825.6142
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620195, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 75.24503
+      objectReference: {fileID: 0}
+    - target: {fileID: 7429822588551620195, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 400.8
       objectReference: {fileID: 0}
     - target: {fileID: 7429822588990382811, guid: 2c2c19328146d8f40a3cba1ab1192274, type: 3}
       propertyPath: currentContent
