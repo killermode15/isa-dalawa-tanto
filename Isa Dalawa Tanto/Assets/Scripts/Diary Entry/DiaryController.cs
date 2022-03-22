@@ -1,8 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using System.Text.RegularExpressions;
+using System.Linq;
 using UnityEngine.Events;
 
 public class DiaryController : BaseController
@@ -67,7 +66,7 @@ public class DiaryController : BaseController
             Debug.Log("There are incorrect answers");
             dv.ReduceHealth(1);
 
-            if(dv.GetLives() == 0)
+            if (dv.GetLives() == 0)
             {
                 Debug.Log("Player failed, reloading current stage");
                 onFailEntry?.Invoke();
@@ -76,7 +75,7 @@ public class DiaryController : BaseController
 
             return;
         }
-    
+
         objectToActivate.SetActive(true);
     }
 
@@ -84,12 +83,46 @@ public class DiaryController : BaseController
     {
         for (int i = 0; i < answerfields.Count; i++)
         {
-            if (dm.createdAnswers.Count < answerfields.Count)
-            {
-                dm.createdAnswers.Add(answerfields[i].answerField.text);
-            }
+            bool shouldSkip = false;
 
-            dm.createdAnswers[i] = answerfields[i].answerField.text;
+            if (answerfields[i].Page == dm.CurrentPage)
+            {
+                for (int j = 0; j < dm.createdAnswers.Count; j++)
+                {
+                    //check if text exists in the list of created answers
+                    if (answerfields[i].answerField.text == dm.createdAnswers[j].answer && answerfields[i].ID == dm.createdAnswers[j].id)
+                    {
+                        //   get the Answer class
+                        if (dm.CurrentPage == dm.createdAnswers[j].page)
+                        {
+                            shouldSkip = true;
+                            break;
+                        }
+                        else
+                        {
+                            dm.createdAnswers.Add(answerfields[i].CreateAnswer());
+                            shouldSkip = true;
+                            break;
+                        }
+                    }
+                    else if(answerfields[i].ID == dm.createdAnswers[j].id && answerfields[i].Page == dm.createdAnswers[j].page)
+                    {
+                        dm.createdAnswers[j].answer = answerfields[i].answerField.text;
+                        shouldSkip = true;
+                        break;
+                    }
+
+                    // else
+                    // {
+                    //     dm.createdAnswers.Add(answerfields[i].CreateAnswer());
+                    //     shouldSkip = true;
+                    //     break;
+                    // }
+                }
+
+                if (!shouldSkip)
+                    dm.createdAnswers.Add(answerfields[i].CreateAnswer());
+            }
         }
     }
 }
