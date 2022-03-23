@@ -19,60 +19,51 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Aspin! Why aren\u2019t you playing with the other children? It\u2019s
-      a wonderful day to play! The sun\u2019s not that hot and the breeze is fine."
+    Text: "Hi Aspin! Your adoptive parent, Ms. Askal, is on the way to pick you up.
+      You\u2019ll finally have a new family now."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: '*sigh* Mother Goose, I don''t really like playing outside. I like it here
-      inside my room. Alone.'
+    Text: "Mother Goose I\u2019m scared."
   - Name: 7
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Well if that\u2019s the case, then maybe this [DIARY] will help you gather
-      your thoughts and will be there for you when you want someone to talk to. But
-      you have to promise me that you\u2019ll TRY to make friends in your new home. "
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 0
-    SpritePosition: 1
-    Text: '*Mother Goose hands out the diary to Aspin*'
+    Text: "Don\u2019t be scared Aspin, Ms. Askal is the nicest mother-to-be I\u2019ve
+      met! Don\u2019t worry about it."
   - Name: 7
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Maybe this will be your first but not your only friend. '
+    Text: "Why don\u2019t you play with the other kids first while waiting since
+      it\u2019s your last day here."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Thank you Mother Goose for this! I will miss you, thank you for taking
-      care of me. I promise I\u2019ll make friends... I\u2019ll try."
+    Text: "But Mother Goose, I don't really like playing outside. I\u2019m comfortable
+      alone."
   - Name: 7
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019ll miss you too, have you packed your bags? [MS. ASKAL] is on her
-      way to pick you up. "
+    Text: "Well if that\u2019s the case, then maybe this diary will help you gather
+      your thoughts and will be there for you when you want someone to talk to. "
+  - Name: 7
+    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "But you have to promise me that you\u2019ll try to make friends in your
+      new home. "
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Yes it\u2019s all packed but I\u2019m still a bit shy Mother Goose."
-  - Name: 7
+    Text: "Thank you Mother Goose for this! I will miss you so much\u2026 Thank you
+      for taking care of me. I promise I\u2019ll make friends."
+  - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Don\u2019t worry my dear. She\u2019ll take care of you- "
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 1
-    Text: '[HONK] '
-  - Name: 7
-    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Oh I think she\u2019s here!"
+    Text: Oh, I think Ms. Askal is here. Are you ready?

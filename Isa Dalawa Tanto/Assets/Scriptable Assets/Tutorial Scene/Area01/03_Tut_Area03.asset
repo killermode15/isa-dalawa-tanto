@@ -19,15 +19,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Goodluck new neighbor! I\u2019m the best at this game!"
+    Text: "I\u2019m the best Tagu-taguan player around here! Good luck finding me!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: I read a book in the orphanage that monkeys are often found in trees. Maybe
-      that's where Lucky is hiding?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Let's see....
+    Text: Maybe Lucky is in the trees! Monkeys like playing there!

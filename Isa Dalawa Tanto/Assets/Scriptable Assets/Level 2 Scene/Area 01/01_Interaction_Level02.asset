@@ -26,7 +26,7 @@ MonoBehaviour:
     SpritePosition: 1
     Text: "<color=#d85906>Sipa, which literally translates to \u2018kick\u2019 from
       Tagalog, is a traditional Filipino game. Anyone can play by themselves, or
-      in teams. </color>"
+      in teams.</color>"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0

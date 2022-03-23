@@ -39,21 +39,14 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Listen Aspin to what I'm going to tell you...
+    Text: Listen Aspin to what I'm going to tell you, did you hear-
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "<color=#d85906>In other versions, When the \u201CTaya\u201D finds another
-      player, that player is now the \u201CTaya\u201D. It repeats until all of the
-      players are found. </color>"
-  - Name: 4
-    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "<color=#d85906>In another version, when you\u2019re not \u201CTaya\",
-      you can try to touch the \u201CTaya\u201D when they are not looking. If you
-      touch them without seeing you, then you win. </color>"
+    Text: "<color=#d85906>In other versions of Tagu-taguan, the players can try to
+      touch the \u201CTaya\u201D while he is looking for other players, if you touch
+      them without them seeing you, you win. </color>"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
@@ -63,11 +56,5 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Goodluck with Lucky! He\u2019s the best at playing Tagu-taguan in the
-      whole neighborhood! "
-  - Name: 4
-    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "We\u2019ll I haven\u2019t seen him in this area, Maybe he\u2019s in the
-      next area."
+    Text: "Goodluck with Lucky! He\u2019s the best at playing Tagu-Taguan! Well I
+      haven\u2019t seen him in this area, Maybe he\u2019s in the next area."

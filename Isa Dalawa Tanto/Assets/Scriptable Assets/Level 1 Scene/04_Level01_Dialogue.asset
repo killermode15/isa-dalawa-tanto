@@ -17,50 +17,52 @@ MonoBehaviour:
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 1
-    Text: "[ Mrs. Tarsier taps aspin on the shoulder when he noticed that he\u2019s
-      a bit shy ] "
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 2
+    SpritePosition: 1
+    Text: "As the kids take seats around the table, Aspin shyly stands still at the
+      dining room\u2019s doorway. But then he is lured to walk in by a scent he didn\u2019t
+      quite know."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: The scent leads him to sit down at the table. And as he sits, he sees where
+      the scent is coming from. The SINIGANG bowl that sits in front of him. As he
+      is mesmerized by the scent of the food.
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
     SpritePosition: 1
     Text: Hi! You must be our new neighbor!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yes! My name is Aspin. Nice to meet you, Mrs. Tarsier!
+    Text: Yes! My name is Aspin. Nice to meet you Mrs. Tarsier!
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
     Text: "I\u2019ve been wanting to bring some food to your house but I thought
-      maybe you guys are still busy cleaning up. "
+      maybe you guys are still busy cleaning up. So I thought I\u2019ll just invite
+      you over for now."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "So I thought maybe I\u2019ll just invite you over for now and bring food
-      to your house once you guys are ready for visitors.\r\n"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: '[ Aspin nods ]'
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Anyway, you seem curious what this dish is. Have you tried Sinigang before?
+    Text: You seem curious what this dish is. Have you tried sinigang before?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: I haven't tried Sinigang before Mrs. Tarsier,  But it smells so good and
-      it looks delicious!
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
+    Text: "I haven\u2019t! But it smells really good and it looks delicious!"
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
     SpritePosition: 1
-    Text: '[ Mrs. Tarsier then proceeds to explain to Aspin what Sinigang is ]'
+    Text: Do you want to know more about it?
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: f50785926f1ab004cb8eb9b939eb5e75, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Sure!

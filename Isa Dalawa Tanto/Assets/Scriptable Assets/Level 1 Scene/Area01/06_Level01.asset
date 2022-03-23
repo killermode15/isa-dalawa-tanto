@@ -17,14 +17,9 @@ MonoBehaviour:
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 2
-    Text: By sunset, Aspin returns home again. He finds his Ms. Askal in the kitchen.
-  - Name: 0
-    CharacterSprite: {fileID: 0}
     Side: 2
-    SpritePosition: 2
-    Text: '[ Aspin enters the kitchen and sees Ms. Askal cooking dinner  ]'
+    SpritePosition: 1
+    Text: By sunset, Aspin returns home and finds his mother in the kitchen.
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -39,12 +34,12 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yes Aspin?
+    Text: Yes?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Can\u2026 we cook Sinigang next time? I can help you!"
+    Text: Can we cook sinigang next time? I can help you!
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -70,12 +65,12 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Ok, thank you for the food Ms. Askal! '
+    Text: 'Okay! Thank you for the food Ms. Askal! '
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: '[ Aspin and Ms. Askal then proceeds to eat their dinner ]'
+    Text: Aspin and Ms. Askal then proceeds to eat their dinner
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
@@ -90,19 +85,19 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s night time now Aspin, you should go to bed."
+    Text: Thank you Aspin! I will just stay here and wash the dishes.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
     SpritePosition: 1
     Text: "Ok Ms. Askal. I\u2019m going to my room now."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: YOU CAN NOW EXPLORE AROUND THE HOUSE
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
+    Side: 0
     SpritePosition: 1
-    Text: ( I should write in my diary first before I go to sleep )
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: ( I should go to my room first )
+    Text: I should go up to my room and write on my diary.

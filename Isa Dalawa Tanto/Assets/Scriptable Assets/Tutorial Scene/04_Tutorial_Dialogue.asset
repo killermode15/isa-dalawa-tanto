@@ -19,72 +19,45 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: ' (steps out of the car) Aspin! Let''s go!'
+    Text: "Aspin! We\u2019re here! Do you like your new home?"
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: '[ in his own world ]'
+    Text: "Woah! Yes Ms. Askal! It\u2019s nice and really big!"
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: '[ Taps the window ] Aspin! Let''s go?'
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: ' [ nods and gets out of the car ]'
+    Text: 'Hahahahah! Thank you Aspin! '
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Aspin I\u2019m really sorry but your room is not yet ready, because I
-      haven\u2019t had the time to fix it earlier."
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: ' [ Staring at the Diary ]'
+    Text: "Anyway, I haven\u2019t had the time to fix the house. Why don\u2019t you
+      join and meet the other kids from the neighborhood first?"
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Hello? Earth to Aspin? Are you there? hahaha!
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Oh! Sorry Ms. Askal! I was browsing the pages of my diary.
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "What if you give me your diary first while you play with the other kids?
-      I\u2019ll put it in your room when I\u2019m done cleaning it up."
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Is that okay with you Aspin?
+    Text: "They\u2019re nice so don\u2019t worry. Is that okay with you?"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "(I promised Mother Goose I would try to make new friends\u2026) it\u2019s
-      okay Ms Askal\u2026"
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 0
-    SpritePosition: 1
-    Text: '[ Aspin hands Ms. Askal his diary ]'
+    Text: "Uhhhm sure Ms Askal\u2026"
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Have fun Aspin! I hope you\u2019ll get along with them nicely!"
+    Text: Have fun Aspin!
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
-    Text: ' [ Aspin nods and Ms. Askal carries the boxes into the house ] '
+    Text: 'Ms. Askal went inside the house '
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "I promised Mother Goose I\u2019ll make some friends\u2026 Here I go!"

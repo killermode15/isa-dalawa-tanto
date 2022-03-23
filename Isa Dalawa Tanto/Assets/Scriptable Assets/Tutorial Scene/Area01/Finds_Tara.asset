@@ -55,6 +55,5 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Mother Goose told me that Carabaos can\u2019t climb. Maybe she's somewhere
-      down below where I was at the beginning, I haven\u2019t checked the crates
-      yet on the bottom left."
+    Text: "Maybe Cara\u2019s somewhere down below where I was at the beginning\u2026
+      Carabaos can\u2019t climb trees!"

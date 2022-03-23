@@ -20,19 +20,18 @@ MonoBehaviour:
     Side: 0
     SpritePosition: 1
     Text: Isa dalawa tanto!
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: 'I heard in the orphanage that Tarsiers relax on tree trunks. Maybe Tara
-      is hanging on one? '
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Let\u2019s see if you can find me Aspin!"
+    Text: Find us if you can Aspin!
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Come and find me too Aspin!
+    Text: "We\u2019ll be waiting!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Hmmm maybe Tara is hanging on tree trunks. Tarsiers love to climb trees.

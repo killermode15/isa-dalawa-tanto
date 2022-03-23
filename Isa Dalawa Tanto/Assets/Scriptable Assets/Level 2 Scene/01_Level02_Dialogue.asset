@@ -19,8 +19,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: '[ Aspin is brushing his hair when he suddenly hears laughter from the
-      kitchen ]'
+    Text: Aspin is brushing his hair when he suddenly hears laughter from the kitchen
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 1
@@ -33,6 +32,6 @@ MonoBehaviour:
     Text: Does she have a visitor with her?
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
+    Side: 2
     SpritePosition: 1
-    Text: '[ Aspin leaves his room ]'
+    Text: Aspin goes out of his room

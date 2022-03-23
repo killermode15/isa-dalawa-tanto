@@ -35,3 +35,9 @@ MonoBehaviour:
     Side: 0
     SpritePosition: 1
     Text: HAHAHAHAH! THIS IS FUN!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: "The kids continued to play and enjoy the game. They didn\u2019t even notice
+      that it\u2019s already sunset and they have to say goodbye and go home. "

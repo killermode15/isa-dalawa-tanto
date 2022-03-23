@@ -17,24 +17,18 @@ MonoBehaviour:
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 2
-    Text: 'After Mrs. Tarsier explains, the kids and her eat together. '
+    Side: 2
+    SpritePosition: 1
+    Text: After they finished eating, the kids thanked Mrs. Tarsier for the food
+      and rushed outside to play. As they leave, Mrs. Tarsier calls Aspin.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 2
-    Text: After they finished, the kids thanked Mrs. Tarsier for the food and rushed
-      outside to play.
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin and tells him that he could come and learn different recipes with
+      her any time.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 2
-    Text: ' As all the kids leave the dining room, Mrs. TarsierR calls Aspin. Aspin
-      stays a bit and Mrs.Tarsier tells Aspin that he could come and learn different
-      recipes with her at any time. '
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 1
-    SpritePosition: 2
+    Side: 2
+    SpritePosition: 1
     Text: Aspin smiles and leaves the house to play with his friends.

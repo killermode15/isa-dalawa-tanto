@@ -31,7 +31,7 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 2
     Text: The acidity is then added by using tamarind, but many regional recipes
-      might choose to add kamias, green mangoes, calamansi, santon, or guava.
+      might choose to add kamias, green mangoes, calamansi, santol, or guava.
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1

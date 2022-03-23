@@ -17,13 +17,13 @@ MonoBehaviour:
   DialogueList:
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 0
+    Side: 2
     SpritePosition: 1
-    Text: 'Aspin goes into his bedroom which still has boxes of his stuff. But the
+    Text: Aspin goes into his bedroom which still has boxes of his stuff. But the
       bed and his table has been put out and set up. He finds his diary on his table
-      and turns on the lamp beside it. '
+      and turns on the lamp beside it.
   - Name: 0
     CharacterSprite: {fileID: 0}
-    Side: 0
+    Side: 2
     SpritePosition: 1
     Text: There, he writes what he has learned today while playing with his friends.

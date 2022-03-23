@@ -15,6 +15,12 @@ MonoBehaviour:
   Id: 3
   Background: {fileID: 21300000, guid: 237e31f61aa8a4646af8662dd5c9d66b, type: 3}
   DialogueList:
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: They arrived inside Tara's house, and from there they could already smell
+      something good cooking from the kitchen.
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 0
@@ -24,10 +30,5 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019m still cooking but you guys can go to the dining and suit yourselves
-      up! "
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "I\u2019m cooking something delicious!"
+    Text: "I\u2019m still cooking but you guys can go to the dining room and ready
+      yourselves! I\u2019m cooking something delicious!"

@@ -18,10 +18,15 @@ MonoBehaviour:
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
-    SpritePosition: 0
-    Text: This is an example for the outro
+    SpritePosition: 1
+    Text: Created by Nori Studios
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
-    SpritePosition: 0
-    Text: This is an example for the outro
+    SpritePosition: 1
+    Text: "Members:\nDAVID, Jordaens-rene \nGIRON, Jose Gabriel\nVILLAROMAN, Nina"
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: 'COMING SOON '

@@ -20,96 +20,34 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "Hello Aspin! Sorry for the boxes, there\u2019s not enough room in the
-      trunk. we\u2019re moving to a new house."
+      trunk. We\u2019re moving to a new house!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "(in a whispering tone) Ahh okay\u2026"
+    Text: "It\u2019s okay\u2026"
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Buckle your seatbelt, we're going now.
-  - Name: 7
-    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: '*Mother Goose waves goodbye to Aspin*'
+    Text: Are you nervous?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: '*Aspin waves goodbye to back*'
-  - Name: 0
-    CharacterSprite: {fileID: 0}
     Side: 0
     SpritePosition: 1
-    Text: '[ As Ms. Askal is driving, she can tell that Aspin is shy, she talks to
-      Aspin to lighten the mood ] '
+    Text: Uhh.. Yes, Ms. Askal.
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: .....
+    Text: "Don\u2019t worry Aspin. So, what do you have there? Is that a book?"
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: .....
+    Text: "It\u2019s a diary. Mother Goose gave it to me."
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "So\u2026 Aspin!"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "\u2026 Yes Ms. Askal?"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Umm\u2026 did you have breakfast already? We can order something on the
-      way.\r\n"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Ah\u2026 I already ate\u2026 Ms. Askal.\n"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Oh okay\u2026\n"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: '*Looks at rear view mirror*'
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "What do you have there Aspin? \nIs that a book from the orphanage?"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "It\u2019s a diary Mother Goose gave me a while ago\u2026 Ms. Askal."
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "(laughs) Hahaha Aspin, you don\u2019t have to keep calling me Ms. Askal"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Ok\u2026 Ms. Askal\u2026"
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 0
-    SpritePosition: 1
-    Text: '[ SILENCE ]'
+    Text: "That\u2019s nice, make sure to use it often."
