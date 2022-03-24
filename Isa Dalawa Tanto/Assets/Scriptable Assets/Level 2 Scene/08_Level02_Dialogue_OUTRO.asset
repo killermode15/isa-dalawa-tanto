@@ -24,7 +24,12 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Members:\nDAVID, Jordaens-rene \nGIRON, Jose Gabriel\nVILLAROMAN, Nina"
+    Text: 'Members: DAVID, Jordaens-rene, GIRON, Jose Gabriel, VILLAROMAN, Nina'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Isa Dalawa Tanto!
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2

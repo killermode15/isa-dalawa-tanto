@@ -1808,7 +1808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &112047354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1907,7 +1907,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  detectionRange: 0.06
+  detectionRange: 0.9
   dialogueId: 4
 --- !u!58 &112047357
 CircleCollider2D:
@@ -1924,7 +1924,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000047683716}
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.9
 --- !u!212 &112047358
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5487,7 +5487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f26bb76f8c9173d469fd2171cb8fbbc1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioManager: {fileID: 11400000, guid: 6ead5278162e3654fbc18a3dc51817eb, type: 2}
+  audioManager: {fileID: 11400000, guid: 7241ccb4acb65bd4388a46f9c7c25b51, type: 2}
 --- !u!4 &303803978
 Transform:
   m_ObjectHideFlags: 0
@@ -8862,7 +8862,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &609947313
 Transform:
   m_ObjectHideFlags: 0
@@ -8964,7 +8964,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  detectionRange: 0.06
+  detectionRange: 0.66
   dialogueId: 3
 --- !u!58 &609947317
 CircleCollider2D:
@@ -8981,7 +8981,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000047683716}
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.66
 --- !u!212 &609947318
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17564,7 +17564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1432123383}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.88, y: -27.19, z: 0.010569006}
+  m_LocalPosition: {x: -2.4, y: -27.19, z: 0.010569006}
   m_LocalScale: {x: 1, y: 6.559931, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17645,7 +17645,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  detectionRange: 0.06
+  detectionRange: 0.78
   dialogueId: 1
 --- !u!58 &1432123388
 CircleCollider2D:
@@ -17662,7 +17662,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000047683716}
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.78
 --- !u!212 &1432123389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -21933,7 +21933,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1739058527
 Transform:
   m_ObjectHideFlags: 0
@@ -22035,7 +22035,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  detectionRange: 0.06
+  detectionRange: 0.62
   dialogueId: 2
 --- !u!58 &1739058531
 CircleCollider2D:
@@ -22052,7 +22052,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000047683716}
   serializedVersion: 2
-  m_Radius: 0.06
+  m_Radius: 0.62
 --- !u!212 &1739058532
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26828,6 +26828,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3271405408752339077, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: isEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146098306328272037, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

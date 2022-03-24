@@ -19,14 +19,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Ms. Askal, Aspin, and their neighbors gathered together in the Dining
-      Room as they started the housewarming party. Everyone with smiles, happy and
-      having a conversation. '
+    Text: 2 DAYS LATER
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Filipino foods like Halo halo, Puto, Spaghetti, Pansit and Skrambol brought
+    Text: "It\u2019s now 2 days later and Ms. Askal decided to invite the neighbors
+      over for lunch"
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: 'Filipino foods like halo halo, puto, spaghetti, pansit and iskrambol brought
       by the neighbors are the highlights of the dining table.
 
 '
@@ -34,8 +38,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Filipino foods like Halo halo, Puto, Spaghetti, Pansit and Skrambol brought
-      by the neighbors are the highlights of the dining table.
+    Text: 'Everyone gathered in the kitchen,  with smiles, happy and having fun.
 
 '
   - Name: 0
@@ -44,12 +47,16 @@ MonoBehaviour:
     SpritePosition: 1
     Text: "Aspin courageously gathered everyone\u2019s attention and announced that
       he was very happy that after a few days, he had made friends and had a fun
-      time..."
+      time"
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: He thanked his friends about all the lessons he learned along the way and
-      is excited to meet other children like him in other neighborhoods. And lastly,
-      he thanks Ms. Askal for doing her best to welcome him, and is now comfortable
-      to call her mom.
+    Text: 'He thanked his friends about all the lessons he learned along the way
+      and is excited to meet other children like him in other neighborhoods. '
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: And lastly, he thanks Ms. Askal for doing her best to welcome him, and
+      is now comfortable to call her mom.

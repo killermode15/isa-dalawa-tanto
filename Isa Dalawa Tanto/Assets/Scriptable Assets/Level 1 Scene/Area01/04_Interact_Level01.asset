@@ -52,3 +52,14 @@ MonoBehaviour:
     Side: 0
     SpritePosition: 0
     Text: Yes Mrs. Tarsier, I understand now!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Mrs. Tarsier is done explaining things about sinigang
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: The kids then proceeds to eat their delicious sinigang prepared by Mrs.
+      Tarsier

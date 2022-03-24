@@ -25,8 +25,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin and tells him that he could come and learn different recipes with
-      her any time.
+    Text: Mrs. Tarsier tells Aspin that he could come and learn different recipes
+      with her any time.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
