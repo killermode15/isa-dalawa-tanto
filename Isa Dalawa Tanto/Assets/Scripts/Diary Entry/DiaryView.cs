@@ -71,7 +71,12 @@ public class DiaryView : BaseView
             correctAnswers.Add(_correctAnswers[i]);
         }
 
-        incorrectAnswersTxt.text = "The following answers are incorrect: \n";
+        // incorrectAnswersTxt.text = "The following answers are incorrect: \n";
+
+        if(_answers.Count == 0 || _correctAnswers.Count == 0)
+        {
+            return false;
+        }
 
         for (int i = 0; i < _answers.Count; i++)
         {
@@ -81,7 +86,7 @@ public class DiaryView : BaseView
                 return false;
             }
         }
-
+    
         return true;
     }
 

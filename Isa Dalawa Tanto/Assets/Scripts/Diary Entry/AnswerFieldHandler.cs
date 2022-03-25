@@ -25,10 +25,10 @@ public class AnswerFieldHandler : MonoBehaviour
             // return null;
         }
 
-        if (answerField.text == string.Empty)
+        if (string.IsNullOrEmpty(answerField.text))
         {
             Debug.Log("There is an empty answerfield");
-            // return null;
+            return null;
         }
 
         return new Answer(id, page, answerField.text);

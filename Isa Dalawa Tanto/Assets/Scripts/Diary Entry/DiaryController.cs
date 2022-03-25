@@ -88,6 +88,11 @@ public class DiaryController : BaseController
 
             if (answerfields[i].Page == dm.CurrentPage)
             {
+                if(string.IsNullOrEmpty(answerfields[i].answerField.text))
+                {
+                    shouldSkip = true;
+                }
+
                 for (int j = 0; j < dm.createdAnswers.Count; j++)
                 {
                     //check if text exists in the list of created answers
