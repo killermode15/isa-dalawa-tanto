@@ -9,6 +9,7 @@ public class DoorInteractable : BaseInteractable
     [SerializeField] private LevelCameraConstraint level;
     [SerializeField] private Transform linkedDoor;
 
+
     public override void OnInteract()
     {
         base.OnInteract();
@@ -28,15 +29,17 @@ public class DoorInteractable : BaseInteractable
 
     private IEnumerator Transport_CR()
     {
+        GameObject player = detectedPlayer;
+
         StartCoroutine(FadeUI.Instance.FadeToBlack(true));
         yield return new WaitForSeconds(FadeUI.Instance.Duration);
 
         //stop movement input and velocity of player
-        detectedPlayer.GetComponent<CharacterController>().StopMovement();
-        detectedPlayer.GetComponent<MovementInput>().Enabled(false);
+        player.GetComponent<CharacterController>().StopMovement();
+        player.GetComponent<MovementInput>().Enabled(false);
         //transport player
-        detectedPlayer.GetComponent<MovementInput>().Enabled(true);
-        detectedPlayer.transform.position = linkedDoor.position;
+        player.GetComponent<MovementInput>().Enabled(true);
+        player.transform.position = linkedDoor.position;
 
         OnInteractEnd();
 
