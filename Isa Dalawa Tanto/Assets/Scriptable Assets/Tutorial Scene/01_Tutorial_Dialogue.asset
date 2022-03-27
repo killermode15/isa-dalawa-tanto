@@ -62,7 +62,7 @@ MonoBehaviour:
     SpritePosition: 1
     Text: "Thank you Mother Goose for this! I will miss you so much\u2026 Thank you
       for taking care of me. I promise I\u2019ll make friends."
-  - Name: 6
+  - Name: 7
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1

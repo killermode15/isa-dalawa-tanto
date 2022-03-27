@@ -29,7 +29,7 @@ MonoBehaviour:
     Text: The scent leads him to sit down at the table. And as he sits, he sees where
       the scent is coming from. The SINIGANG bowl that sits in front of him. As he
       is mesmerized by the scent of the food.
-  - Name: 2
+  - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1

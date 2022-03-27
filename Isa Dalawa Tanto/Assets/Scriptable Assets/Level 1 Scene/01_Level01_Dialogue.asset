@@ -19,7 +19,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: knock knock
+    Text: '*knock knock*'
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Yep! I\u2019m just fixing up."
+    Text: "Come in! I\u2019m just fixing up."
   - Name: 6
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
