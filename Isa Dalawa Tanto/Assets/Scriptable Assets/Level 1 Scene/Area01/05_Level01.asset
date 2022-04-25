@@ -15,20 +15,23 @@ MonoBehaviour:
   Id: 13
   Background: {fileID: 21300000, guid: cd671cdec1849ec439ed67fafbfeece5, type: 3}
   DialogueList:
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Wow! Going to the palengke must be so fun!
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Can we come next time?
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Of course! I\u2019ll buy tiny versions of this bayong for you, kids."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: After they finished eating, the kids thanked Mrs. Tarsier for the food
-      and rushed outside to play. As they leave, Mrs. Tarsier calls Aspin.
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: Mrs. Tarsier tells Aspin that he could come and learn different recipes
-      with her any time.
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: Aspin smiles and leaves the house to play with his friends.
+    Text: Everyone says goodbye, then Aspin walks back to his home

@@ -19,16 +19,68 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: They arrived inside Tara's house, and from there they could already smell
-      something good cooking from the kitchen.
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Text: '*knock knock*'
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Mom! We\u2019re here!"
+    Text: "Ms. Tarsier? It\u2019s me and Aspin."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019m still cooking but you guys can go to the dining room and ready
-      yourselves! I\u2019m cooking something delicious!"
+    Text: Come in! The other kids are here already.
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Hi, kids! I\u2019ll leave Aspin to you, and please behave while Ms. Tarsier
+      and I are out."
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Sure, Lola Askal. Since I\u2019m the oldest, I\u2019ll make sure everyone\u2019s
+      okay."
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Thank you, Gale!
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Let\u2019s go Lola Askal?"
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Sure! Kids, we\u2019re going now. Please behave and don\u2019t make a
+      lot of mess while Ms. Tarsier and I are at the palengke."
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: 'Kids: Yes Lola Askal! Bye!'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Lola Askal and Ms. Tarsier leaves
+  - Name: 3
+    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Tara! Why does Ms. Tarsier have a huge colorful bag with her?
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Oh, that\u2019s a bayong. That is where she puts all the stuff she buys
+      from the palengke."
+  - Name: 3
+    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "It\u2019s cute! I wonder if my mom also uses that."

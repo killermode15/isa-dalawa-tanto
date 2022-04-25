@@ -19,27 +19,6 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: I will tell you Aspin how Sinigang is made.
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: The dish starts with a simmering of tomatoes and onions followed by the
-      addition of either pork, beef, fish, or shrimp.
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: The acidity is then added by using tamarind, but many regional recipes
-      might choose to add kamias, green mangoes, calamansi, santol, or guava.
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: To finish off, vegetables such as okra, taro, radish, kangkong, sitaw,
-      eggplant are added.
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: Wow! Mrs. Tarsier! It sounds so delicious!
+    Text: "<color=#d85906>There\u2019s a lot to see in the palengke. Some are odd,
+      some are scary, some are wonderful. I even bought this tiny earthenware stove
+      with a tiny earthenware pot. It will be fun to cook in this.</color>"

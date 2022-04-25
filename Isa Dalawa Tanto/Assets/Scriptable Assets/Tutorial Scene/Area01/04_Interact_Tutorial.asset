@@ -19,14 +19,15 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "There\u2019s Tara! but I don\u2019t think she sees me.. "
+    Text: I can see a banana over there!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: It says here, I should go to Tara and press <color=red>F</color> to interact.
+    Text: There is a sign again. It says, I should go to the banana and "press <color=red>F</color>
+      to interact with it.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Ok I\u2019ll do that! Hey Tara!"
+    Text: Okay, Mr. Sign! Thanks for the tip!

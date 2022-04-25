@@ -19,50 +19,40 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "As the kids take seats around the table, Aspin shyly stands still at the
-      dining room\u2019s doorway. But then he is lured to walk in by a scent he didn\u2019t
-      quite know."
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: The scent leads him to sit down at the table. And as he sits, he sees where
-      the scent is coming from. The SINIGANG bowl that sits in front of him. As he
-      is mesmerized by the scent of the food.
+    Text: '- 3 HOURS LATER -'
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Hi! You must be our new neighbor!
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yes! My name is Aspin. Nice to meet you Mrs. Tarsier!
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Text: "Hi, We\u2019re back!"
+  - Name: 2
+    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019ve been wanting to bring some food to your house but I thought
-      maybe you guys are still busy cleaning up. So I thought I\u2019ll just invite
-      you over for now."
+    Text: Mom, your bayong looks full. What did you buy?
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: You seem curious what this dish is. Have you tried sinigang before?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "I haven\u2019t! But it smells really good and it looks delicious!"
+    Text: "I bought a lot because as soon as we got to the palengke, everyone started
+      calling me \u201Csuki\u201D. I couldn\u2019t resist buying from them."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Come kids! Help me unpack this bayong.
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Ok, kids, help me out with the groceries.
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Do you want to know more about it?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: f50785926f1ab004cb8eb9b939eb5e75, type: 3}
+    Text: Ms. Tarsier, while we unpack this bayong, can you tell us about the palengke?
+  - Name: 10
+    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 0
     SpritePosition: 1
     Text: Sure!

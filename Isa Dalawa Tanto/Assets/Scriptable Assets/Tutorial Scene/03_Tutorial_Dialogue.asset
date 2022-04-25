@@ -15,18 +15,18 @@ MonoBehaviour:
   Id: 15
   Background: {fileID: 21300000, guid: 1c16447e793acf749a66a521ba024dc7, type: 3}
   DialogueList:
-  - Name: 6
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hello Aspin! Sorry for the boxes, there\u2019s not enough room in the
-      trunk. We\u2019re moving to a new house!"
+    Text: "Hello, Aspin! Sorry for the boxes. There\u2019s not enough room in the
+      trunk. You're going to stay with me for now while your parents are away."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
     Text: "It\u2019s okay\u2026"
-  - Name: 6
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
@@ -35,19 +35,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Uhh.. Yes, Ms. Askal.
-  - Name: 6
+    Text: Uhh.. Yes lola.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Don\u2019t worry Aspin. So, what do you have there? Is that a book?"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "It\u2019s a diary. Mother Goose gave it to me."
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "That\u2019s nice, make sure to use it often."
+    Text: "Don\u2019t be! You\u2019ll get used to everything eventually."

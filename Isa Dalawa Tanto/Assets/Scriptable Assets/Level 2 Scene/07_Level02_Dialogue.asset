@@ -19,44 +19,55 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 2 DAYS LATER
+    Text: The next day, Aspin found Lola Askal in the kitchen and approached her.
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Lola Askal?
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Yes, Aspin?
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "I\u2019m really sorry for being lazy. You have been taking care of me
+      and making me feel at home, but I took it for granted and hurt you, like what
+      Juan Tamad did to his mother. I\u2019m sorry Lola Askal."
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "It\u2019s alright, Aspin. I appreciate your apology. I\u2019m proud that
+      you learned from your mistakes. Your parents will be so proud of you when they
+      see you!"
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "It\u2019s now 2 days later and Ms. Askal decided to invite the neighbors
-      over for lunch"
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: 'Filipino foods like halo halo, puto, spaghetti, pansit and iskrambol brought
-      by the neighbors are the highlights of the dining table.
+    Text: '*DING DONG*
 
-'
+      the doorbell rang.'
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: There they are now!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: What?!
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Everyone gathered in the kitchen,  with smiles, happy and having fun.
-
-'
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
+    Text: Aspin hurriedly went to the front door and opened it.
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 0
     SpritePosition: 1
-    Text: "Aspin courageously gathered everyone\u2019s attention and announced that
-      he was very happy that after a few days, he had made friends and had a fun
-      time"
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: 'He thanked his friends about all the lessons he learned along the way
-      and is excited to meet other children like him in other neighborhoods. '
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: And lastly, he thanks Ms. Askal for doing her best to welcome him, and
-      is now comfortable to call her mom.
+    Text: Mama? Papa? You're here!

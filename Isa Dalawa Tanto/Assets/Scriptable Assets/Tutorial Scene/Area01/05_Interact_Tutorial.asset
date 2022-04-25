@@ -19,23 +19,20 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "\rOh! I think I know where Cara is! But I can\u2019t fit there I\u2019m
-      too big!"
+    Text: Oh! I think I know where the other banana is! But, I'm too big to fit through.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Oh a sign! It says \u201CPress <color=red>[Ctrl]</color> to Shrink\"."
+    Text: "I think this is the last sign here. It says \u201Cpress <color=red>[Ctrl]</color>
+      to shrink\"."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: 'Shrink? I can do that? I mean.. I knew that hahaha this is my imagination
-      anyway.
-
-'
+    Text: Okay, Mr. Sign! Thank you for informing me the basic movements!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: Now I can fit in there!
+    Text: Now, I can fit through!

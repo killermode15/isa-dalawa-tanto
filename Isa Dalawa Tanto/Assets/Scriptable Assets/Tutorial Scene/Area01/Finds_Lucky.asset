@@ -19,52 +19,70 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: LUCKY!
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Text: "Found the last banana! Gale\u2019s plan is ready!"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Aspin?! Wow, that was fast! You found everyone! So let me tell you this:'
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Text: And here is the last part of the story!
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Tagutaguan is a Filipino version of an old popular game known as \u201CHide
-      and Seek\u201D. "
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Text: "<color=#d85906>Matsing climbed Pagong\u2019s banana tree and ate all the
+      bananas! Matsing fell asleep there after eating and the angry Pagong left spikes
+      under the tree.</color>"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "<color=#d85906>We don\u2019t know where the original game came from but
-      it was explained a long time ago by a 2nd Century writer in Greece. Now it
-      has different versions all around the world!</color>"
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Text: <color=#d85906>When Matsing woke up, he wanted revenge! He threatened to
+      throw Pagong into the sea.</color>
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Did you get that Aspin?
+    Text: <color=#d85906>But when Pagong floated, Matsing felt bad and finally realized
+      all the bad things he did.</color>
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yup! Thank you for explaining it to me. I understand it now!
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Text: Oh. Good thing he learned his lesson!
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Ok, Aspin it's getting late now...
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Let's go back to the home base to meet the others!
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Let's head back?
+    Text: "What\u2019s the lesson, Aspin?"
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Okay, let's head back Lucky.
+    Text: Do not be selfish!
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "That\u2019s right! Now, let\u2019s plant these bananas!"
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Before they planted the bananas, Lucky appeared.
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Hey, guys. I\u2019m sorry I took all the bananas. I heard Gale\u2019s
+      story. I don\u2019t want to be selfish like Matsing. I\u2019m really sorry,
+      Aspin."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "It\u2019s okay. Just promise to never do it again!"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "You\u2019re very kind and patient, Aspin. Just like Pagong!"

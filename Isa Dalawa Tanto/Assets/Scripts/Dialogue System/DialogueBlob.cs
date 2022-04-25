@@ -34,4 +34,6 @@ public enum CharacterName
     MrsMonkey,
     MrsTarsier,
     MrsEagle,
+    LolaAskal,
+    DraDuck,
 }

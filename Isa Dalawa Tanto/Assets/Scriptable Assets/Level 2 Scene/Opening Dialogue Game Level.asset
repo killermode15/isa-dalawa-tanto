@@ -15,18 +15,13 @@ MonoBehaviour:
   Id: 11
   Background: {fileID: 0}
   DialogueList:
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: Isa Dalawa Tanto!
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: I have to find all the Sipa scattered around the map!
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: Let's go!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Isa... Dalawa... Tanto!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin needs to find all of his friends to retrieve the Juan Tamad books.

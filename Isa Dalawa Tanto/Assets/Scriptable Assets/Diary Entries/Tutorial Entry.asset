@@ -15,16 +15,16 @@ MonoBehaviour:
   Id: 0
   lives: 10
   pages:
-  - currentPargraph: {fileID: 21300000, guid: b10c931e110643f4b8ac241f8003af35, type: 3}
+  - currentPargraph: {fileID: 21300000, guid: 34df72a4a22fa804ba9778216dfdb864, type: 3}
     currentDoodle: {fileID: 21300000, guid: 1dd0d559e3a5713488306bc61f774082, type: 3}
     inputFieldPositions: []
     correctAnswers: []
-  - currentPargraph: {fileID: 21300000, guid: 04361c3d24e47844b95e7b098428b471, type: 3}
-    currentDoodle: {fileID: 21300000, guid: 98f7d0a630d209f4481b1bc57628a58b, type: 3}
+  - currentPargraph: {fileID: 21300000, guid: bc7d3a56c144d094cb4329ee1a13c8f1, type: 3}
+    currentDoodle: {fileID: 21300000, guid: 72bf6c6eb3daaf447a1aa497b912ec2f, type: 3}
     inputFieldPositions:
-    - {x: -282, y: 200}
-    - {x: -282, y: -53}
-    - {x: -282, y: -357}
+    - {x: -288, y: 200}
+    - {x: -288, y: -53}
+    - {x: -288, y: -345}
     correctAnswers:
     - id: 0
       page:
@@ -32,22 +32,22 @@ MonoBehaviour:
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: Diary
+      answer: C
     - id: 0
       page:
         currentPargraph: {fileID: 0}
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: Tagu-taguan
+      answer: C
     - id: 0
       page:
         currentPargraph: {fileID: 0}
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: home base
-  - currentPargraph: {fileID: 21300000, guid: ff98fa1d58caffe418b37418e3537fad, type: 3}
+      answer: B
+  - currentPargraph: {fileID: 21300000, guid: 15aeb128fb3e65f48a97f412016caa07, type: 3}
     currentDoodle: {fileID: 21300000, guid: 08c4efffe9db046459804d5d2dc2683f, type: 3}
     inputFieldPositions: []
     correctAnswers: []

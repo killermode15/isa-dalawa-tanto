@@ -19,10 +19,10 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: Isa dalawa tanto!
+    Text: "Isa\u2026 Dalawa\u2026 Tanto! Now, I\u2019m in my imagination again."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: I need to find where that smell is coming from, but first I need to get
-      down from here.
+    Text: "I have to find all the bayong to know Ms. Tarsier\u2019s story about her
+      day at the palengke."

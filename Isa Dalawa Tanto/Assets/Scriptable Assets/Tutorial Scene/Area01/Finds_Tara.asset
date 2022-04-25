@@ -19,41 +19,38 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: TARA!
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Text: Nice! I got 1 banana, Gale!
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Oh?! You found me?! But this was a cool spot! Oh well, good for you!
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Text: "Good job Aspin! You know, <color=#d85906>this reminds me of a children\u2019s
+      fable called \u201CSi Pagong at si Matsing\u201D! </color> The story is\u2026"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Listen carefully Aspin! '
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
+    Text: <color=#d85906>Pagong and Matsing are best friends. One day, Aling Muning
+      gave them a bag of pancit to eat as a snack.</color>
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: '<color=#d85906>Tagu-taguan can be played anywhere as long as you can hide. '
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: <color=#d85906>It is more fun if you have 3 or more players! Just don't
-      let the Taya see you!</color>
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "\r<color=#d85906> Taya is the one who will find the other players. </color>\r\n"
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Now go find the others!
+    Text: <color=#d85906>Matsing said that the pancit smelled rotten and offered
+      to try it first, so Pagong gave him the bag. But Matsing ate it all!</color>
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 75301b5075f68cf478df2e9da65e474d, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Maybe Cara\u2019s somewhere down below where I was at the beginning\u2026
-      Carabaos can\u2019t climb trees!"
+    Text: "Oh\u2026 That sounds a lot like what Lucky did to me."
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "That\u2019s right. But the story doesn\u2019t end there! Find the next
+      banana and I\u2019ll tell you more about it!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Alright!

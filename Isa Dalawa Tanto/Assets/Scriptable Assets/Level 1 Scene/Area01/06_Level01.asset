@@ -19,78 +19,33 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: By sunset, Aspin returns home and finds his mother in the kitchen.
-  - Name: 6
+    Text: By sunset, Aspin and Lola Askal returned home and went to the kitchen to
+      have dinner.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Oh, hello Aspin! Just hold on, dinner will be ready in a bit.
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Umm\u2026 Ms. Askal?"
-  - Name: 6
+    Text: Just hold on, Aspin. Dinner will be ready in a bit.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yes?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Can we cook sinigang next time? I can help you!
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Oh this is a surprise! Do you know how?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Yes! Mrs. Tarsier taught me how earlier.
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "That\u2019s great! I\u2019ll try to go to the market tomorrow and buy
-      ingredients."
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "For now, let\u2019s eat dinner so you can go up to your room and rest."
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: 'Okay! Thank you for the food Ms. Askal! '
+    Text: "Dinner is ready! Let\u2019s eat so you can go up to your room and rest."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin and Ms. Askal then proceeds to eat their dinner
+    Text: "Aspin ate his food \n"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "That was a delicious dinner Ms. Askal! I\u2019m very full!"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: I'm glad you liked it Aspin!
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Thank you Aspin! I will just stay here and wash the dishes.
+    Text: Thank you for the food, Lola Askal! I'm full!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Ok Ms. Askal. I\u2019m going to my room now."
+    Text: "Lola Askal, I\u2019m going to my room now."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2

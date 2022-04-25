@@ -19,18 +19,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin was just staring at the kids playing from a distance when one of
-      the kids notices him
+    Text: Aspin is staring at the kids playing from a distance when one of the kids
+      approaches him
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Hello! Are you new here? Do you wanna join us?
+    Text: Hello! Are you new here? Do you want to join us?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Hello\u2026 Yes we just moved in! Can I join?"
+    Text: "Hello, yes, I\u2019m staying with my Lola Askal, Can I join?"
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
@@ -45,37 +45,38 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Cool! I\u2019m Lucky the Monkey! Meet the other neighbors!"
+    Text: "Cool! I\u2019m Lucky the Monkey! \nMeet the other neighbors!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Hello everyone\u2026"
+    Text: Hello everyone.
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hello Aspin! It\u2019s nice to meet you. I'm Tara the Tarsier!"
+    Text: "Hello, Aspin! It\u2019s nice to meet you. I'm Tara the Tarsier!"
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "And I\u2019m Cara the Carabao!"
+    Text: "I\u2019m Cara the Carabao!"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019m Gale the Eagle! And I\u2019m the oldest."
+    Text: "And I\u2019m Gale the Eagle! I\u2019m the oldest. We're pleased to meet
+      you Aspin!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s nice to meet you\u2026 guys."
+    Text: "It\u2019s nice to meet you guys."
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hey Aspin! We were just playing \u201CTagu-taguan\u201D, join us!"
+    Text: "Hey, Aspin! We were just playing \u201CTagu-taguan\u201D. Join us!"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
@@ -85,36 +86,108 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "I\u2019m sorry but I don\u2019t know how to play that game."
+    Text: Oh! I-
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Wait!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Lola Askal approaches the kids with a bag of bananas in her hands
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: I bought these bananas before picking up Aspin. You, kids, should eat it
+      as a snack after playing!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: The kids thanked Lola Askal
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Lola Askal waves goodbye and went back to her house
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "OH! don\u2019t worry, I can teach you! Okay Listen up!"
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: There are different rules in Tagu-taguan but  what we do is we spin a bottle
-      to determine who the seeker is,
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "but because you\u2019re new, you can be the seeker for this game! The
-      seeker must find all of the players.  If you find all of us, You win!"
+    Text: "Hmm\u2026 Aspin, maybe we should eat them now! It might be spoiled. Look
+      at all the spots on it!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Oh so that\u2019s how you play it! "
+    Text: "Oh, you\u2019re right!"
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Yes! So let\u2019s start!"
+    Text: "I\u2019ll eat one! I introduced you to the group, so I\u2019ll take care
+      of you!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Thanks, Lucky!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin hands him the bag of bananas, Lucky takes it and runs away
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Hey, Lucky! Give those back!
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Aspin, let's see if you can find Tara, Cara, Gale and Me!
+    Text: "Make me! I\u2019m gonna eat these tasty bananas all by myself!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Oh no\u2026 I\u2019m sorry, guys. I really believed him."
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Don\u2019t worry, Aspin! Lucky always likes to be playful. Come on! Let\u2019s
+      catch him and get those bananas back."
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "How about we play a game? If you win, I\u2019ll give the bananas back."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "What\u2019s the game?"
+  - Name: 5
+    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Tagu-taguan! But I\u2019m warning you. I\u2019m the best at this game!"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Don\u2019t let him fool you Aspin! We\u2019ll catch him."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Let's catch him!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin closes his eyes and went into his world of imagination

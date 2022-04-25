@@ -19,47 +19,32 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: CARA!
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Text: I found another banana, Gale!
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "What?! You\u2019re good Aspin! I didn\u2019t expect you to find me here! "
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Text: "Nice! Then I\u2019ll continue the story! What happened next is\u2026"
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Anyways, good job!
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Text: <color=#d85906>The two went to the forest, and Pagong saw a plentiful banana
+      tree. </color>
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Listen carefully Aspin!
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
+    Text: <color=#d85906>Matsing pushed Pagong to let him take the top part where
+      the bananas and leaves were, while Pagong took the bottom with only roots.
+      </color>
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "That\u2019s sad! Pagong didn't get any fruit."
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "<color=#d85906>They also play Tagu-taguan in the province! At the start
-      of the game, they must set a home base, this is where the \u201CTaya\u201D
-      will close their eyes and count to 10 or even a 100.</color>"
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "<color=#d85906> The \u201CTaya\u201D wins by finding them all, while everyone
-      else runs to the home base. The one who gets to it last loses.</color>"
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: You got that?
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Good!
-  - Name: 3
-    CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "I think the others are in the next area. Don\u2019t tell them I told you! "
+    Text: "It gets better, Aspin! I\u2019ll tell you when you get the next banana."

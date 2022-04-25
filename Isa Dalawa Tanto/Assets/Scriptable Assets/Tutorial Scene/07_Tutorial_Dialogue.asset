@@ -19,9 +19,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin goes into his bedroom which still has boxes of his stuff. But the
-      bed and his table has been put out and set up. He finds his diary on his table
-      and turns on the lamp beside it.
+    Text: Aspin goes into his bedroom. The bed and his table have been put out and
+      set up. He finds his diary on his table and turns on the lamp beside it.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2

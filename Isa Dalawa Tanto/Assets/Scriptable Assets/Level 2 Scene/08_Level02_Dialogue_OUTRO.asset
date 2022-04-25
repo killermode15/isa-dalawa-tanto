@@ -24,7 +24,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Members: DAVID, Jordaens-rene, GIRON, Jose Gabriel, VILLAROMAN, Nina'
+    Text: 'Members: Jordaens-rene David, Jose Gabriel Giron and Nina Villaroman'
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
@@ -34,4 +34,4 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'COMING SOON '
+    Text: 'COMING SOON. '

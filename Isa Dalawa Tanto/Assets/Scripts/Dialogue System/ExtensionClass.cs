@@ -15,6 +15,16 @@
             name = name.Remove(0, 3);
             finalName = "Mrs. " + name;
         }
+        else if (name.Contains("Lola"))
+        {
+            name = name.Remove(0, 4);
+            finalName = "Lola " + name;
+        }
+        else if (name.Contains("Dra"))
+        {
+            name = name.Remove(0, 3);
+            finalName = "Dra. " + name;
+        }
         else if(name.Contains("Ms"))
         {
             name = name.Remove(0, 2);

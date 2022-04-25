@@ -19,9 +19,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin went upstairs and cleaned up
+    Text: Aspin went upstairs and cleaned up.
   - Name: 0
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 2
     SpritePosition: 1
-    Text: With smiles on his face, he grabs his diary and wrote what happened today
+    Text: With smiles on his face, he grabs his diary and wrote what happened today.

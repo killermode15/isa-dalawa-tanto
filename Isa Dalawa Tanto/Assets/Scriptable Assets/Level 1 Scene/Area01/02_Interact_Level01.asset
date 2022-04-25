@@ -19,21 +19,5 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: Listen carefully Aspin!
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: <color=#d85906>Sinigang is often assumed as the National food of the Philippines
-      because it is being cooked on almost every occassion.</color>
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: <color=#d85906>Filipinos also used to serve it as a welcome meal to all
-      visitors.</color>
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: Thank you Mrs. Tarsier, I understand now!
+    Text: "<color=#d85906>It\u2019s hot and muddy in the palengke so it\u2019s nice
+      that we went there early. The palengke gets crowded when it\u2019s late morning.</color>"

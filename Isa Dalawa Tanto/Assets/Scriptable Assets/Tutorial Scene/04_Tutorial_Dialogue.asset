@@ -15,49 +15,66 @@ MonoBehaviour:
   Id: 16
   Background: {fileID: 21300000, guid: d7c49458540efcd4295a282f0c23bb9d, type: 3}
   DialogueList:
-  - Name: 6
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Aspin! We\u2019re here! Do you like your new home?"
+    Text: "Aspin! We\u2019re here! What do you think of the house?"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: The last time you and your parents were here, was when you were just a
+      baby!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Woah! Yes Ms. Askal! It\u2019s nice and really big!"
-  - Name: 6
+    Text: "Woah! Yes, Lola Askal! It\u2019s nice and really big!"
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Hahahahah! Thank you Aspin! '
-  - Name: 6
+    Text: Hahaha. Thank you, Aspin.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Anyway, I haven\u2019t had the time to fix the house. Why don\u2019t you
-      join and meet the other kids from the neighborhood first?"
-  - Name: 6
+    Text: Oh, I almost forgot. I brought you a diary and placed it on your desk.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "They\u2019re nice so don\u2019t worry. Is that okay with you?"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Uhhhm sure Ms Askal\u2026"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Have fun Aspin!
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: 'Ms. Askal went inside the house '
+    Text: Your parents suggested that you write about your day in it so that they
+      can read it when they come.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "I promised Mother Goose I\u2019ll make some friends\u2026 Here I go!"
+    Text: Thank you, lola. I will write on it every night before I sleep.
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "Anyway, I need time to bring the boxes in. Why don\u2019t you meet the
+      other kids from the neighborhood first?"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: "They\u2019re nice, so don\u2019t worry. Is that okay with you?"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Uhmm sure, Lola Askal\u2026"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Have fun, Aspin!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: 'Lola Askal went inside the house '

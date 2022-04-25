@@ -20,8 +20,3 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "I\u2019m the best Tagu-taguan player around here! Good luck finding me!"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Maybe Lucky is in the trees! Monkeys like playing there!

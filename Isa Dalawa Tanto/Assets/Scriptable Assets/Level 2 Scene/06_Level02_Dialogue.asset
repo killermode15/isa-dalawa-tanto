@@ -19,52 +19,24 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin went home and finds Ms. Askal watering the plants at the backyard
+    Text: Lola Askal is at the door waiting for Aspin.
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: What took you so long?
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019m home!"
-  - Name: 6
+    Text: My friends taught me a valuable lesson, Lola Askal. I realized my mistakes.
+  - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: 'Welcome home- '
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Oh!
+    Text: "That\u2019s good! You should head upstairs and take bath before resting."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Aspin is all dirty from playing at Lucky\u2019s house"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: A-Are you okay? Why are you dirty?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "No no! I\u2019m fine! We just played a lot today..."
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: 'It seems you had an exciting day?
-
-'
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Yes! We played sipa and it\u2019s so fun!"
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: Aspin happily told his play experience to Ms. Askal, Aspin is gradually
-      opening up to everyone and smiles a lot
+    Text: Aspin went to his room and wrote on his diary what he learned today.

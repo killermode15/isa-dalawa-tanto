@@ -19,21 +19,6 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: Listen carefully Aspin!
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: <color=#d85906>Sinigang is a Filipino soup, popularly known for its sour
-      and savory taste.</color>
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
-    SpritePosition: 2
-    Text: "<color=#d85906>It came from the word \u201Csigang\u201D which means \u201Cto
-      stew\u201D \u2013 therefore, sinigang means \u201Cstewed\u201D.</color>"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: Thank you Mrs. Tarsier, I understand now!
+    Text: "<color=#d85906>The palengke is noisy. People happily shout at each other.
+      They all seem to know each other. You can hear lots of \u201CSuki! Suki! Buy
+      from me, suki!\u201D</color>"

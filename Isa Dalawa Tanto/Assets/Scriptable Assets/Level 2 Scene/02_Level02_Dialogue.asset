@@ -15,63 +15,62 @@ MonoBehaviour:
   Id: 2
   Background: {fileID: 21300000, guid: 56a9dc2e15ff68b4fae67785ef144f1a, type: 3}
   DialogueList:
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: What happened?!
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin enters the kitchen, where Ms. Askal is drinking coffee, surrounded
-      by his friends
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "Oh, Aspin! You\u2019re awake! Your friends were telling me about the different
-      Filipino games they play!"
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: I remember back when I was a kid, our teachers would encourage us to play
-      and get our energy for the day.
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Yeah! They\u2019ve been teaching me lots of different games. "
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Aspin! Do you know the game sipa ?
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Oh\u2026 I don\u2019t think I know that one\u2026"
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: " Ha! That\u2019s fine. Let me, the master of games, teach you how to play
-      it!"
-  - Name: 2
-    CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: The master of WHAT?
-  - Name: 5
-    CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Ms. Askal! Can Aspin play with us at my house?
-  - Name: 6
-    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Of course he can go. As long as Aspin\u2019s home by sunset.  Anyways,
-      I\u2019ll be cleaning the backyard today."
+    Text: Lola Askal fainted due to overfatigue, and Aspin came to her aid.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Everyone waved goodbye to Ms Askal and went to Lucky''s house '
+    Text: Aspin gets a glass of water and gives it to Lola Askal.
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 87895ffa20bda0e419b366515b6e248f, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Here, Lola Askal. Drink this.
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: (Drinks the water)
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Aspin, you have to do your chores. I\u2019m old now and I cannot do everything
+      on my own."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: 'But I will get sweaty, stinky, and tired. '
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: You need to change this kind of attitude, Aspin, Pick up the 4 Juan Tamad
+      Books that your friends borrowed.
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "Their mothers told me that they were playing tagu-taguan at Lucky\u2019s
+      house. You can find them there."
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: Ughhh... Fine.
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: "Aspin leaves the house and goes to Lucky\u2019s house to look for his
+      friends."

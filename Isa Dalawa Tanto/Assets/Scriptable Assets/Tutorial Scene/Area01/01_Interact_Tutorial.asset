@@ -19,21 +19,32 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: Okay okay, this is my imagination where I can be what I want to be and
-      make things fun along the way!
+    Text: "Isa\u2026 Dalawa\u2026 Tanto!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 0
+    SpritePosition: 0
+    Text: "I am now in my imagination! \nThis is where I can make things fun and
+      interesting along the way."
+  - Name: 4
+    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
+    Side: 1
+    SpritePosition: 2
+    Text: Look, Aspin! Lucky left a trail of bananas. I have an idea! Collect them
+      all, Aspin. I have a plan that will make Lucky come to us!
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
+    Side: 0
+    SpritePosition: 0
+    Text: Alright!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
     Text: "Huh? There\u2019s a sign here that says \u201Cpress <color=red>A</color>
-      to move left, and press <color=red>D</color> to move right\u201D"
+      to move left, and press <color=red>D</color> to move right\u201D."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "*Ok Mr. Sign! I\u2019ll do that!"
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
-    Side: 0
-    SpritePosition: 0
-    Text: "Let\u2019s find where Tara is hiding first."
+    Text: "Ok, Mr. Sign! I\u2019ll try!"

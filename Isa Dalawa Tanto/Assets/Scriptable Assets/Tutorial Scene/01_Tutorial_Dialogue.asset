@@ -15,55 +15,52 @@ MonoBehaviour:
   Id: 13
   Background: {fileID: 21300000, guid: 9001c162ec2af4d4db424709adadabe8, type: 3}
   DialogueList:
-  - Name: 7
+  - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hi Aspin! Your adoptive parent, Ms. Askal, is on the way to pick you up.
-      You\u2019ll finally have a new family now."
+    Text: "Hi, Aspin! Your Lola Askal is on her way to pick you up. \nFinally, you
+      may now go home."
+  - Name: 13
+    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: But you still have to be careful and avoid places with lots of mosquitoes
+      to prevent yourself from getting dengue again.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Mother Goose I\u2019m scared."
-  - Name: 7
+    Text: Doktora Duck, I'm scared of mosquitoes now.
+  - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Don\u2019t be scared Aspin, Ms. Askal is the nicest mother-to-be I\u2019ve
-      met! Don\u2019t worry about it."
-  - Name: 7
+    Text: Don't be scared, Aspin. You just have to be careful when going out.
+  - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Why don\u2019t you play with the other kids first while waiting since
-      it\u2019s your last day here."
+    Text: While waiting for your lola, why don't we take a walk outside for a little
+      exercise?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "But Mother Goose, I don't really like playing outside. I\u2019m comfortable
-      alone."
-  - Name: 7
+    Text: But, Doktora, I'm too comfortable here in my bed. I'm going to get tired
+      if I walk outside.
+  - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Well if that\u2019s the case, then maybe this diary will help you gather
-      your thoughts and will be there for you when you want someone to talk to. "
-  - Name: 7
+    Text: Okay, Aspin. You can wait here.
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: A car honks from outside
+  - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "But you have to promise me that you\u2019ll try to make friends in your
-      new home. "
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: "Thank you Mother Goose for this! I will miss you so much\u2026 Thank you
-      for taking care of me. I promise I\u2019ll make friends."
-  - Name: 7
-    CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Oh, I think Ms. Askal is here. Are you ready?
+    Text: 'Oh, I think Lola Askal is here! Are you ready? '

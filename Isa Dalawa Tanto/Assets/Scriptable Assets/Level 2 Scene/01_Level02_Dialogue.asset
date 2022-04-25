@@ -19,19 +19,54 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin is brushing his hair when he suddenly hears laughter from the kitchen
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "That sounds like Ms. Askal\u2019s laugh. "
-  - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Does she have a visitor with her?
+    Text: 'LEVEL 02: JUAN TAMAD'
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin goes out of his room
+    Text: "Aspin becomes lazy and makes excuses so he can sleep all day while Lola
+      Askal does all the household chores to the point of getting tired because of
+      overworking. But on this day, everything changes. \r\n"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "ASPIN! WAKE UP! IT\u2019S ALMOST NOON!"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: You have been sleeping all day!
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: "I\u2019ve been working nonstop in this house doing all the chores which
+      you always forget! I need you to help me pick up the 4 Juan Tamad Books that
+      your friends borrowed!"
+  - Name: 1
+    CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
+    Side: 1
+    SpritePosition: 1
+    Text: My hands are numb and my feet hurt. Maybe ask me again tomorrow Lola. Askal!
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Stop making excuses and come do your chores!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: "Lola Askal keeps shouting until\u2026"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
+    SpritePosition: 1
+    Text: Aspinnnn!
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin heard a loud thud. He quickly went into the kitchen where the sound
+      came from.

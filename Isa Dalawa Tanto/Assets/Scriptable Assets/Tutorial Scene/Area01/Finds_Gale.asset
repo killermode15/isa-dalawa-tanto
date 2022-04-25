@@ -19,42 +19,32 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: cb0d8ea02d51ea2429e3e83e42b8f627, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: GALE!
+    Text: I got banana number 3!
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: ASPIN?! How did you get here?!
+    Text: "Great! So what happened now is\u2026"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: ' I really thought you''d never find me! This is my super secret hideout!'
+    Text: <color=#d85906> Pagong felt sad that he only took the bottom part of the
+      tree, but Aling Kalabaw told him to plant it and it will grow into a great
+      banana tree! </color>
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: ' Fine fine... '
-  - Name: 4
-    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: Listen Aspin to what I'm going to tell you, did you hear-
-  - Name: 4
-    CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
-    Side: 1
-    SpritePosition: 1
-    Text: "<color=#d85906>In other versions of Tagu-taguan, the players can try to
-      touch the \u201CTaya\u201D while he is looking for other players, if you touch
-      them without them seeing you, you win. </color>"
+    Text: <color=#d85906>So, Pagong took care of it everyday until it bore many bananas.
+      Matsing was jealous.</color>
   - Name: 1
-    CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
+    CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Thank you for that Gale! I understand now!
+    Text: Ha! Serves Matsing right! What a nice ending.
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Goodluck with Lucky! He\u2019s the best at playing Tagu-Taguan! Well I
-      haven\u2019t seen him in this area, Maybe he\u2019s in the next area."
+    Text: "It\u2019s not over yet! 1 more banana to go!"
