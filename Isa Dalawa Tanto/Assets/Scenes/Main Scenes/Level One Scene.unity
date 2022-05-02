@@ -6032,6 +6032,14 @@ PrefabInstance:
       propertyPath: onCompleteEntry.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3040097292560404748, guid: 8f9d2508617942b44a3aad219919e4ed, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dda3339b42ebe3b41bd39545dd8fc542, type: 3}
+    - target: {fileID: 3040097292560404748, guid: 8f9d2508617942b44a3aad219919e4ed, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f9d2508617942b44a3aad219919e4ed, type: 3}
 --- !u!1 &404830317 stripped
@@ -10240,7 +10248,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  detectionRange: 1.4
+  detectionRange: 4
   dialogueId: 11
 --- !u!58 &721090936
 CircleCollider2D:
@@ -10257,7 +10265,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 1.4
+  m_Radius: 4
 --- !u!212 &721090937
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28929,6 +28937,14 @@ PrefabInstance:
     - target: {fileID: 2175139331380181867, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271405408752339077, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
+      propertyPath: jumpKey
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271405408752339077, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
+      propertyPath: crouchKey
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 3271405408752339079, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_AirControl

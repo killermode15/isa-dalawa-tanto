@@ -24,8 +24,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: There is a sign again. It says, I should go to the banana and "press <color=red>F</color>
-      to interact with it.
+    Text: "There is a sign again. \nIt says that I should go to the banana and \"press
+      <color=red>F</color> to interact with it.\""
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0

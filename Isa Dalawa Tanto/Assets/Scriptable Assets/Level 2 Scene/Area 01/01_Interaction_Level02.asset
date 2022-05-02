@@ -34,8 +34,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Yes, so you can find the others fast or do you want to spend all day looking
-      for them?
+    Text: Yes, so you can find the others faster, or do you want to spend all day
+      looking for them?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 1
@@ -50,42 +50,42 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: <color=#d85906>Juan Tamad was told by his mother to buy mud crabs at the
-      market. While he was walking back home, he saw his friends playing.</color>
+    Text: <color=#d85906>Juan Tamad's mother told him to buy mud crabs at the market.
+      While walking back home, he saw his friends playing. </color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>Excited to play with his friends, he set the mud crabs
-      free, gave them his address and told them to go home first, and then he\u2019ll
-      catch up later.</color>"
+    Text: <color=#d85906>Excited to play with them, Juan set the mud crabs he bought
+      free and gave them his address. He told the mud crabs to go to his house first
+      and that Juan will follow after. </color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: <color=#d85906>When Juan went home, his mother asked him the whereabouts
-      of the mud crabs. Juan was puzzled because he expected the crabs to be there
-      first as he instructed them.</color>
+    Text: <color=#d85906>When Juan got home, his mother asked him the whereabouts
+      of the mud crabs. </color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>Juan\u2019s mother was furious and scolded him.</color>"
+    Text: "<color=#d85906>Juan was puzzled because he expected the crabs to be there
+      first as he instructed them. Juan\u2019s mother was furious and scolded him.</color>"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Why didn\u2019t Juan just obey his mother?"
+    Text: "Why didn\u2019t Juan obey his mother?"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Oh Aspin! I wonder why?
+    Text: "Oh, Aspin! \nI wonder why?"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Okay, the hint is, Cara is just up ahead, just follow the route and you\u2019ll
+    Text: "Okay, the hint. Cara is on a boat somewhere.\nFollow the route, and you\u2019ll
       see her."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}

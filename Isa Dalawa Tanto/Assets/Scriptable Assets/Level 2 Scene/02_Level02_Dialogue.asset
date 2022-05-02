@@ -44,7 +44,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Aspin, you have to do your chores. I\u2019m old now and I cannot do everything
+    Text: "Aspin, you have to do your chores. I\u2019m old now, and I cannot do everything
       on my own."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
@@ -55,8 +55,10 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: You need to change this kind of attitude, Aspin, Pick up the 4 Juan Tamad
-      Books that your friends borrowed.
+    Text: 'You need to change this kind of attitude, Aspin.
+
+      Pick up the 4
+      Juan Tamad Books that your friends borrowed.'
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -67,7 +69,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Ughhh... Fine.
+    Text: Ughhh, Fine.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2

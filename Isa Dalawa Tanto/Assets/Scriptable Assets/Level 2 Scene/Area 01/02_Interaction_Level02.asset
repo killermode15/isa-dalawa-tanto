@@ -24,8 +24,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hey Aspin! I need you to read this! I haven\u2019t read the ending! Read
-      it and tell me."
+    Text: "Hey, Aspin! I need you to read this! I haven\u2019t read the ending yet!
+      Read it and tell me."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
@@ -40,41 +40,47 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: <color=#d85906>Juan Tamad was told by his mother to sell rice cakes at
-      the market. While walking, he stumbled upon a pond full of frogs.
+    Text: "<color=#d85906>Juan Tamad's mother told him to sell rice cakes at the
+      market. \nWhile walking, he stumbled upon a pond full of frogs. "
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
     Text: "<color=#d85906>Because of Juan\u2019s laziness, instead of selling the
       rice cakes at the market, he proceeds to throw them at the frogs, who happily
-      ate the cakes."
+      eat the cakes."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>When Juan went home, he told his mother that all of the
-      rice cakes were sold but the buyers will pay for them the following week. Juan\u2019s
-      mother was furious because she needed the money to buy ingredients the following
-      day,"
+    Text: <color=#d85906>When Juan went home, he told his mother that the rice cakes
+      were all sold, but the buyers will pay next week.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>Juan felt guilty and told his mother the truth, Juan\u2019s
-      mother became more angry and chased Juan throughout the house.</color>"
+    Text: "<color=#d85906>Juan\u2019s mother was furious because she needed the money
+      to buy ingredients for tomorrow. </color>"
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: '<color=#d85906>Juan felt guilty and told his mother the truth.
+
+      She
+      became angrier and chased him throughout the house.'
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Why didn\u2019t Juan just obey her mother?"
+    Text: "Why didn\u2019t Juan obey his mother?"
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Ohhh nice question Aspin! I wonder why?
+    Text: Ohhh, good question, Aspin! I wonder why?
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Anyways, Gale is just up ahead, goodluck!
+    Text: Anyways, Gale is in the next area, good luck!

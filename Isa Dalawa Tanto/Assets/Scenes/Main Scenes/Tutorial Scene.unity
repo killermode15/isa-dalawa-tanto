@@ -47377,6 +47377,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3271405408752339077, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
+      propertyPath: jumpKey
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 3271405408752339077, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
+      propertyPath: crouchKey
+      value: 115
+      objectReference: {fileID: 0}
     - target: {fileID: 3271405408752339079, guid: 036bd92caab206645b5fbc5ca0a634d0, type: 3}
       propertyPath: m_JumpForce
       value: 800

@@ -19,8 +19,13 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin is staring at the kids playing from a distance when one of the kids
-      approaches him
+    Text: 'CHAPTER 1: SI PAGONG AT SI MATSING'
+  - Name: 0
+    CharacterSprite: {fileID: 0}
+    Side: 2
+    SpritePosition: 1
+    Text: Aspin is staring at the kids playing from afar when suddenly, one of the
+      kids approaches him.
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
@@ -30,12 +35,13 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Hello, yes, I\u2019m staying with my Lola Askal, Can I join?"
+    Text: "Hello, yes, I\u2019m staying with my Lola Askal. Can I join?"
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Of course! What\u2019s your name?"
+    Text: "Oh! Lola Askal! She's really nice. Of course you can join! What\u2019s
+      your name?"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
@@ -50,7 +56,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Hello everyone.
+    Text: Hello, everyone.
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
@@ -65,7 +71,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "And I\u2019m Gale the Eagle! I\u2019m the oldest. We're pleased to meet
+    Text: "And I\u2019m Gale the Eagle! I\u2019m the oldest. We're happy to meet
       you Aspin!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
@@ -76,7 +82,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hey, Aspin! We were just playing \u201CTagu-taguan\u201D. Join us!"
+    Text: Hey, Aspin! We were just playing tagu-taguan. Join us!
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
@@ -96,28 +102,28 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Lola Askal approaches the kids with a bag of bananas in her hands
+    Text: Lola Askal approaches the kids with a bag full of bananas in her hands.
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: I bought these bananas before picking up Aspin. You, kids, should eat it
-      as a snack after playing!
+    Text: Before picking up Aspin, I went to the store and bought these bananas.
+      You can eat it as a snack after you've finished playing.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: The kids thanked Lola Askal
+    Text: The kids thanked Lola Askal.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Lola Askal waves goodbye and went back to her house
+    Text: Lola Askal waves goodbye and goes back to her house.
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hmm\u2026 Aspin, maybe we should eat them now! It might be spoiled. Look
+    Text: "Hmmm, Aspin, maybe we should eat them now! \nIt might get spoiled. Look
       at all the spots on it!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
@@ -139,7 +145,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin hands him the bag of bananas, Lucky takes it and runs away
+    Text: Aspin hands him the bag of bananas, but Lucky takes it and runs away.
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 0
@@ -180,7 +186,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Don\u2019t let him fool you Aspin! We\u2019ll catch him."
+    Text: "Don\u2019t let him fool you, Aspin! We\u2019ll catch him."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
     Side: 0
@@ -190,4 +196,4 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin closes his eyes and went into his world of imagination
+    Text: Aspin closed his eyes and went into his world of imagination.

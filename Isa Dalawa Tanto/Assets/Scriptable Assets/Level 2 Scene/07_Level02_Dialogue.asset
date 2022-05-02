@@ -35,14 +35,14 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "I\u2019m really sorry for being lazy. You have been taking care of me
-      and making me feel at home, but I took it for granted and hurt you, like what
+      and making me feel at home, but I took it for granted and hurt you. Like what
       Juan Tamad did to his mother. I\u2019m sorry Lola Askal."
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s alright, Aspin. I appreciate your apology. I\u2019m proud that
-      you learned from your mistakes. Your parents will be so proud of you when they
+    Text: "It\u2019s alright, Aspin. I accept your apology. I\u2019m glad that you
+      learned from your mistakes. Your parents will be so proud of you when they
       see you!"
   - Name: 0
     CharacterSprite: {fileID: 0}

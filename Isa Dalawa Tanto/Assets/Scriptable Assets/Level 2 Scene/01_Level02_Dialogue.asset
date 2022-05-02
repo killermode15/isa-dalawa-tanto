@@ -19,19 +19,19 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'LEVEL 02: JUAN TAMAD'
+    Text: 'CHAPTER 3: JUAN TAMAD'
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Aspin becomes lazy and makes excuses so he can sleep all day while Lola
-      Askal does all the household chores to the point of getting tired because of
-      overworking. But on this day, everything changes. \r\n"
+    Text: ' Aspin becomes lazy and makes excuses to sleep all day while Lola Askal
+      does all the household chores to the point of exhaustion. But on this day,
+      everything changes. '
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "ASPIN! WAKE UP! IT\u2019S ALMOST NOON!"
+    Text: Aspin, wake up! It's past noon!
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -41,24 +41,27 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "I\u2019ve been working nonstop in this house doing all the chores which
-      you always forget! I need you to help me pick up the 4 Juan Tamad Books that
-      your friends borrowed!"
+    Text: I've been working non-stop in this house, doing all the chores you keep
+      forgetting! Can you at least help me pick up the 4 Juan Tamad books that your
+      friends borrowed?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: My hands are numb and my feet hurt. Maybe ask me again tomorrow Lola. Askal!
+    Text: 'My hands are numb and my feet hurt.
+
+      I''ll do it tomorrow, Lola
+      Askal!'
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Stop making excuses and come do your chores!
+    Text: Stop making excuses and do your chores!
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Lola Askal keeps shouting until\u2026"
+    Text: Lola Askal keeps shouting until-
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -69,4 +72,4 @@ MonoBehaviour:
     Side: 2
     SpritePosition: 1
     Text: Aspin heard a loud thud. He quickly went into the kitchen where the sound
-      came from.
+      came.

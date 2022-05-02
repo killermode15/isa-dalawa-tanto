@@ -24,8 +24,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Good job Aspin! You know, <color=#d85906>this reminds me of a children\u2019s
-      fable called \u201CSi Pagong at si Matsing\u201D! </color> The story is\u2026"
+    Text: "Good job, Aspin! <color=#d85906>This moment reminds me of a children\u2019s
+      fable called \u201CSi Pagong at si Matsing\u201D!</color> The story goes like
+      this- "
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
@@ -42,13 +43,13 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 75301b5075f68cf478df2e9da65e474d, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Oh\u2026 That sounds a lot like what Lucky did to me."
+    Text: Oh, that sounds a lot like what Lucky did to me.
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
     Text: "That\u2019s right. But the story doesn\u2019t end there! Find the next
-      banana and I\u2019ll tell you more about it!"
+      banana, and I\u2019ll tell you more about it!"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
     Side: 0

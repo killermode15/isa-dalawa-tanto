@@ -24,7 +24,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Nice! Then I\u2019ll continue the story! What happened next is\u2026"
+    Text: "Nice! Then I\u2019ll continue the story! What happened next is-"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
@@ -42,7 +42,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "That\u2019s sad! Pagong didn't get any fruit."
+    Text: That is sad! Pagong didn't get any fruit.
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1

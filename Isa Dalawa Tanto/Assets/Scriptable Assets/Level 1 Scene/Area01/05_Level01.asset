@@ -29,9 +29,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Of course! I\u2019ll buy tiny versions of this bayong for you, kids."
+    Text: "Of course!\nI\u2019ll buy tiny versions of this bayong for you kids."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Everyone says goodbye, then Aspin walks back to his home
+    Text: Everyone says goodbye, then Aspin walks back to his home.

@@ -20,7 +20,7 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "Hi, Aspin! Your Lola Askal is on her way to pick you up. \nFinally, you
-      may now go home."
+      may now go home after staying in the hospital for a while."
   - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
@@ -36,12 +36,12 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Don't be scared, Aspin. You just have to be careful when going out.
+    Text: Don't be scared, Aspin. Just be careful when going out.
   - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: While waiting for your lola, why don't we take a walk outside for a little
+    Text: While waiting for your lola, why don't we take a walk outside for some
       exercise?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
@@ -58,7 +58,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: A car honks from outside
+    Text: A car honks from outside.
   - Name: 13
     CharacterSprite: {fileID: 21300000, guid: 9a95da48ba771e9499910b068389c1f5, type: 3}
     Side: 1

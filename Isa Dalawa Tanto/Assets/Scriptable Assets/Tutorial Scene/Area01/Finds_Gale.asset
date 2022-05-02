@@ -24,27 +24,27 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Great! So what happened now is\u2026"
+    Text: Great! So what happened now is-
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
     Text: <color=#d85906> Pagong felt sad that he only took the bottom part of the
-      tree, but Aling Kalabaw told him to plant it and it will grow into a great
+      tree, but Aling Kalabaw told him to plant it so it may grow into a healthy
       banana tree! </color>
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: <color=#d85906>So, Pagong took care of it everyday until it bore many bananas.
-      Matsing was jealous.</color>
+    Text: <color=#d85906>So, Pagong took care of it every day until it bore many
+      bananas. Matsing was jealous.</color>
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Ha! Serves Matsing right! What a nice ending.
+    Text: Ha! That serves Matsing right! What a nice ending.
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "It\u2019s not over yet! 1 more banana to go!"
+    Text: "It\u2019s not over yet! One more banana to go!"

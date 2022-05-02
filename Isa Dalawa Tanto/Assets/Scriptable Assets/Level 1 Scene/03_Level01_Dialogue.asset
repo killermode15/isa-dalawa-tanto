@@ -24,7 +24,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Ms. Tarsier? It\u2019s me and Aspin."
+    Text: "Mrs. Tarsier? It\u2019s Lola Askal and Aspin."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
@@ -34,14 +34,14 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Hi, kids! I\u2019ll leave Aspin to you, and please behave while Ms. Tarsier
+    Text: "Hi, kids! I\u2019ll leave Aspin to you, and please behave while Mrs. Tarsier
       and I are out."
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
     Text: "Sure, Lola Askal. Since I\u2019m the oldest, I\u2019ll make sure everyone\u2019s
-      okay."
+      okay here in Tara's house."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
@@ -51,36 +51,31 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Let\u2019s go Lola Askal?"
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 1
+    Text: "Let\u2019s go, Lola Askal?"
+  - Name: 12
+    CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
+    Side: 0
     SpritePosition: 1
-    Text: "Sure! Kids, we\u2019re going now. Please behave and don\u2019t make a
-      lot of mess while Ms. Tarsier and I are at the palengke."
+    Text: "Sure Mrs. Tarsier! \nKids, we\u2019re going now. Please behave while Mrs.
+      Tarsier and I are at the palengke."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Kids: Yes Lola Askal! Bye!'
-  - Name: 0
-    CharacterSprite: {fileID: 0}
-    Side: 2
-    SpritePosition: 1
-    Text: Lola Askal and Ms. Tarsier leaves
+    Text: Lola Askal and Mrs. Tarsier left.
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Tara! Why does Ms. Tarsier have a huge colorful bag with her?
+    Text: Tara! Why does Mrs. Tarsier have a big colorful bag with her?
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Oh, that\u2019s a bayong. That is where she puts all the stuff she buys
-      from the palengke."
+    Text: "Oh, that\u2019s a bayong. That is where my mom puts all the stuff she
+      buys from the palengke."
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s cute! I wonder if my mom also uses that."
+    Text: "It\u2019s cute! I wonder if my mom also has one."

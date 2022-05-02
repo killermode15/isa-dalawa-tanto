@@ -24,12 +24,14 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I\u2019m impressed Aspin! Could you-"
+    Text: "I\u2019m impressed, Aspin! Could you-"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Let me guess, you want me to read the story for you?
+    Text: 'Let me guess.
+
+      You want me to read the story for you?'
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
@@ -44,7 +46,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Read it for me, Aspin, Don\u2019t worry! There\u2019s nothing on your
+    Text: "Read it for me, Aspin.\nDon\u2019t worry! There\u2019s nothing on your
       teeth anymore."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: fa8a163b283467c4db0d6c656c1c8f3c, type: 3}
@@ -60,46 +62,47 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>Juan tamad was told by his mother to buy a rice pot at
-      the village. When Juan got to the village, he didn\u2019t know that the village
-      was succumbing to a flea infestation.</color>"
+    Text: <color=#d85906>Juan Tamad's mother told him to buy a rice pot in the village.
+      When Juan arrived at the village, he found that it was experiencing a flea
+      infestation.</color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: <color=#d85906>Juan bought the rice pot and went home, upon walking home,
-      he felt the fleas on his legs and he immediately scratched it.</color>
+    Text: <color=#d85906>Regardless, he purchased a rice pot and walked home. But
+      on the way, Juan felt the fleas on his leg and scratched it, accidentally breaking
+      the rice pot.</color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>But upon scratching, he accidentally let go of the rice
-      pot and it broke. In panic, he picks up the pieces, grinds it into pure powder
-      and wraps them in banana leaves, which he sells to the villagers as \u201Cflea-killer\u201D."
+    Text: "<color=#d85906>In a panic, he picks up the pieces and grinds them into
+      pure powder. \nJuan wraps the powder in banana leaves and sells it to the villagers
+      as a flea-killer."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "<color=#d85906>Juan\u2019s mother became aware of this and chased Juan
-      throughout the street.</color>"
+    Text: <color=#d85906>Juan's mother found out that Juan was tricking the villagers
+      and chased him through the streets.</color>
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Why didn\u2019t Juan just tell his mother the truth?"
+    Text: "Why didn\u2019t Juan tell his mother the truth?"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Oh Aspin I wonder why?
+    Text: Oh, Aspin, I wonder why?
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Anyway, finding Lucky will be tricky, you need to jump a lot of platforms,
-      he's just up ahead, goodluck!
+    Text: "Anyways, finding Lucky will be tricky. \nYou need to jump a lot of platforms.
+      Good luck!"
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Juan! I mean Aspin! Come and find me, I\u2019ll show you something!"
+    Text: "Juan Tamad! I mean, Aspin! \nCome and find me. I\u2019ll show you something!"

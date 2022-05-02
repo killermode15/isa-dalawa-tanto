@@ -19,13 +19,15 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Yes, yes, the books! You have to find us first and then, we can give you
-      back the books!
+    Text: 'You must find us first!
+
+      After which we will return the books to
+      you.'
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: But, I need it now, so I can have time to sleep again.
+    Text: But I need it now, so I can go back to sleep.
   - Name: 3
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
@@ -35,7 +37,8 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: You have to find us, Aspin, or you can try again tomorrow?
+    Text: You have to find us, Aspin, or you can try getting the books back again
+      tomorrow?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 8b66655efa81ecf4a9962644b35306af, type: 3}
     Side: 0

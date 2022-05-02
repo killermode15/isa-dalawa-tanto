@@ -6,8 +6,8 @@ public class MovementInput : MonoBehaviour
 {
     [SerializeField] private bool isEnabled = true;
 
-    [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
-    [SerializeField] private KeyCode jumpKey = KeyCode.Space;
+    [SerializeField] private KeyCode crouchKey = KeyCode.S;
+    [SerializeField] private KeyCode jumpKey = KeyCode.W;
 
     public float Horizontal => horizontal;
     public float Vertical => vertical;

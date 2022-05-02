@@ -34,44 +34,45 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Juan Tamad takes a Bride
+    Text: <color=#d85906>Juan Tamad takes a Bride</color>
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Juan Tamad was told by his mother that it is time to take a bride. Juan
-      asks his mother what kind of lady he should be looking for. Juan\u2019s mother
-      replied \u201CA lady of a few words.\u201D Juan leaves and searches for that
-      lady."
+    Text: '<color=#d85906>Juan Tamad''s mother told him that it was time to take
+      a bride. Juan asks his mother what kind of lady he should look for in a bride.
+      His mother replied, "A lady of a few words." Juan leaves in search of the lady. '
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Juan\u2019s adventure took long and tiresome, all the ladies he encountered
-      talked too much. Finally, he stumbled upon a house where an old woman and her
-      daughter lived."
+    Text: <color=#d85906>His adventure becomes tiresome and is taking time. All the
+      ladies he encountered talked too much. Finally, he stumbled upon a house where
+      an elderly and her daughter lived.
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "Upon seeing the girl, he proposed right away. The girl just stared at
-      him. And at last, Juan found \u201Ca lady of a few words\u201D."
+    Text: <color=#d85906>Upon seeing the girl, he proposed right away. The girl just
+      stared at him. And finally, Juan found "a lady of a few words."
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: "He lifted her up and took her back to his mother. Juan\u2019s mother was
-      furious for what he brought back was a corpse."
+    Text: '<color=#d85906>He lifted her and took her back to his mother. Juan''s
+      mother was furious, for what he brought back was a corpse.
+
+'
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: Why is Juan like this? Why is he making his mother suffer?
+    Text: Why is Juan so lazy? Why is he making his mother suffer?
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "I don\u2019t know Aspin, I wonder why?"
+    Text: "I don\u2019t know, Aspin. \nI wonder why?"
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 0

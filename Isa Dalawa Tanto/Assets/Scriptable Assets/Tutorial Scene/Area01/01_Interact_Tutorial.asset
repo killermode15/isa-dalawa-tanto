@@ -24,14 +24,13 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "I am now in my imagination! \nThis is where I can make things fun and
-      interesting along the way."
+    Text: "Now, I\u2019m in my imagination where I can decide how the story goes!"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 2
-    Text: Look, Aspin! Lucky left a trail of bananas. I have an idea! Collect them
-      all, Aspin. I have a plan that will make Lucky come to us!
+    Text: Look, Aspin! Lucky left a trail of bananas. You should collect them! I
+      have a plan that can make Lucky come to us!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
@@ -41,10 +40,10 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Huh? There\u2019s a sign here that says \u201Cpress <color=red>A</color>
-      to move left, and press <color=red>D</color> to move right\u201D."
+    Text: "Huh? A sign says, \u201Cpress <color=red>A</color> to move left, and press
+      <color=red>D</color> to move right.\u201D"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 0
     SpritePosition: 0
-    Text: "Ok, Mr. Sign! I\u2019ll try!"
+    Text: "Okay, Mr. Sign! I\u2019ll try!"

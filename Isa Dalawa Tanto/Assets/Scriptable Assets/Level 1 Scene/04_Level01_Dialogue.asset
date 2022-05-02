@@ -24,7 +24,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Hi, We\u2019re back!"
+    Text: "Hi, we\u2019re back!"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
@@ -35,22 +35,17 @@ MonoBehaviour:
     Side: 0
     SpritePosition: 1
     Text: "I bought a lot because as soon as we got to the palengke, everyone started
-      calling me \u201Csuki\u201D. I couldn\u2019t resist buying from them."
+      calling me \u201Csuki.\u201D I couldn\u2019t resist buying from them."
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Come kids! Help me unpack this bayong.
-  - Name: 10
-    CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
-    Side: 0
-    SpritePosition: 1
-    Text: Ok, kids, help me out with the groceries.
+    Text: Come kids! Help us unpack this bayong.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Ms. Tarsier, while we unpack this bayong, can you tell us about the palengke?
+    Text: Mrs. Tarsier, while we unpack this bayong, can you tell us about the palengke?
   - Name: 10
     CharacterSprite: {fileID: 21300000, guid: 650a527ef9e592441b61d79d3c8dc329, type: 3}
     Side: 0

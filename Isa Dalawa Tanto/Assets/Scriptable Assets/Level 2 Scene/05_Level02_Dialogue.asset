@@ -19,7 +19,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: Do you now realize, Aspin?
+    Text: Do you realize now, Aspin?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: dbb629d2c78322c438441fcd7fcb8544, type: 3}
     Side: 0
@@ -29,7 +29,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: The main character of this story is YOU!
+    Text: The main character of this story is just like YOU!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 87895ffa20bda0e419b366515b6e248f, type: 3}
     Side: 0
@@ -39,18 +39,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Can\u2019t you see? We see Ms. Askal do all the work in your house and
-      there you are, sleeping!"
+    Text: "Can\u2019t you see? We see Lola Askal do all the work in your house, and
+      you were there, lazing around!"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Why don\u2019t you help your lola do chores?"
+    Text: "Why don\u2019t you help your lola do chores for once?"
   - Name: 2
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: We also heard the loud thud in your kitchen, and saw Lola Askal faint.
+    Text: We also heard the loud thud in your kitchen and saw Lola Askal faint.
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
@@ -60,12 +60,12 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 69243938a284739438ae5eb689a05fdb, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Lola Askal won\u2019t be there forever to do your chores."
+    Text: "Lola Askal won\u2019t always be there for you to do your chores."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "You guys are right. I\u2019m sorry that I\u2019m lazy and I promise to
+    Text: "You guys are right. \nI\u2019m sorry that I\u2019m lazy. I promise to
       do better."
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
@@ -76,7 +76,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Okay, thank you guys, for making me realize my mistake.
+    Text: Okay, thank you, guys, for making me realize my mistake.
   - Name: 5
     CharacterSprite: {fileID: 21300000, guid: 4dd0cbc13dd77144b97812199b328252, type: 3}
     Side: 1
@@ -86,9 +86,9 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 6e4095346b8e7854d85dc4b966040802, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Now go home and apologize to Lola Askal. Oh, and here are the books. '
+    Text: 'Oh, and here are the books. '
   - Name: 0
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: Aspin received the books
+    Text: Aspin received the books.

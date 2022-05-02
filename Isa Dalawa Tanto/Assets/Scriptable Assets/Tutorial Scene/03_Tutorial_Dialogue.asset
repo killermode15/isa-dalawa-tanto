@@ -19,13 +19,13 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Hello, Aspin! Sorry for the boxes. There\u2019s not enough room in the
-      trunk. You're going to stay with me for now while your parents are away."
+    Text: Hello, Aspin! Sorry for the boxes. There is not enough room in the trunk.
+      You're going to stay with me for now while your parents are away.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s okay\u2026"
+    Text: "It\u2019s okay."
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
@@ -35,7 +35,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Uhh.. Yes lola.
+    Text: Uhh, yes, lola.
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1

@@ -30,8 +30,8 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "<color=#d85906>Matsing climbed Pagong\u2019s banana tree and ate all the
-      bananas! Matsing fell asleep there after eating and the angry Pagong left spikes
-      under the tree.</color>"
+      bananas! Matsing fell asleep there after eating. Pagong found out and got angry.
+      So he left spikes under the tree.</color>"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
@@ -42,18 +42,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: <color=#d85906>But when Pagong floated, Matsing felt bad and finally realized
-      all the bad things he did.</color>
+    Text: <color=#d85906>But when he did, and Pagong floated, Matsing felt sorry
+      and finally realized all the bad things he did.</color>
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: Oh. Good thing he learned his lesson!
+    Text: Oh. Good thing Matsing learned his lesson!
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "What\u2019s the lesson, Aspin?"
+    Text: What lesson have you learned from the story, Aspin?
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
     Side: 0
@@ -74,13 +74,12 @@ MonoBehaviour:
     Side: 1
     SpritePosition: 1
     Text: "Hey, guys. I\u2019m sorry I took all the bananas. I heard Gale\u2019s
-      story. I don\u2019t want to be selfish like Matsing. I\u2019m really sorry,
-      Aspin."
+      story. I don\u2019t want to be selfish like Matsing. I\u2019m sorry, Aspin."
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 7d7b95fbea353de49805bd1fff7d313f, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "It\u2019s okay. Just promise to never do it again!"
+    Text: "It\u2019s okay. Just promise us that it will never happen again!"
   - Name: 4
     CharacterSprite: {fileID: 21300000, guid: c5d9a95f108015646b2c653dae9d94a8, type: 3}
     Side: 1

@@ -24,8 +24,7 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: The last time you and your parents were here, was when you were just a
-      baby!
+    Text: The last time you and your parents were here was when you were just a baby!
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 0f447a527331d494eb6660ff11a43897, type: 3}
     Side: 0
@@ -56,18 +55,18 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "Anyway, I need time to bring the boxes in. Why don\u2019t you meet the
-      other kids from the neighborhood first?"
+    Text: "Anyway, I need time to bring the boxes inside the house. Why don\u2019t
+      you meet the other kids from the neighborhood first?"
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "They\u2019re nice, so don\u2019t worry. Is that okay with you?"
+    Text: "They\u2019re friendly, so don\u2019t worry. Is that okay with you?"
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 018b9d5506d93e547a5ce87ebf02aa9a, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Uhmm sure, Lola Askal\u2026"
+    Text: Uhmm, sure, Lola Askal.
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 1
@@ -77,4 +76,4 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'Lola Askal went inside the house '
+    Text: Lola Askal went inside the house.

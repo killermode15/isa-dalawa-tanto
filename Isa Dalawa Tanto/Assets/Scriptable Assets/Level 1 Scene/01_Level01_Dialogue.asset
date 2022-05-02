@@ -19,19 +19,19 @@ MonoBehaviour:
     CharacterSprite: {fileID: 0}
     Side: 2
     SpritePosition: 1
-    Text: 'LEVEL 01: ARAW SA PALENGKE '
+    Text: 'CHAPTER 2: ARAW SA PALENGKE '
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: 07a7a01be94e71c43889eb89ae34215a, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: 'Today, I woke up early. I was still sleepy when Lola Askal helped me get
-      dressed. '
+    Text: Today, I woke up early. I was still sleepy when Lola Askal helped me get
+      dressed.
   - Name: 1
     CharacterSprite: {fileID: 21300000, guid: e32685b0fcb368a4fadde60b47532616, type: 3}
     Side: 1
     SpritePosition: 1
-    Text: "I will spend the day at Tara\u2019s house along with the other kids because
-      lola is going to the palengke with Ms. Tarsier."
+    Text: "I will spend the day at Tara\u2019s house with the other kids because
+      Lola Askal is going to the palengke with Mrs. Tarsier."
   - Name: 12
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
@@ -47,5 +47,5 @@ MonoBehaviour:
     CharacterSprite: {fileID: 21300000, guid: 00615089eaac07346825386fa3dcae28, type: 3}
     Side: 0
     SpritePosition: 1
-    Text: "Let\u2019s go. Ms. Tarsier and I have to get to the palengke early or
-      else it\u2019ll be crowded."
+    Text: "Let\u2019s go. Mrs. Tarsier and I have to get to the palengke early or
+      else it\u2019ll get crowded."

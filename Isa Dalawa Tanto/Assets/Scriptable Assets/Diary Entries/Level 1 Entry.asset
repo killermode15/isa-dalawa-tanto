@@ -15,16 +15,16 @@ MonoBehaviour:
   Id: 1
   lives: 10
   pages:
-  - currentPargraph: {fileID: 21300000, guid: 6f2345cd451982146bd6a0ccba3fe8d2, type: 3}
+  - currentPargraph: {fileID: 21300000, guid: 878eba11fc16023438ec6e80e3b4569c, type: 3}
     currentDoodle: {fileID: 21300000, guid: dda3339b42ebe3b41bd39545dd8fc542, type: 3}
     inputFieldPositions: []
     correctAnswers: []
-  - currentPargraph: {fileID: 21300000, guid: 68ecff292f4944545977ae94cb4d0f13, type: 3}
-    currentDoodle: {fileID: 21300000, guid: 72bf6c6eb3daaf447a1aa497b912ec2f, type: 3}
+  - currentPargraph: {fileID: 21300000, guid: b7b678e57733cd04ea81cf7679f48b0f, type: 3}
+    currentDoodle: {fileID: 21300000, guid: cf55b83d988b7d748bf841cdb0c67a53, type: 3}
     inputFieldPositions:
-    - {x: -300, y: 75}
-    - {x: -300, y: -80}
-    - {x: -300, y: -355}
+    - {x: -180, y: 60}
+    - {x: -180, y: -147}
+    - {x: -180, y: -380}
     correctAnswers:
     - id: 0
       page:
@@ -32,26 +32,26 @@ MonoBehaviour:
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: A
+      answer: suki
     - id: 0
       page:
         currentPargraph: {fileID: 0}
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: B
+      answer: late morning
     - id: 0
       page:
         currentPargraph: {fileID: 0}
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: C
-  - currentPargraph: {fileID: 21300000, guid: afa7669290317b945b74ebc3ab9bad2a, type: 3}
-    currentDoodle: {fileID: 21300000, guid: f5fd6d13608f8b7458c90dc67998dc49, type: 3}
+      answer: earthenware
+  - currentPargraph: {fileID: 21300000, guid: 212ed3ffc09642d47b8aa3883047b3a0, type: 3}
+    currentDoodle: {fileID: 21300000, guid: cf55b83d988b7d748bf841cdb0c67a53, type: 3}
     inputFieldPositions:
-    - {x: -300, y: 120}
-    - {x: -300, y: -165}
+    - {x: -180, y: 103}
+    - {x: -180, y: -197}
     correctAnswers:
     - id: 0
       page:
@@ -59,15 +59,15 @@ MonoBehaviour:
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: B
+      answer: guava
     - id: 0
       page:
         currentPargraph: {fileID: 0}
         currentDoodle: {fileID: 0}
         inputFieldPositions: []
         correctAnswers: []
-      answer: A
-  - currentPargraph: {fileID: 21300000, guid: ee336ec10248e9b4588d29474930918d, type: 3}
+      answer: palengke
+  - currentPargraph: {fileID: 21300000, guid: c2c00da0bd942704bbf7ee1b9703aafe, type: 3}
     currentDoodle: {fileID: 21300000, guid: 0badbafcfaaf34c4184b69362dc281fd, type: 3}
     inputFieldPositions: []
     correctAnswers: []
